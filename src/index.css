@@ -8,47 +8,48 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 0 0% 7%;
-    --foreground: 0 0% 95%;
+    --background: 35 25% 95%;
+    --foreground: 230 35% 15%;
 
-    --card: 0 0% 10%;
-    --card-foreground: 0 0% 95%;
+    --card: 35 40% 98%;
+    --card-foreground: 230 35% 15%;
 
-    --popover: 0 0% 10%;
-    --popover-foreground: 0 0% 95%;
+    --popover: 35 40% 98%;
+    --popover-foreground: 230 35% 15%;
 
-    --primary: 0 72% 45%;
-    --primary-foreground: 0 0% 100%;
+    --primary: 230 50% 35%;
+    --primary-foreground: 35 30% 95%;
 
-    --secondary: 0 0% 15%;
-    --secondary-foreground: 0 0% 95%;
+    --secondary: 35 30% 88%;
+    --secondary-foreground: 230 35% 15%;
 
-    --muted: 0 0% 20%;
-    --muted-foreground: 0 0% 60%;
+    --muted: 35 20% 85%;
+    --muted-foreground: 230 20% 45%;
 
-    --accent: 0 85% 55%;
-    --accent-foreground: 0 0% 5%;
+    --accent: 35 70% 55%;
+    --accent-foreground: 230 50% 12%;
 
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 0 0% 98%;
+    --destructive: 0 65% 50%;
+    --destructive-foreground: 35 30% 95%;
 
-    --border: 0 0% 25%;
-    --input: 0 0% 20%;
-    --ring: 0 72% 45%;
+    --border: 230 20% 80%;
+    --input: 230 20% 88%;
+    --ring: 230 50% 35%;
 
-    --radius: 0.125rem;
+    --radius: 0.375rem;
     
-    --cosmic-red: 0 72% 45%;
-    --void-black: 0 0% 7%;
-    --existential-white: 0 0% 95%;
+    --indigo-deep: 230 50% 35%;
+    --gold-warm: 35 70% 55%;
+    --cream-soft: 35 25% 95%;
+    --twilight: 250 40% 25%;
     
-    --gradient-cosmic: linear-gradient(135deg, hsl(0 72% 25%) 0%, hsl(0 0% 7%) 100%);
-    --gradient-void: linear-gradient(180deg, hsl(0 0% 7%) 0%, hsl(0 0% 10%) 100%);
+    --gradient-philosophical: linear-gradient(135deg, hsl(230 45% 40%) 0%, hsl(250 40% 25%) 100%);
+    --gradient-ethereal: linear-gradient(180deg, hsl(35 25% 95%) 0%, hsl(230 15% 90%) 100%);
     
-    --shadow-deep: 0 20px 60px -15px hsl(0 72% 25% / 0.4);
-    --shadow-cosmic: 0 0 40px hsl(0 85% 55% / 0.3);
+    --shadow-contemplative: 0 20px 60px -15px hsl(230 50% 35% / 0.25);
+    --shadow-luminous: 0 0 40px hsl(35 70% 55% / 0.2);
     
-    --transition-absurd: all 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+    --transition-smooth: all 0.6s cubic-bezier(0.16, 1, 0.3, 1);
 
     --sidebar-background: 0 0% 98%;
 
@@ -68,73 +69,85 @@ All colors MUST be HSL.
   }
 
   .dark {
-    --background: 0 0% 7%;
-    --foreground: 0 0% 95%;
+    --background: 230 35% 12%;
+    --foreground: 35 25% 92%;
 
-    --card: 0 0% 10%;
-    --card-foreground: 0 0% 95%;
+    --card: 230 30% 16%;
+    --card-foreground: 35 25% 92%;
 
-    --popover: 0 0% 10%;
-    --popover-foreground: 0 0% 95%;
+    --popover: 230 30% 16%;
+    --popover-foreground: 35 25% 92%;
 
-    --primary: 0 72% 45%;
-    --primary-foreground: 0 0% 100%;
+    --primary: 35 70% 55%;
+    --primary-foreground: 230 50% 12%;
 
-    --secondary: 0 0% 15%;
-    --secondary-foreground: 0 0% 95%;
+    --secondary: 230 25% 22%;
+    --secondary-foreground: 35 25% 92%;
 
-    --muted: 0 0% 20%;
-    --muted-foreground: 0 0% 60%;
+    --muted: 230 25% 25%;
+    --muted-foreground: 35 15% 65%;
 
-    --accent: 0 85% 55%;
-    --accent-foreground: 0 0% 5%;
+    --accent: 230 60% 45%;
+    --accent-foreground: 35 30% 95%;
 
-    --destructive: 0 62.8% 30.6%;
-    --destructive-foreground: 0 0% 98%;
+    --destructive: 0 65% 50%;
+    --destructive-foreground: 35 25% 92%;
 
-    --border: 0 0% 25%;
-    --input: 0 0% 20%;
-    --ring: 0 72% 45%;
-    --sidebar-background: 0 0% 10%;
-    --sidebar-foreground: 0 0% 95%;
-    --sidebar-primary: 0 72% 45%;
-    --sidebar-primary-foreground: 0 0% 100%;
-    --sidebar-accent: 0 0% 15%;
-    --sidebar-accent-foreground: 0 0% 95%;
-    --sidebar-border: 0 0% 20%;
-    --sidebar-ring: 0 72% 45%;
+    --border: 230 25% 25%;
+    --input: 230 25% 22%;
+    --ring: 35 70% 55%;
+    --sidebar-background: 230 30% 16%;
+    --sidebar-foreground: 35 25% 92%;
+    --sidebar-primary: 35 70% 55%;
+    --sidebar-primary-foreground: 230 50% 12%;
+    --sidebar-accent: 230 25% 22%;
+    --sidebar-accent-foreground: 35 25% 92%;
+    --sidebar-border: 230 25% 25%;
+    --sidebar-ring: 35 70% 55%;
   }
 }
 
 @layer utilities {
-  .text-cosmic {
-    @apply text-[hsl(var(--cosmic-red))];
+  .text-luminous {
+    @apply text-[hsl(var(--gold-warm))];
   }
   
-  .bg-void {
-    @apply bg-[hsl(var(--void-black))];
+  .text-twilight {
+    @apply text-[hsl(var(--twilight))];
   }
   
-  .gradient-cosmic {
-    background: var(--gradient-cosmic);
+  .bg-cream {
+    @apply bg-[hsl(var(--cream-soft))];
   }
   
-  .gradient-void {
-    background: var(--gradient-void);
+  .gradient-philosophical {
+    background: var(--gradient-philosophical);
   }
   
-  .shadow-cosmic {
-    box-shadow: var(--shadow-cosmic);
+  .gradient-ethereal {
+    background: var(--gradient-ethereal);
   }
   
-  .transition-absurd {
-    transition: var(--transition-absurd);
+  .shadow-contemplative {
+    box-shadow: var(--shadow-contemplative);
+  }
+  
+  .shadow-luminous {
+    box-shadow: var(--shadow-luminous);
+  }
+  
+  .transition-smooth {
+    transition: var(--transition-smooth);
   }
 }
 
 @layer base {
   * {
     @apply border-border;
+  }
+
+  html {
+    scroll-behavior: smooth;
   }
 
   body {
