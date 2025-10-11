@@ -164,18 +164,69 @@ const Index = () => {
             </p>
           </div>
 
-          {/* Empty state - ready for blog posts */}
-          <div className="text-center py-20">
-            <div className="inline-block p-8 rounded-full bg-secondary/50 mb-6">
-              <Feather className="h-16 w-16 text-muted-foreground" />
+          {/* Featured Blog Post */}
+          <Card className="p-12 md:p-16 bg-card/50 backdrop-blur-sm border-border hover:border-luminous/30 transition-smooth max-w-4xl mx-auto">
+            <div className="mb-8">
+              <span className="text-sm font-medium tracking-[0.2em] text-luminous uppercase">
+                Featured Essay
+              </span>
+              <h3 className="font-serif text-4xl md:text-5xl font-light mt-4 mb-6 leading-tight">
+                Prologue
+              </h3>
             </div>
-            <h3 className="font-serif text-3xl font-light text-muted-foreground mb-4">
-              The archive awaits
-            </h3>
-            <p className="text-muted-foreground max-w-md mx-auto">
-              Essays and reflections will appear here as they emerge from the philosophical depths
-            </p>
-          </div>
+
+            <article className="prose prose-lg max-w-none">
+              <p className="text-lg md:text-xl leading-relaxed mb-6 font-serif">
+                You know the best part about law, what drove me to it? It was the{" "}
+                <span className="text-luminous font-medium italic">malleability of it</span> and who it allows you to become{" "}
+                <span className="text-luminous font-medium italic">whatever you want</span>. You can be a damn good politician and still be a lawyer, 
+                you can be a psychologist, and yeah, a lawyer. Better yet, you can be a lawyer and then forced to become a technician, 
+                mathematician, and whatnot, all in the span of a single case.
+              </p>
+
+              <p className="text-lg md:text-xl leading-relaxed mb-6 font-serif">
+                I have never admired a lot of people; the very few I still do, I cannot say I idealise them, but I still try to understand 
+                these people as they have taught me things I wouldn't have known if it were not for their footprints. One of them is{" "}
+                <span className="text-luminous font-semibold">Cardinal de Richelieu</span>, whose account literally compelled me to name this blog after him, 
+                and then the next one is <span className="text-accent font-semibold">Samuel S. Leibowitz</span>, who made me realise why you learn 
+                every day in this profession. If I had to say one line about both of them, for Cardinal, I would say that he is{" "}
+                <span className="italic">the person I want to understand to see the world</span>, and Samuel is{" "}
+                <span className="italic">the person I want to be in my professional ethics</span>. I won't bother to give their description, 
+                that would be unbecoming of the entire idea of this blog, being honest.
+              </p>
+
+              <p className="text-lg md:text-xl leading-relaxed mb-6 font-serif">
+                So, what is this blog? If the first two paragraphs were not enough, then let me put it into words,{" "}
+                <span className="text-luminous font-medium text-2xl italic">everything goes</span>, as long as it is connected 
+                to the law even a bit. From blockchain to why in some countries you can be arrested for not showing up to a concert 
+                you promised to perform for, everything. The point is to{" "}
+                <span className="text-luminous font-medium italic">expand the view</span>.
+              </p>
+
+              <p className="text-lg md:text-xl leading-relaxed mb-6 font-serif">
+                I have already seen 100s, if not 1000s, of blogs all building{" "}
+                <span className="italic text-muted-foreground">vertical hellscapers</span>. You can spend entire days reading about 
+                a single provision and all so many views on it. Being honest, it doesn't really matter. Anyone who knows practice up close 
+                knows that one point, how much you understand one concept, stops mattering. It's worse than philosophy when it does happen.
+              </p>
+
+              <p className="text-lg md:text-xl leading-relaxed mb-6 font-serif">
+                What we do here is that I find something interesting enough and I just write, that's it. Sometimes, I will be bored and 
+                call up serious people to write for a serious audience <span className="text-muted-foreground italic">(if there is any at all)</span>.
+              </p>
+
+              <p className="text-lg md:text-xl leading-relaxed font-serif italic text-muted-foreground">
+                So, that's it, ig?
+              </p>
+            </article>
+
+            <div className="mt-12 pt-8 border-t border-border/50">
+              <div className="flex items-center justify-between text-sm text-muted-foreground">
+                <span>Published {new Date().toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })}</span>
+                <span className="text-luminous">· First Entry</span>
+              </div>
+            </div>
+          </Card>
         </div>
       </section>
 
