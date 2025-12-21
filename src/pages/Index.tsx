@@ -166,26 +166,26 @@ const Index = () => {
           </div>
 
           {/* Blog Post Links */}
-          <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
-            {/* Prologue */}
-            <Link to="/prologue">
-              <Card className="p-8 bg-card/50 backdrop-blur-sm border-border hover:border-luminous/50 transition-smooth cursor-pointer h-full group">
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
+            {/* Chapter 2 - Featured */}
+            <Link to="/chapter-2" className="lg:col-span-2">
+              <Card className="p-8 bg-card/50 backdrop-blur-sm border-border hover:border-primary/50 transition-smooth cursor-pointer h-full group">
                 <div className="mb-4">
-                  <span className="text-xs font-medium tracking-[0.2em] text-luminous uppercase">
-                    Featured Essay
+                  <span className="text-xs font-medium tracking-[0.2em] text-primary uppercase">
+                    Chapter Two · Featured
                   </span>
                 </div>
-                <h3 className="font-serif text-3xl md:text-4xl font-light mb-4 group-hover:text-luminous transition-smooth">
-                  Prologue
+                <h3 className="font-serif text-3xl md:text-4xl font-light mb-4 group-hover:text-primary transition-smooth">
+                  Haircut vs. Time
                 </h3>
                 <p className="text-muted-foreground leading-relaxed mb-4">
-                  An introduction to the philosophy behind this blog—exploring the malleability of law and the figures who shaped this perspective.
+                  A cost-benefit analysis under the Indian Insolvency & Bankruptcy Code. Why a lower headline haircut might not be worth the time it takes to achieve it.
                 </p>
-                <div className="flex items-center text-sm text-luminous group-hover:translate-x-2 transition-transform">
+                <div className="flex items-center text-sm text-primary group-hover:translate-x-2 transition-transform">
                   Read more <ArrowRight className="ml-2 h-4 w-4" />
                 </div>
                 <div className="mt-6 pt-4 border-t border-border/50">
-                  <span className="text-xs text-muted-foreground">First Entry</span>
+                  <span className="text-xs text-muted-foreground">December 2024</span>
                 </div>
               </Card>
             </Link>
@@ -202,13 +202,36 @@ const Index = () => {
                   That is Law
                 </h3>
                 <p className="text-muted-foreground leading-relaxed mb-4">
-                  Examining law as a tool—its malleability, its power as both sanctuary and weapon, and the hidden mechanisms that shape legal outcomes.
+                  Examining law as a tool, its malleability, and the hidden mechanisms that shape legal outcomes.
                 </p>
                 <div className="flex items-center text-sm text-accent group-hover:translate-x-2 transition-transform">
                   Read more <ArrowRight className="ml-2 h-4 w-4" />
                 </div>
                 <div className="mt-6 pt-4 border-t border-border/50">
                   <span className="text-xs text-muted-foreground">Chapter One</span>
+                </div>
+              </Card>
+            </Link>
+
+            {/* Prologue */}
+            <Link to="/prologue">
+              <Card className="p-8 bg-card/50 backdrop-blur-sm border-border hover:border-luminous/50 transition-smooth cursor-pointer h-full group">
+                <div className="mb-4">
+                  <span className="text-xs font-medium tracking-[0.2em] text-luminous uppercase">
+                    Prologue
+                  </span>
+                </div>
+                <h3 className="font-serif text-3xl md:text-4xl font-light mb-4 group-hover:text-luminous transition-smooth">
+                  Prologue
+                </h3>
+                <p className="text-muted-foreground leading-relaxed mb-4">
+                  An introduction to the philosophy behind this blog and the figures who shaped this perspective.
+                </p>
+                <div className="flex items-center text-sm text-luminous group-hover:translate-x-2 transition-transform">
+                  Read more <ArrowRight className="ml-2 h-4 w-4" />
+                </div>
+                <div className="mt-6 pt-4 border-t border-border/50">
+                  <span className="text-xs text-muted-foreground">First Entry</span>
                 </div>
               </Card>
             </Link>
