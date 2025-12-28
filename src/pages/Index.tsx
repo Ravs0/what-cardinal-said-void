@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { ArrowRight, Feather, Sparkles, Infinity } from "lucide-react";
+import logo from "@/assets/logo.jpg";
 
 const Index = () => {
   const videoRef = useRef<HTMLVideoElement>(null);
@@ -29,9 +30,9 @@ const Index = () => {
         <div className="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
           <button 
             onClick={() => scrollToSection('hero')}
-            className="font-serif text-xl font-semibold transition-smooth hover:text-primary"
+            className="transition-smooth hover:opacity-80"
           >
-            what cardinal <span className="text-luminous italic">said</span>
+            <img src={logo} alt="what cardinal said" className="h-10 w-10 rounded-full" />
           </button>
           <div className="flex gap-6">
             <button 
@@ -276,9 +277,7 @@ const Index = () => {
       {/* Footer */}
       <footer className="border-t border-border py-12 px-6">
         <div className="max-w-6xl mx-auto text-center">
-          <div className="font-serif text-2xl mb-4">
-            what cardinal <span className="text-luminous italic">said</span>
-          </div>
+          <img src={logo} alt="what cardinal said" className="h-16 w-16 rounded-full mx-auto mb-4" />
           <p className="text-sm text-muted-foreground">
             © {new Date().getFullYear()} · Where meaning meets meaninglessness
           </p>
