@@ -153,33 +153,56 @@ const Index = () => {
         </div>
       </section>
 
-      {/* Blog Grid Section */}
+      {/* Article Series Section */}
       <section id="writings" className="py-32 px-6 gradient-ethereal">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="font-serif text-5xl md:text-6xl font-light mb-6">
-              Recent <span className="text-luminous italic">Explorations</span>
+              Article <span className="text-accent italic">Series</span>
             </h2>
             <p className="text-xl text-muted-foreground">
-              Thoughts on law, aesthetics, and the absurd
+              In-depth research and analysis
             </p>
           </div>
 
-          {/* Blog Post Links */}
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
-            {/* Chapter 2 - Featured */}
-            <Link to="/chapter-2" className="lg:col-span-2">
+          {/* Article Series Grid */}
+          <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto mb-8">
+            {/* TBML Article - Featured */}
+            <Link to="/article-tbml">
+              <Card className="p-8 bg-card/50 backdrop-blur-sm border-border hover:border-accent/50 transition-smooth cursor-pointer h-full group">
+                <div className="mb-4">
+                  <span className="text-xs font-medium tracking-[0.2em] text-accent uppercase">
+                    Article · Featured
+                  </span>
+                </div>
+                <h3 className="font-serif text-2xl md:text-3xl font-light mb-4 group-hover:text-accent transition-smooth">
+                  Trade-Based Money Laundering
+                </h3>
+                <p className="text-muted-foreground leading-relaxed mb-4">
+                  India's stance on TBML, the limitations of PMLA, and why $159 billion flows through the shadows of global commerce annually.
+                </p>
+                <div className="flex items-center text-sm text-accent group-hover:translate-x-2 transition-transform">
+                  Read more <ArrowRight className="ml-2 h-4 w-4" />
+                </div>
+                <div className="mt-6 pt-4 border-t border-border/50">
+                  <span className="text-xs text-muted-foreground">December 2024</span>
+                </div>
+              </Card>
+            </Link>
+
+            {/* Haircut vs Time */}
+            <Link to="/chapter-2">
               <Card className="p-8 bg-card/50 backdrop-blur-sm border-border hover:border-primary/50 transition-smooth cursor-pointer h-full group">
                 <div className="mb-4">
                   <span className="text-xs font-medium tracking-[0.2em] text-primary uppercase">
-                    Chapter Two · Featured
+                    Article
                   </span>
                 </div>
-                <h3 className="font-serif text-3xl md:text-4xl font-light mb-4 group-hover:text-primary transition-smooth">
+                <h3 className="font-serif text-2xl md:text-3xl font-light mb-4 group-hover:text-primary transition-smooth">
                   Haircut vs. Time
                 </h3>
                 <p className="text-muted-foreground leading-relaxed mb-4">
-                  A cost-benefit analysis under the Indian Insolvency & Bankruptcy Code. Why a lower headline haircut might not be worth the time it takes to achieve it.
+                  A cost-benefit analysis under the Indian Insolvency & Bankruptcy Code. Why a lower headline haircut might not be worth the time.
                 </p>
                 <div className="flex items-center text-sm text-primary group-hover:translate-x-2 transition-transform">
                   Read more <ArrowRight className="ml-2 h-4 w-4" />
@@ -189,49 +212,60 @@ const Index = () => {
                 </div>
               </Card>
             </Link>
+          </div>
+        </div>
+      </section>
 
+      {/* Chapter Series Section */}
+      <section className="py-32 px-6">
+        <div className="max-w-6xl mx-auto">
+          <div className="text-center mb-16">
+            <h2 className="font-serif text-5xl md:text-6xl font-light mb-6">
+              Chapter <span className="text-luminous italic">Series</span>
+            </h2>
+            <p className="text-xl text-muted-foreground">
+              Exploring law, aesthetics, and the absurd
+            </p>
+          </div>
+
+          {/* Chapter Series Grid */}
+          <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
             {/* Chapter 1 */}
             <Link to="/chapter-1">
-              <Card className="p-8 bg-card/50 backdrop-blur-sm border-border hover:border-accent/50 transition-smooth cursor-pointer h-full group">
+              <Card className="p-8 bg-card/50 backdrop-blur-sm border-border hover:border-luminous/50 transition-smooth cursor-pointer h-full group">
                 <div className="mb-4">
-                  <span className="text-xs font-medium tracking-[0.2em] text-accent uppercase">
+                  <span className="text-xs font-medium tracking-[0.2em] text-luminous uppercase">
                     Chapter One
                   </span>
                 </div>
-                <h3 className="font-serif text-3xl md:text-4xl font-light mb-4 group-hover:text-accent transition-smooth">
+                <h3 className="font-serif text-2xl md:text-3xl font-light mb-4 group-hover:text-luminous transition-smooth">
                   That is Law
                 </h3>
                 <p className="text-muted-foreground leading-relaxed mb-4">
                   Examining law as a tool, its malleability, and the hidden mechanisms that shape legal outcomes.
                 </p>
-                <div className="flex items-center text-sm text-accent group-hover:translate-x-2 transition-transform">
+                <div className="flex items-center text-sm text-luminous group-hover:translate-x-2 transition-transform">
                   Read more <ArrowRight className="ml-2 h-4 w-4" />
-                </div>
-                <div className="mt-6 pt-4 border-t border-border/50">
-                  <span className="text-xs text-muted-foreground">Chapter One</span>
                 </div>
               </Card>
             </Link>
 
             {/* Prologue */}
             <Link to="/prologue">
-              <Card className="p-8 bg-card/50 backdrop-blur-sm border-border hover:border-luminous/50 transition-smooth cursor-pointer h-full group">
+              <Card className="p-8 bg-card/50 backdrop-blur-sm border-border hover:border-muted-foreground/50 transition-smooth cursor-pointer h-full group">
                 <div className="mb-4">
-                  <span className="text-xs font-medium tracking-[0.2em] text-luminous uppercase">
+                  <span className="text-xs font-medium tracking-[0.2em] text-muted-foreground uppercase">
                     Prologue
                   </span>
                 </div>
-                <h3 className="font-serif text-3xl md:text-4xl font-light mb-4 group-hover:text-luminous transition-smooth">
+                <h3 className="font-serif text-2xl md:text-3xl font-light mb-4 group-hover:text-foreground transition-smooth">
                   Prologue
                 </h3>
                 <p className="text-muted-foreground leading-relaxed mb-4">
                   An introduction to the philosophy behind this blog and the figures who shaped this perspective.
                 </p>
-                <div className="flex items-center text-sm text-luminous group-hover:translate-x-2 transition-transform">
+                <div className="flex items-center text-sm text-muted-foreground group-hover:translate-x-2 transition-transform">
                   Read more <ArrowRight className="ml-2 h-4 w-4" />
-                </div>
-                <div className="mt-6 pt-4 border-t border-border/50">
-                  <span className="text-xs text-muted-foreground">First Entry</span>
                 </div>
               </Card>
             </Link>
