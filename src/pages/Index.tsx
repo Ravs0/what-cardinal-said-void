@@ -192,7 +192,7 @@ const Index = () => {
             </Link>
 
             {/* Haircut vs Time */}
-            <Link to="/chapter-2">
+            <Link to="/article-haircut">
               <Card className="p-8 bg-card/50 backdrop-blur-sm border-border hover:border-primary/50 transition-smooth cursor-pointer h-full group">
                 <div className="mb-4">
                   <span className="text-xs font-medium tracking-[0.2em] text-primary uppercase">
@@ -230,7 +230,27 @@ const Index = () => {
           </div>
 
           {/* Chapter Series Grid */}
-          <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+          <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+            {/* Chapter 2 - New */}
+            <Link to="/chapter-2">
+              <Card className="p-8 bg-card/50 backdrop-blur-sm border-border hover:border-luminous/50 transition-smooth cursor-pointer h-full group">
+                <div className="mb-4">
+                  <span className="text-xs font-medium tracking-[0.2em] text-luminous uppercase">
+                    Chapter Two
+                  </span>
+                </div>
+                <h3 className="font-serif text-2xl md:text-3xl font-light mb-4 group-hover:text-luminous transition-smooth">
+                  Law for Whom
+                </h3>
+                <p className="text-muted-foreground leading-relaxed mb-4">
+                  The production of disposable populations. Selective legality, structural violence, and sacrificial strata.
+                </p>
+                <div className="flex items-center text-sm text-luminous group-hover:translate-x-2 transition-transform">
+                  Read more <ArrowRight className="ml-2 h-4 w-4" />
+                </div>
+              </Card>
+            </Link>
+
             {/* Chapter 1 */}
             <Link to="/chapter-1">
               <Card className="p-8 bg-card/50 backdrop-blur-sm border-border hover:border-luminous/50 transition-smooth cursor-pointer h-full group">
