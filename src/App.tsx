@@ -8,6 +8,7 @@ import Prologue from "./pages/Prologue";
 import Chapter1 from "./pages/Chapter1";
 import Chapter2 from "./pages/Chapter2";
 import Article1 from "./pages/Article1";
+import ArticleHaircut from "./pages/ArticleHaircut";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -24,6 +25,7 @@ const App = () => (
           <Route path="/chapter-1" element={<Chapter1 />} />
           <Route path="/chapter-2" element={<Chapter2 />} />
           <Route path="/article-tbml" element={<Article1 />} />
+          <Route path="/article-haircut" element={<ArticleHaircut />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
