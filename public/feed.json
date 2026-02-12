@@ -1,0 +1,50 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "what cardinal said",
+  "home_page_url": "https://what-cardinal-said-void.lovable.app",
+  "feed_url": "https://what-cardinal-said-void.lovable.app/feed.json",
+  "description": "Where legal discourse meets aesthetic theory and absurdist thought",
+  "language": "en",
+  "items": [
+    {
+      "id": "chapter-2",
+      "url": "https://what-cardinal-said-void.lovable.app/chapter-2",
+      "title": "Law for Whom",
+      "summary": "The production of disposable populations. Selective legality, structural violence, and sacrificial strata.",
+      "date_published": "2024-12-20T00:00:00Z",
+      "tags": ["chapter-series"]
+    },
+    {
+      "id": "article-tbml",
+      "url": "https://what-cardinal-said-void.lovable.app/article-tbml",
+      "title": "Trade-Based Money Laundering",
+      "summary": "India's stance on TBML, the limitations of PMLA, and why $159 billion flows through the shadows of global commerce annually.",
+      "date_published": "2024-12-15T00:00:00Z",
+      "tags": ["article-series"]
+    },
+    {
+      "id": "article-haircut",
+      "url": "https://what-cardinal-said-void.lovable.app/article-haircut",
+      "title": "Haircut vs. Time",
+      "summary": "A cost-benefit analysis under the Indian Insolvency & Bankruptcy Code. Why a lower headline haircut might not be worth the time.",
+      "date_published": "2024-12-10T00:00:00Z",
+      "tags": ["article-series"]
+    },
+    {
+      "id": "chapter-1",
+      "url": "https://what-cardinal-said-void.lovable.app/chapter-1",
+      "title": "That is Law",
+      "summary": "Examining law as a tool, its malleability, and the hidden mechanisms that shape legal outcomes.",
+      "date_published": "2024-12-05T00:00:00Z",
+      "tags": ["chapter-series"]
+    },
+    {
+      "id": "prologue",
+      "url": "https://what-cardinal-said-void.lovable.app/prologue",
+      "title": "Prologue",
+      "summary": "An introduction to the philosophy behind this blog and the figures who shaped this perspective.",
+      "date_published": "2024-12-01T00:00:00Z",
+      "tags": ["chapter-series"]
+    }
+  ]
+}
