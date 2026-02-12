@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>what cardinal said</title>
+    <link>https://what-cardinal-said-void.lovable.app</link>
+    <description>Where legal discourse meets aesthetic theory and absurdist thought</description>
+    <language>en</language>
+    <atom:link href="https://what-cardinal-said-void.lovable.app/rss.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Law for Whom</title>
+      <link>https://what-cardinal-said-void.lovable.app/chapter-2</link>
+      <guid>https://what-cardinal-said-void.lovable.app/chapter-2</guid>
+      <description>The production of disposable populations. Selective legality, structural violence, and sacrificial strata.</description>
+      <pubDate>Fri, 20 Dec 2024 00:00:00 GMT</pubDate>
+      <category>Chapter Series</category>
+    </item>
+    <item>
+      <title>Trade-Based Money Laundering</title>
+      <link>https://what-cardinal-said-void.lovable.app/article-tbml</link>
+      <guid>https://what-cardinal-said-void.lovable.app/article-tbml</guid>
+      <description>India's stance on TBML, the limitations of PMLA, and why $159 billion flows through the shadows of global commerce annually.</description>
+      <pubDate>Sun, 15 Dec 2024 00:00:00 GMT</pubDate>
+      <category>Article Series</category>
+    </item>
+    <item>
+      <title>Haircut vs. Time</title>
+      <link>https://what-cardinal-said-void.lovable.app/article-haircut</link>
+      <guid>https://what-cardinal-said-void.lovable.app/article-haircut</guid>
+      <description>A cost-benefit analysis under the Indian Insolvency & Bankruptcy Code. Why a lower headline haircut might not be worth the time.</description>
+      <pubDate>Tue, 10 Dec 2024 00:00:00 GMT</pubDate>
+      <category>Article Series</category>
+    </item>
+    <item>
+      <title>That is Law</title>
+      <link>https://what-cardinal-said-void.lovable.app/chapter-1</link>
+      <guid>https://what-cardinal-said-void.lovable.app/chapter-1</guid>
+      <description>Examining law as a tool, its malleability, and the hidden mechanisms that shape legal outcomes.</description>
+      <pubDate>Thu, 05 Dec 2024 00:00:00 GMT</pubDate>
+      <category>Chapter Series</category>
+    </item>
+    <item>
+      <title>Prologue</title>
+      <link>https://what-cardinal-said-void.lovable.app/prologue</link>
+      <guid>https://what-cardinal-said-void.lovable.app/prologue</guid>
+      <description>An introduction to the philosophy behind this blog and the figures who shaped this perspective.</description>
+      <pubDate>Sun, 01 Dec 2024 00:00:00 GMT</pubDate>
+      <category>Chapter Series</category>
+    </item>
+  </channel>
+</rss>

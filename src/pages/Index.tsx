@@ -2,7 +2,7 @@ import { useEffect, useRef } from "react";
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
-import { ArrowRight, Feather, Sparkles, Infinity } from "lucide-react";
+import { ArrowRight, Feather, Sparkles, Infinity, Rss } from "lucide-react";
 import logo from "@/assets/logo.jpg";
 
 const Index = () => {
@@ -298,9 +298,18 @@ const Index = () => {
       <footer className="border-t border-border py-12 px-6">
         <div className="max-w-6xl mx-auto text-center">
           <img src={logo} alt="what cardinal said" className="h-16 w-16 rounded-full mx-auto mb-4" />
-          <p className="text-sm text-muted-foreground">
+          <p className="text-sm text-muted-foreground mb-4">
             © {new Date().getFullYear()} · Where meaning meets meaninglessness
           </p>
+          <a
+            href="/rss.xml"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 text-xs text-muted-foreground hover:text-primary transition-smooth"
+          >
+            <Rss className="h-3 w-3" />
+            RSS Feed
+          </a>
         </div>
       </footer>
     </div>
