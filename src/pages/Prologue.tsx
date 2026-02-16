@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom";
-import { ArrowLeft, Zap, Compass, Star } from "lucide-react";
-import { Button } from "@/components/ui/button";
+import { Compass } from "lucide-react";
 import Layout from "@/components/layout/Layout";
 
 const Prologue = () => {
@@ -28,15 +27,21 @@ const Prologue = () => {
             You know the best part about law, what drove me to it? It was the{" "}
             <span className="text-cardinal italic font-medium">malleability of it</span> and who it allows you to become{" "}
             <span className="text-cardinal italic font-medium underline decoration-white/10 underline-offset-8">whatever you want</span>.
+            You can be a damn good politician and still be a lawyer,
+            you can be a psychologist, and yeah, a lawyer. Better yet, you can be a lawyer and then forced to become a technician,
+            mathematician, and whatnot, all in the span of a single case.
           </p>
 
           <div className="space-y-8 text-xl leading-relaxed font-serif text-indigo-50/60">
             <p>
-              You can be a damn good politician and still be a lawyer, you can be a psychologist, and yeah, a lawyer. Better yet, you can be a lawyer and then forced to become a technician, mathematician, and whatnot, all in the span of a single case.
-            </p>
-
-            <p>
-              I have never admired a lot of people; the very few I still do, I try to understand these people as they have taught me things I wouldn't have known if it were not for their footprints.
+              I have never admired a lot of people; the very few I still do, I cannot say I idealise them, but I still try to understand
+              these people as they have taught me things I wouldn't have known if it were not for their footprints. One of them is{" "}
+              <span className="text-cardinal font-semibold">Cardinal de Richelieu</span>, whose account literally compelled me to name this blog after him,
+              and then the next one is <span className="text-indigo-300 font-semibold">Samuel S. Leibowitz</span>, who made me realise why you learn
+              every day in this profession. If I had to say one line about both of them, for Cardinal, I would say that he is{" "}
+              <span className="text-white italic">the person I want to understand to see the world</span>, and Samuel is{" "}
+              <span className="text-white italic">the person I want to be in my professional ethics</span>. I won't bother to give their description,
+              that would be unbecoming of the entire idea of this blog, being honest.
             </p>
           </div>
 
@@ -59,17 +64,23 @@ const Prologue = () => {
 
           <div className="space-y-8 text-xl leading-relaxed font-serif text-indigo-50/60 font-light">
             <p>
-              So, what is this blog? Everything goes, as long as it is connected to the law even a bit. From blockchain to why in some countries you can be arrested for not showing up to a concert you promised to perform for, everything. The point is to{" "}
+              So, what is this blog? If the first two paragraphs were not enough, then let me put it into words,{" "}
+              <span className="text-cardinal font-medium text-2xl italic">everything goes</span>, as long as it is connected
+              to the law even a bit. From blockchain to why in some countries you can be arrested for not showing up to a concert
+              you promised to perform for, everything. The point is to{" "}
               <span className="text-white italic">expand the view</span>.
             </p>
 
             <p>
               I have already seen 100s, if not 1000s, of blogs all building{" "}
-              <span className="text-cardinal italic">vertical hellscapers</span>. Spend entire days reading about a single provision and all so many views on it. It doesn't really matter. Anyone who knows practice up close knows that one point, how much you understand one concept, stops mattering.
+              <span className="text-cardinal italic">vertical hellscapers</span>. You can spend entire days reading about
+              a single provision and all so many views on it. Being honest, it doesn't really matter. Anyone who knows practice up close
+              knows that one point, how much you understand one concept, stops mattering. It's worse than philosophy when it does happen.
             </p>
 
             <p>
-              What we do here is that I find something interesting enough and I just write, that's it. Sometimes, I will be bored and call up serious people to write for a serious audience <span className="text-indigo-200/20 italic">(if there is any at all)</span>.
+              What we do here is that I find something interesting enough and I just write, that's it. Sometimes, I will be bored and
+              call up serious people to write for a serious audience <span className="text-indigo-200/20 italic">(if there is any at all)</span>.
             </p>
           </div>
 
