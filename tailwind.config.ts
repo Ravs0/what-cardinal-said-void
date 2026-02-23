@@ -25,9 +25,9 @@ export default {
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
         cardinal: {
-          DEFAULT: "#C41E3A",
-          dark: "#8B0000",
-          light: "#E32636",
+          DEFAULT: "#D4AF37", // Mutated to Gold for Law Theme
+          dark: "#AA8222",
+          light: "#E5C158",
         },
         indigo: {
           50: "#f0f4ff",

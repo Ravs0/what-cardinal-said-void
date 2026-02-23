@@ -12,7 +12,7 @@ const Index = () => {
 
         {/* Fixed Left Panel - Visuals & Typography */}
         <div className="lg:col-span-5 relative min-h-[100vh] lg:min-h-0 lg:h-[calc(100vh-100px)] mt-[-100px] pt-[100px] lg:mt-0 lg:pt-0 lg:sticky lg:top-[100px] flex flex-col justify-end lg:justify-between pb-24 lg:pb-10 lg:py-10 px-6 lg:px-12 border-b lg:border-b-0 lg:border-r border-white/5">
-          <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_50%,_hsla(348,73%,45%,0.03)_0%,_transparent_50%)] pointer-events-none" />
+          <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_50%,_hsla(43,74%,49%,0.05)_0%,_transparent_50%)] pointer-events-none" />
 
           {/* 3D Core */}
           <div className="absolute inset-0 z-0">

@@ -3,50 +3,37 @@ import { Canvas, useFrame } from '@react-three/fiber';
 import { Points, PointMaterial } from '@react-three/drei';
 import * as THREE from 'three';
 
-function Starfield() {
+function ArchitecturalDataGrid() {
     const ref = useRef<THREE.Points>(null!);
-    const count = 5000;
+    const count = 3000;
 
     const positions = useMemo(() => {
         const coords = new Float32Array(count * 3);
         for (let i = 0; i < count; i++) {
-            const r = 25 * Math.cbrt(Math.random());
-            const theta = Math.random() * 2 * Math.PI;
-            const phi = Math.acos(2 * Math.random() - 1);
+            // Snap points to an architectural grid structure
+            const gridSize = 1.5;
+            const spread = 40;
 
-            let pX = r * Math.sin(phi) * Math.cos(theta);
-            let pY = r * Math.sin(phi) * Math.sin(theta);
-            let pZ = r * Math.cos(phi);
-
-            // Give it a swirling galaxy effect
-            const swirl = r * 0.1;
-            const sP = Math.sin(swirl);
-            const cP = Math.cos(swirl);
-
-            const tempX = pX * cP - pZ * sP;
-            const tempZ = pX * sP + pZ * cP;
-
-            coords[i * 3] = tempX;
-            coords[i * 3 + 1] = pY * 0.3; // Flatten it slightly
-            coords[i * 3 + 2] = tempZ;
+            coords[i * 3] = Math.round((Math.random() - 0.5) * spread / gridSize) * gridSize;     // X
+            coords[i * 3 + 1] = Math.round((Math.random() - 0.5) * spread / gridSize) * gridSize; // Y
+            coords[i * 3 + 2] = Math.round((Math.random() - 0.5) * spread / gridSize) * gridSize; // Z
         }
         return coords;
     }, [count]);
 
     const colors = useMemo(() => {
         const colorArr = new Float32Array(count * 3);
-        const cardinal = new THREE.Color('#c41e3a');
-        const indigo = new THREE.Color('#4a4a4a'); // Replaced indigo with deep grey
-        const voidColor = new THREE.Color('#ffffff'); // Replaced soft blue with stark white
+        const gold = new THREE.Color('#D4AF37');
+        const slate = new THREE.Color('#334155');
+        const ivory = new THREE.Color('#f8fafc');
 
         for (let i = 0; i < count; i++) {
             const mix = Math.random();
-            let c = cardinal;
+            let c = slate;
 
-            if (mix > 0.4) c = indigo;
-            if (mix > 0.9) c = voidColor;
+            if (mix > 0.7) c = ivory;
+            if (mix > 0.95) c = gold; // Rare gold data points
 
-            // Add some brightness variance
             const brightness = 0.5 + Math.random() * 0.5;
 
             colorArr[i * 3] = c.r * brightness;
@@ -58,8 +45,9 @@ function Starfield() {
 
     useFrame((state, delta) => {
         if (ref.current) {
-            ref.current.rotation.y += delta * 0.05;
-            ref.current.rotation.x = Math.sin(state.clock.elapsedTime * 0.2) * 0.1;
+            // Rigid, linear, calculated panning rather than swirling
+            ref.current.position.y = Math.sin(state.clock.elapsedTime * 0.1) * 2;
+            ref.current.rotation.y += delta * 0.02;
         }
     });
 
@@ -68,11 +56,10 @@ function Starfield() {
             <PointMaterial
                 transparent
                 vertexColors
-                size={0.06}
+                size={0.08}
                 sizeAttenuation={true}
                 depthWrite={false}
-                blending={THREE.AdditiveBlending}
-                opacity={0.8}
+                opacity={0.6}
             />
         </Points>
     );
@@ -80,10 +67,11 @@ function Starfield() {
 
 export default function WebGLBackground() {
     return (
-        <div className="fixed inset-0 z-0 pointer-events-none mix-blend-screen opacity-60">
-            <Canvas camera={{ position: [0, 5, 15], fov: 60 }}>
-                <fog attach="fog" args={['#000000', 10, 40]} />
-                <Starfield />
+        <div className="fixed inset-0 z-0 pointer-events-none mix-blend-screen opacity-40">
+            <Canvas camera={{ position: [0, 5, 20], fov: 60 }}>
+                {/* Clean, deep legal blue fog to ground the structure */}
+                <fog attach="fog" args={['#0f172a', 10, 35]} />
+                <ArchitecturalDataGrid />
             </Canvas>
         </div>
     );
