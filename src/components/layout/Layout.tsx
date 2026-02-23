@@ -3,6 +3,8 @@ import { Link, useLocation } from 'react-router-dom';
 import { Menu, X, Github, Mail, MoveLeft } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { useState, useEffect } from 'react';
+import WebGLBackground from '@/components/WebGLBackground';
+import AmbientAudio from '@/components/AmbientAudio';
 
 interface LayoutProps {
     children: React.ReactNode;
@@ -28,13 +30,17 @@ const Layout = ({ children }: LayoutProps) => {
 
     return (
         <div className="min-h-screen flex flex-col bg-background selection:bg-cardinal/30">
-            {/* Deep Space Backdrop */}
-            <div className="cosmic-bg" />
+            {/* Deep Space Backdrop via WebGL */}
+            <WebGLBackground />
+            <div className="cosmic-bg opacity-30 pointer-events-none z-[-1]" />
+
+            {/* Global Ambient Drone */}
+            <AmbientAudio />
 
             {/* Animated Glows */}
             <div className="fixed top-0 left-0 w-full h-full overflow-hidden pointer-events-none z-0">
-                <div className="absolute top-[-10%] left-[-10%] w-[40%] h-[40%] bg-cardinal/5 blur-[120px] rounded-full animate-pulse-slow" />
-                <div className="absolute bottom-[-10%] right-[-10%] w-[40%] h-[40%] bg-indigo-500/5 blur-[120px] rounded-full animate-pulse-slow" style={{ animationDelay: '2s' }} />
+                <div className="absolute top-[-10%] left-[-10%] w-[40%] h-[40%] bg-cardinal/5 blur-[120px] rounded-full animate-pulse-slow mix-blend-screen" />
+                <div className="absolute bottom-[-10%] right-[-10%] w-[40%] h-[40%] bg-white/5 blur-[120px] rounded-full animate-pulse-slow mix-blend-screen" style={{ animationDelay: '2s' }} />
             </div>
 
             {/* Navigation */}
@@ -73,14 +79,14 @@ const Layout = ({ children }: LayoutProps) => {
 
                 {/* Mobile Menu */}
                 {isMenuOpen && (
-                    <div className="md:hidden absolute top-0 left-0 w-full glass h-screen animate-in fade-in duration-300 flex flex-col items-center justify-center gap-12 text-center p-10">
-                        <button className="absolute top-6 right-6" onClick={() => setIsMenuOpen(false)}>
+                    <div className="md:hidden absolute top-0 left-0 w-full glass h-screen animate-in fade-in duration-300 flex flex-col items-center justify-center gap-12 text-center p-10 z-[100]">
+                        <button className="absolute top-6 right-6 text-white" onClick={() => setIsMenuOpen(false)}>
                             <X size={32} />
                         </button>
-                        <NavLink to="/" className="text-3xl">Home</NavLink>
-                        <NavLink to="/prologue" className="text-3xl">Prologue</NavLink>
-                        <NavLink to="/article/trade-based-money-laundering" className="text-3xl">TBML</NavLink>
-                        <Button variant="outline" className="mt-8 border-cardinal/50 w-full py-6">RSS Feed</Button>
+                        <NavLink to="/" className="text-3xl font-light hover:text-cardinal">Home</NavLink>
+                        <NavLink to="/prologue" className="text-3xl font-light hover:text-cardinal">Prologue</NavLink>
+                        <NavLink to="/article/trade-based-money-laundering" className="text-3xl font-light hover:text-cardinal">TBML Project</NavLink>
+                        <Button variant="outline" className="mt-8 border-white/10 text-white/50 w-full py-6 text-xs tracking-widest uppercase">Subscribe RSS</Button>
                     </div>
                 )}
             </nav>

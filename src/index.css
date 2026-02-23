@@ -4,34 +4,34 @@
 
 @layer base {
   :root {
-    --background: 230 50% 3%;
-    --foreground: 230 10% 95%;
+    --background: 0 0% 3%;
+    --foreground: 0 0% 98%;
 
-    --card: 230 40% 6%;
-    --card-foreground: 230 10% 95%;
+    --card: 0 0% 5%;
+    --card-foreground: 0 0% 98%;
 
-    --popover: 230 40% 6%;
-    --popover-foreground: 230 10% 95%;
+    --popover: 0 0% 5%;
+    --popover-foreground: 0 0% 98%;
 
-    --primary: 348 73% 45%;
-    /* Cardinal Crimson */
-    --primary-foreground: 230 10% 95%;
+    --primary: 348 83% 47%;
+    /* Bright Cardinal Crimson */
+    --primary-foreground: 0 0% 98%;
 
-    --secondary: 230 30% 15%;
-    --secondary-foreground: 230 10% 95%;
+    --secondary: 0 0% 12%;
+    --secondary-foreground: 0 0% 98%;
 
-    --muted: 230 20% 12%;
-    --muted-foreground: 230 10% 60%;
+    --muted: 0 0% 15%;
+    --muted-foreground: 0 0% 60%;
 
-    --accent: 230 50% 20%;
-    --accent-foreground: 230 10% 95%;
+    --accent: 0 0% 20%;
+    --accent-foreground: 0 0% 98%;
 
     --destructive: 0 84% 60%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 230 30% 15%;
-    --input: 230 30% 15%;
-    --ring: 348 73% 45%;
+    --border: 0 0% 15%;
+    --input: 0 0% 15%;
+    --ring: 348 83% 47%;
 
     --radius: 0.5rem;
   }
@@ -86,10 +86,10 @@
   width: 100%;
   height: 100%;
   z-index: -1;
-  background-color: #020205;
+  background-color: #030303;
   background-image:
-    radial-gradient(at 0% 0%, hsla(348, 73%, 45%, 0.1) 0px, transparent 50%),
-    radial-gradient(at 100% 100%, hsla(230, 50%, 45%, 0.1) 0px, transparent 50%);
+    radial-gradient(at 0% 0%, hsla(348, 83%, 47%, 0.08) 0px, transparent 50%),
+    radial-gradient(at 100% 100%, hsla(0, 0%, 50%, 0.05) 0px, transparent 50%);
 }
 
 .cosmic-bg::after {
