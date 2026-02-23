@@ -3,63 +3,76 @@ import { Canvas, useFrame } from '@react-three/fiber';
 import { Points, PointMaterial } from '@react-three/drei';
 import * as THREE from 'three';
 
-function ArchitecturalDataGrid() {
+function UndulatingDataTerrain() {
     const ref = useRef<THREE.Points>(null!);
-    const count = 3000;
+    const count = 6000;
 
-    const positions = useMemo(() => {
-        const coords = new Float32Array(count * 3);
-        for (let i = 0; i < count; i++) {
-            // Snap points to an architectural grid structure
-            const gridSize = 1.5;
-            const spread = 40;
+    // Grid dimensions
+    const width = 100;
+    const depth = 60;
 
-            coords[i * 3] = Math.round((Math.random() - 0.5) * spread / gridSize) * gridSize;     // X
-            coords[i * 3 + 1] = Math.round((Math.random() - 0.5) * spread / gridSize) * gridSize; // Y
-            coords[i * 3 + 2] = Math.round((Math.random() - 0.5) * spread / gridSize) * gridSize; // Z
-        }
-        return coords;
-    }, [count]);
+    const [positions, colors] = useMemo(() => {
+        const pos = new Float32Array(count * 3);
+        const col = new Float32Array(count * 3);
 
-    const colors = useMemo(() => {
-        const colorArr = new Float32Array(count * 3);
         const gold = new THREE.Color('#D4AF37');
-        const slate = new THREE.Color('#334155');
+        const slate = new THREE.Color('#1e293b');
         const ivory = new THREE.Color('#f8fafc');
 
-        for (let i = 0; i < count; i++) {
-            const mix = Math.random();
-            let c = slate;
+        let i = 0;
+        for (let x = 0; x < width; x++) {
+            for (let z = 0; z < depth; z++) {
+                if (i >= count) continue;
 
-            if (mix > 0.7) c = ivory;
-            if (mix > 0.95) c = gold; // Rare gold data points
+                // Spread the grid
+                const pX = (x - width / 2) * 1.5;
+                const pZ = (z - depth / 2) * 1.5;
 
-            const brightness = 0.5 + Math.random() * 0.5;
+                pos[i * 3] = pX;
+                pos[i * 3 + 1] = 0; // Y will be animated
+                pos[i * 3 + 2] = pZ;
 
-            colorArr[i * 3] = c.r * brightness;
-            colorArr[i * 3 + 1] = c.g * brightness;
-            colorArr[i * 3 + 2] = c.b * brightness;
+                const mix = Math.random();
+                let c = slate;
+                if (mix > 0.8) c = ivory;
+                if (mix > 0.98) c = gold;
+
+                const brightness = 0.3 + Math.random() * 0.7;
+                col[i * 3] = c.r * brightness;
+                col[i * 3 + 1] = c.g * brightness;
+                col[i * 3 + 2] = c.b * brightness;
+
+                i++;
+            }
         }
-        return colorArr;
+        return [pos, col];
     }, [count]);
 
-    useFrame((state, delta) => {
+    useFrame((state) => {
+        const time = state.clock.elapsedTime * 0.3;
         if (ref.current) {
-            // Rigid, linear, calculated panning rather than swirling
-            ref.current.position.y = Math.sin(state.clock.elapsedTime * 0.1) * 2;
-            ref.current.rotation.y += delta * 0.02;
+            const positions = ref.current.geometry.attributes.position.array as Float32Array;
+
+            for (let i = 0; i < count; i++) {
+                const x = positions[i * 3];
+                const z = positions[i * 3 + 2];
+                // Smooth undulating wave algorithm
+                const y = Math.sin(x * 0.1 + time) * 3 + Math.cos(z * 0.1 + time) * 3;
+                positions[i * 3 + 1] = y;
+            }
+            ref.current.geometry.attributes.position.needsUpdate = true;
         }
     });
 
     return (
-        <Points ref={ref} positions={positions} colors={colors} stride={3} frustumCulled={false}>
+        <Points ref={ref} positions={positions} colors={colors} stride={3} frustumCulled={false} rotation={[Math.PI / 6, 0, 0]} position={[0, -10, -20]}>
             <PointMaterial
                 transparent
                 vertexColors
-                size={0.08}
+                size={0.12}
                 sizeAttenuation={true}
                 depthWrite={false}
-                opacity={0.6}
+                opacity={0.8}
             />
         </Points>
     );
@@ -71,7 +84,7 @@ export default function WebGLBackground() {
             <Canvas camera={{ position: [0, 5, 20], fov: 60 }}>
                 {/* Clean, deep legal blue fog to ground the structure */}
                 <fog attach="fog" args={['#0f172a', 10, 35]} />
-                <ArchitecturalDataGrid />
+                <UndulatingDataTerrain />
             </Canvas>
         </div>
     );
