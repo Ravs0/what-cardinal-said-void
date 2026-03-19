@@ -9,6 +9,7 @@ import Chapter1 from "./pages/Chapter1";
 import Chapter2 from "./pages/Chapter2";
 import Article1 from "./pages/Article1";
 import ArticleHaircut from "./pages/ArticleHaircut";
+import ArticleIranUS from "./pages/ArticleIranUS";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -27,8 +28,9 @@ const App = () => (
           <Route path="/chapter/law-for-whom" element={<Chapter2 />} />
           <Route path="/article/trade-based-money-laundering" element={<Article1 />} />
           <Route path="/article/haircut-vs-time" element={<ArticleHaircut />} />
+          <Route path="/article/iran-us-conflict" element={<ArticleIranUS />} />
 
-          {/* Legacy/Redirect Routes */}
+          {/* Legacy redirects */}
           <Route path="/chapter-1" element={<Chapter1 />} />
           <Route path="/chapter-2" element={<Chapter2 />} />
           <Route path="/article-tbml" element={<Article1 />} />

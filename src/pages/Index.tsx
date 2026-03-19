@@ -1,162 +1,193 @@
 import { Link } from "react-router-dom";
 import Layout from "@/components/layout/Layout";
-import { MoveRight, Shield, Ghost, Eye, ScrollText, Sparkles } from "lucide-react";
+import { ArrowRight, BookOpen, FileText, Globe } from "lucide-react";
 import articles from "@/content/articles.json";
 import chapters from "@/content/chapters.json";
-import Hero3D from "@/components/Hero3D";
+
+/* ─────────────────────────────── helpers ─── */
+
+const SECTION_META = {
+  chapters: {
+    label: "The Foundation",
+    sublabel: "Chapter Series",
+    icon: BookOpen,
+    accent: "text-cardinal border-cardinal/30",
+    tagClass: "tag-cardinal",
+  },
+  articles: {
+    label: "Systematic Inquiry",
+    sublabel: "Article Archive",
+    icon: FileText,
+    accent: "text-[hsl(var(--text-secondary))] border-[hsl(var(--divider))]",
+    tagClass: "tag",
+  },
+};
+
+const GEOPOLITICS_PLACEHOLDER = {
+  id: "iran-us-conflict",
+  title: "Iran–US Conflict",
+  subtitle: "An analysis of the escalating Iran–US tensions — legal dimensions, international law, and geopolitical consequences. Article incoming.",
+  slug: "iran-us-conflict",
+  category: "Geopolitics",
+  upcoming: true,
+};
+
+/* ─────────────────────────────── page ─── */
 
 const Index = () => {
   return (
     <Layout>
-      <div className="text-white selection:bg-cardinal/30 grid grid-cols-1 lg:grid-cols-12 min-h-screen pt-[100px]">
+      <div className="max-w-6xl mx-auto px-4 sm:px-6">
 
-        {/* Fixed Left Panel - Visuals & Typography */}
-        <div className="lg:col-span-5 relative min-h-[100vh] lg:min-h-0 lg:h-[calc(100vh-100px)] mt-[-100px] pt-[100px] lg:mt-0 lg:pt-0 lg:sticky lg:top-[100px] flex flex-col justify-end lg:justify-between pb-24 lg:pb-10 lg:py-10 px-6 lg:px-12 border-b lg:border-b-0 lg:border-r border-white/5">
-          <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_50%,_hsla(43,74%,49%,0.05)_0%,_transparent_50%)] pointer-events-none" />
-
-          {/* 3D Core */}
-          <div className="absolute inset-0 z-0">
-            <Hero3D />
-          </div>
-
-          {/* Typography Overlay */}
-          <div className="relative z-10 space-y-6 mt-auto bg-gradient-to-t from-background via-background/80 to-transparent pb-10 pt-20 -mx-6 px-6 lg:-mx-12 lg:px-12">
-            <h1 className="text-6xl md:text-8xl lg:text-7xl font-serif tracking-tighter leading-[0.85] text-white">
-              WHAT<br /><span className="text-cardinal">CARDINAL</span><br />SAID
+        {/* ── Hero ── */}
+        <section className="pt-20 pb-16 border-b border-[hsl(var(--divider))]">
+          <div className="max-w-2xl">
+            <span className="tag-cardinal mb-5 inline-block">Est. 2024</span>
+            <h1 className="font-serif text-5xl sm:text-6xl lg:text-7xl text-[hsl(var(--text-primary))] leading-[1.05] tracking-tight mb-6">
+              What <span className="text-cardinal">Cardinal</span> Said
             </h1>
-            <div className="flex flex-col gap-3 font-mono text-[10px] tracking-[0.3em] uppercase max-w-sm">
-              <div className="flex items-center gap-3 text-zinc-400">
-                <Sparkles className="w-3 h-3 text-cardinal" /> <span>Cyber Minimalist</span>
-              </div>
-              <div className="flex items-center gap-3 text-white/40">
-                <span className="w-1 h-px bg-white/20" /> <span>Legal Absurdism</span>
-              </div>
-              <div className="flex items-center gap-3 text-white/40">
-                <span className="w-1 h-px bg-white/20" /> <span>Architecture of Void</span>
-              </div>
-            </div>
-
-            <p className="text-sm font-serif text-zinc-500 italic leading-relaxed max-w-xs mt-6">
+            <p className="text-lg text-[hsl(var(--text-secondary))] leading-relaxed max-w-xl mb-2">
+              Law, absurdism, and the architecture of meaning — viewed through absolute tactical clarity.
+            </p>
+            <p className="text-sm text-[hsl(var(--text-muted))] italic">
               "The law is a mirror that has forgotten it is reflective."
             </p>
           </div>
-        </div>
+        </section>
 
-        {/* Scrolling Right Panel - High Density Content */}
-        <div className="lg:col-span-7 flex flex-col px-6 lg:pl-20 lg:pr-12 py-16 lg:py-10 gap-32">
-
-          {/* Core Pillars - Reimagined as horizontal stripes */}
-          <section className="space-y-10">
-            <div className="flex flex-col gap-6">
-              <div className="flex items-center gap-4">
-                <div className="h-px w-8 bg-white/20" />
-                <span className="font-mono text-[10px] uppercase tracking-[0.5em] text-white/40">Core Precepts</span>
+        {/* ── Core Pillars ── */}
+        <section className="py-12 border-b border-[hsl(var(--divider))]">
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-px bg-[hsl(var(--divider))] rounded-lg overflow-hidden">
+            {[
+              { title: "Strategic Logic", desc: "Deconstructing the calculated structures of legal necessity." },
+              { title: "Aesthetic Entropy", desc: "Dissolution of static meaning in a world governed by shifting norms." },
+              { title: "Absolute Absurdism", desc: "Confronting the contradictions of a world governed by laws it no longer understands." },
+            ].map((p) => (
+              <div key={p.title} className="bg-[hsl(var(--surface))] px-6 py-8">
+                <h3 className="font-serif text-base text-[hsl(var(--text-primary))] mb-2">{p.title}</h3>
+                <p className="text-sm text-[hsl(var(--text-muted))] leading-relaxed">{p.desc}</p>
               </div>
-            </div>
+            ))}
+          </div>
+        </section>
 
-            <div className="flex flex-col gap-8">
-              <PillarRow icon={<Shield />} title="Strategic Logic" desc="Deconstructing the calculated structures of legal necessity." />
-              <PillarRow icon={<Eye />} title="Aesthetic Entropy" desc="Dissolution of static meaning in the digital void." />
-              <PillarRow icon={<Ghost />} title="Absolute Absurdism" desc="Confronting the elegant contradictions of a world governed by laws it no longer understands." />
-            </div>
-          </section>
+        {/* ── Chapter Series ── */}
+        <section className="py-14 border-b border-[hsl(var(--divider))]">
+          <SectionHeader icon={BookOpen} sublabel="Chapter Series" label="The Foundation" />
+          <div className="space-y-2 mt-8">
+            {chapters.map((chapter, i) => (
+              <ContentRow
+                key={chapter.id}
+                number={String(i + 1).padStart(2, "0")}
+                to={`/chapter/${chapter.slug}`}
+                title={chapter.title}
+                description={chapter.subtitle}
+                tag={chapter.category}
+              />
+            ))}
+          </div>
+        </section>
 
-          {/* Chapters Grid */}
-          <section className="space-y-12">
-            <header className="flex flex-col gap-4">
-              <div className="flex items-center gap-4">
-                <div className="h-px w-8 bg-cardinal" />
-                <span className="font-mono text-[10px] uppercase tracking-[0.5em] text-cardinal">Chapter Series</span>
-              </div>
-              <h2 className="text-4xl lg:text-6xl font-serif text-white tracking-tight">The Foundation</h2>
-            </header>
+        {/* ── Articles ── */}
+        <section className="py-14 border-b border-[hsl(var(--divider))]">
+          <SectionHeader icon={FileText} sublabel="Article Archive" label="Systematic Inquiry" />
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-8">
+            {articles.map((article) => (
+              <ArticleCard
+                key={article.id}
+                to={`/article/${article.slug}`}
+                title={article.title}
+                subtitle={article.subtitle}
+                category={article.category}
+              />
+            ))}
+          </div>
+        </section>
 
-            <div className="flex flex-col gap-6">
-              {chapters.map((chapter, index) => (
-                <ContentRow
-                  key={chapter.id}
-                  number={String(index + 1).padStart(2, '0')}
-                  to={`/chapter/${chapter.slug}`}
-                  title={chapter.title}
-                  description={chapter.subtitle}
-                />
-              ))}
-            </div>
-          </section>
+        {/* ── Geopolitics ── */}
+        <section className="py-14">
+          <SectionHeader icon={Globe} sublabel="Geopolitics" label="The World Stage" />
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-8">
+            <ArticleCard
+              to={`/article/${GEOPOLITICS_PLACEHOLDER.slug}`}
+              title={GEOPOLITICS_PLACEHOLDER.title}
+              subtitle={GEOPOLITICS_PLACEHOLDER.subtitle}
+              category={GEOPOLITICS_PLACEHOLDER.category}
+              upcoming
+            />
+          </div>
+        </section>
 
-          {/* Articles Grid */}
-          <section className="space-y-12">
-            <header className="flex flex-col gap-4">
-              <div className="flex items-center gap-4">
-                <div className="h-px w-8 bg-zinc-600" />
-                <span className="font-mono text-[10px] uppercase tracking-[0.5em] text-zinc-400">Article Archive</span>
-              </div>
-              <h2 className="text-4xl lg:text-6xl font-serif text-white tracking-tight">Systematic Inquiry</h2>
-            </header>
-
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-              {articles.map((article) => (
-                <ArticleSquare
-                  key={article.id}
-                  to={`/article/${article.slug}`}
-                  title={article.title}
-                  description={article.subtitle}
-                />
-              ))}
-            </div>
-          </section>
-
-        </div>
       </div>
     </Layout>
   );
 };
 
-const PillarRow = ({ icon, title, desc }: { icon: React.ReactNode, title: string, desc: string }) => (
-  <div className="flex flex-col md:flex-row md:items-center gap-6 group cursor-default">
-    <div className="w-10 h-10 shrink-0 flex items-center justify-center text-white/20 border border-white/5 bg-white/[0.01] group-hover:text-cardinal group-hover:border-cardinal/30 transition-all duration-500">
-      {icon}
+/* ─────────────────────────────── sub-components ─── */
+
+const SectionHeader = ({ icon: Icon, sublabel, label }: { icon: React.ElementType; sublabel: string; label: string }) => (
+  <div className="flex flex-col sm:flex-row sm:items-end gap-3">
+    <div className="flex items-center gap-3">
+      <Icon className="w-4 h-4 text-cardinal" />
+      <span className="font-mono text-[10px] uppercase tracking-[0.25em] text-[hsl(var(--text-muted))]">{sublabel}</span>
     </div>
-    <div className="flex flex-col md:flex-row md:items-center gap-2 md:gap-6 flex-grow">
-      <h3 className="text-lg font-serif text-white/80 group-hover:text-white transition-colors duration-500 min-w-[200px]">{title}</h3>
-      <p className="text-sm font-light text-zinc-500 group-hover:text-zinc-300 transition-colors duration-500 leading-relaxed">
-        {desc}
-      </p>
-    </div>
+    <h2 className="font-serif text-2xl sm:text-3xl text-[hsl(var(--text-primary))]">{label}</h2>
   </div>
 );
 
-const ContentRow = ({ to, title, description, number }: { to: string; title: string; description: string; number: string }) => (
-  <Link to={to} className="group flex flex-col md:flex-row items-baseline gap-6 md:gap-12 p-6 glass border-white/5 bg-white/[0.01] hover:bg-white/[0.02] hover:border-cardinal/20 transition-all duration-700">
-    <span className="font-mono text-xs text-cardinal tracking-widest shrink-0">{number}</span>
-    <div className="flex-grow space-y-2">
-      <h4 className="text-2xl lg:text-3xl font-serif text-white/70 group-hover:text-white transition-all duration-700 leading-none">
+const ContentRow = ({
+  to, title, description, number, tag,
+}: {
+  to: string; title: string; description: string; number: string; tag: string;
+}) => (
+  <Link
+    to={to}
+    className="group flex items-center gap-5 px-5 py-4 rounded-lg surface hover:bg-[hsl(var(--surface-raised))] hover:border-cardinal/25 transition-all duration-200"
+  >
+    <span className="font-mono text-xs text-cardinal shrink-0 w-6">{number}</span>
+    <div className="flex-grow min-w-0">
+      <h4 className="font-serif text-lg text-[hsl(var(--text-primary))] group-hover:text-white transition-colors leading-snug truncate">
         {title}
       </h4>
-      <p className="text-sm text-zinc-500 leading-relaxed group-hover:text-zinc-300 transition-colors duration-700 italic font-serif">
-        {description}
-      </p>
+      <p className="text-xs text-[hsl(var(--text-muted))] mt-0.5 line-clamp-1 leading-relaxed">{description}</p>
     </div>
-    <MoveRight className="w-5 h-5 shrink-0 text-white/10 group-hover:text-cardinal group-hover:translate-x-2 transition-all duration-500 hidden md:block" />
+    <span className="tag hidden sm:inline-flex shrink-0">{tag}</span>
+    <ArrowRight className="w-4 h-4 shrink-0 text-[hsl(var(--text-muted))] group-hover:text-cardinal group-hover:translate-x-1 transition-all duration-200" />
   </Link>
 );
 
-const ArticleSquare = ({ to, title, description }: { to: string; title: string; description: string }) => (
-  <Link to={to} className="group p-8 glass border-white/5 bg-white/[0.01] hover:bg-white/[0.02] hover:border-zinc-500/30 transition-all duration-700 flex flex-col justify-between min-h-[240px]">
-    <div className="space-y-6">
-      <ScrollText className="w-5 h-5 text-zinc-500 group-hover:text-zinc-300 transition-colors duration-500" />
-      <h4 className="text-xl font-serif text-white/70 group-hover:text-white transition-colors duration-500 leading-snug">
-        {title}
-      </h4>
+const ArticleCard = ({
+  to, title, subtitle, category, upcoming = false,
+}: {
+  to: string; title: string; subtitle: string; category: string; upcoming?: boolean;
+}) => (
+  <Link
+    to={to}
+    className={`group block rounded-lg surface p-6 transition-all duration-200 ${
+      upcoming
+        ? "opacity-70 cursor-default hover:opacity-80"
+        : "hover:bg-[hsl(var(--surface-raised))] hover:border-cardinal/25"
+    }`}
+  >
+    <div className="flex items-start justify-between gap-3 mb-4">
+      <span className={`tag ${upcoming ? "border-amber-500/30 text-amber-400/70 bg-amber-500/5" : "tag-cardinal"}`}>
+        {upcoming ? "Upcoming" : category}
+      </span>
+      {!upcoming && (
+        <ArrowRight className="w-4 h-4 text-[hsl(var(--text-muted))] group-hover:text-cardinal group-hover:translate-x-0.5 transition-all duration-200 shrink-0 mt-0.5" />
+      )}
     </div>
-    <div className="space-y-4 pt-8">
-      <p className="text-xs text-zinc-500 group-hover:text-zinc-400 transition-colors duration-500 line-clamp-2 leading-relaxed">
-        {description}
+    <h4 className="font-serif text-xl text-[hsl(var(--text-primary))] leading-snug mb-3 group-hover:text-white transition-colors">
+      {title}
+    </h4>
+    <p className="text-sm text-[hsl(var(--text-muted))] leading-relaxed line-clamp-3">
+      {subtitle}
+    </p>
+    {!upcoming && (
+      <p className="mt-4 text-[10px] font-mono uppercase tracking-[0.15em] text-cardinal opacity-0 group-hover:opacity-100 transition-opacity">
+        Read article →
       </p>
-      <div className="flex items-center gap-2 text-[10px] font-mono uppercase tracking-[0.2em] text-white/10 group-hover:text-zinc-300 transition-colors duration-500">
-        Read Entry <MoveRight className="w-3 h-3 group-hover:translate-x-1 transition-transform" />
-      </div>
-    </div>
+    )}
   </Link>
 );
 

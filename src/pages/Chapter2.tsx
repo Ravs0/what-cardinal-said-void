@@ -1,28 +1,32 @@
 import { Link } from "react-router-dom";
 import { ArrowLeft, BookOpen, Users, ShieldAlert, FileText, ExternalLink } from "lucide-react";
 import { Card } from "@/components/ui/card";
-import { Button } from "@/components/ui/button";
 import Layout from "@/components/layout/Layout";
 
 const Chapter2 = () => {
   return (
     <Layout>
-      <article className="max-w-4xl mx-auto px-6 pt-40 pb-40">
+      <article className="max-w-3xl mx-auto px-4 sm:px-6 pt-16 pb-24">
 
-        {/* Article Content */}
-        <header className="mb-24">
-          <div className="flex items-center gap-3 mb-6">
-            <span className="text-[10px] font-mono tracking-[0.4em] text-cardinal uppercase">
-              Chapter Two
-            </span>
-            <div className="h-px w-8 bg-cardinal/30" />
-          </div>
-          <h1 className="font-serif text-6xl md:text-8xl font-light text-white leading-none tracking-tighter mb-8">
+        {/* Breadcrumb */}
+        <div className="mb-10">
+          <Link
+            to="/"
+            className="inline-flex items-center gap-2 text-sm text-[hsl(var(--text-muted))] hover:text-[hsl(var(--text-secondary))] transition-colors"
+          >
+            <ArrowLeft className="w-3.5 h-3.5" /> Back to home
+          </Link>
+        </div>
+
+        {/* Header */}
+        <header className="mb-14">
+          <span className="tag-cardinal mb-5 inline-block">Chapter Two</span>
+          <h1 className="font-serif text-4xl sm:text-5xl lg:text-6xl text-[hsl(var(--text-primary))] leading-tight tracking-tight mb-4">
             Law for Whom
           </h1>
-          <h2 className="font-serif text-2xl md:text-3xl text-indigo-200/40 font-light italic leading-relaxed">
-            Sacrificial Strata: <span className="text-white/60">The Production of Disposable Populations</span>
-          </h2>
+          <p className="font-serif text-xl text-[hsl(var(--text-muted))] italic leading-relaxed">
+            Sacrificial Strata: The Production of Disposable Populations
+          </p>
         </header>
 
         <div className="prose prose-lg max-w-none">
@@ -940,9 +944,9 @@ const Chapter2 = () => {
           </ul>
         </div>
 
-        <footer className="mt-32 pt-12 border-t border-white/5 flex items-center justify-between font-mono text-[10px] uppercase tracking-widest text-muted-foreground">
+        <footer className="mt-20 pt-8 border-t border-[hsl(var(--divider))] flex items-center justify-between text-xs font-mono uppercase tracking-[0.15em] text-[hsl(var(--text-muted))]">
           <span>Jan 2026 / Thesis</span>
-          <span className="text-cardinal">Chapter 02</span>
+          <span className="text-cardinal/60">Chapter 02</span>
         </footer>
       </article>
     </Layout>
