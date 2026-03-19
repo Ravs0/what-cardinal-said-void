@@ -10,6 +10,7 @@ import Chapter2 from "./pages/Chapter2";
 import Article1 from "./pages/Article1";
 import ArticleHaircut from "./pages/ArticleHaircut";
 import ArticleIranUS from "./pages/ArticleIranUS";
+import ArticleMiddleEast from "./pages/ArticleMiddleEast";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -29,6 +30,7 @@ const App = () => (
           <Route path="/article/trade-based-money-laundering" element={<Article1 />} />
           <Route path="/article/haircut-vs-time" element={<ArticleHaircut />} />
           <Route path="/article/iran-us-conflict" element={<ArticleIranUS />} />
+          <Route path="/article/refuge-to-regional-fracture" element={<ArticleMiddleEast />} />
 
           {/* Legacy redirects */}
           <Route path="/chapter-1" element={<Chapter1 />} />

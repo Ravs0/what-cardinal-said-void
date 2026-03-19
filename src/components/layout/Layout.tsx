@@ -25,6 +25,7 @@ const NAV_ITEMS = [
   {
     label: 'Geopolitics',
     children: [
+      { label: 'From Refuge to Regional Fracture', to: '/article/refuge-to-regional-fracture' },
       { label: 'Iran–US Conflict', to: '/article/iran-us-conflict' },
     ],
   },

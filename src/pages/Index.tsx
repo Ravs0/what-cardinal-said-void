@@ -109,6 +109,12 @@ const Index = () => {
           <SectionHeader icon={Globe} sublabel="Geopolitics" label="The World Stage" />
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-8">
             <ArticleCard
+              to="/article/refuge-to-regional-fracture"
+              title="From Refuge to Regional Fracture"
+              subtitle="How Israel's inception and the early Arab-Israeli wars still shape the legal order — from the UN Partition Plan to the 1967 occupation grammar."
+              category="Legal History"
+            />
+            <ArticleCard
               to={`/article/${GEOPOLITICS_PLACEHOLDER.slug}`}
               title={GEOPOLITICS_PLACEHOLDER.title}
               subtitle={GEOPOLITICS_PLACEHOLDER.subtitle}
