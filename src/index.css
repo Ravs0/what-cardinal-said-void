@@ -5,44 +5,44 @@
 @layer base {
   :root {
     /* Matte, readable dark palette */
-    --background: 220 14% 10%;        /* #161b22 deep slate */
-    --foreground: 210 20% 88%;        /* #dde3ec warm light */
+    --background: 220 18% 7%;         /* #0e1219 deep charcoal */
+    --foreground: 210 30% 93%;        /* #e8edf6 cloud white */
 
-    --card: 220 14% 13%;              /* #1c232d card bg */
-    --card-foreground: 210 20% 88%;
+    --card: 220 16% 10%;              /* #141a23 card bg */
+    --card-foreground: 210 30% 93%;
 
-    --popover: 220 14% 13%;
-    --popover-foreground: 210 20% 88%;
+    --popover: 220 16% 10%;
+    --popover-foreground: 210 30% 93%;
 
     --primary: 16 85% 60%;            /* #e8603a cardinal terracotta */
     --primary-foreground: 220 14% 10%;
 
-    --secondary: 220 12% 18%;         /* slightly lighter than bg */
-    --secondary-foreground: 210 20% 75%;
+    --secondary: 220 14% 14%;         /* slightly lighter than bg */
+    --secondary-foreground: 210 25% 78%;
 
-    --muted: 220 12% 18%;
-    --muted-foreground: 215 15% 52%;
+    --muted: 220 14% 14%;
+    --muted-foreground: 215 15% 50%;
 
-    --accent: 220 12% 22%;
-    --accent-foreground: 210 20% 88%;
+    --accent: 220 14% 17%;
+    --accent-foreground: 210 30% 93%;
 
     --destructive: 0 72% 55%;
     --destructive-foreground: 210 20% 88%;
 
-    --border: 220 12% 20%;
-    --input: 220 12% 20%;
+    --border: 220 14% 16%;
+    --input: 220 14% 16%;
     --ring: 16 85% 60%;
 
     --radius: 0.375rem;
 
     /* Named tokens */
     --cardinal: 16 85% 60%;
-    --surface: 220 14% 13%;
-    --surface-raised: 220 12% 16%;
-    --divider: 220 12% 20%;
-    --text-primary: 210 20% 88%;
-    --text-secondary: 215 15% 62%;
-    --text-muted: 215 12% 42%;
+    --surface: 220 16% 10%;
+    --surface-raised: 220 14% 13%;
+    --divider: 220 14% 16%;
+    --text-primary: 210 30% 93%;     /* cloud white */
+    --text-secondary: 215 16% 60%;
+    --text-muted: 215 12% 40%;
   }
 }
 
