@@ -111,7 +111,13 @@ const Index = () => {
             <ArticleCard
               to="/article/refuge-to-regional-fracture"
               title="From Refuge to Regional Fracture"
-              subtitle="How Israel's inception and the early Arab-Israeli wars still shape the legal order — from the UN Partition Plan to the 1967 occupation grammar."
+              subtitle="How Israel's inception and the early Arab-Israeli wars still shape the legal order -- from the UN Partition Plan to the 1967 occupation grammar."
+              category="Legal History"
+            />
+            <ArticleCard
+              to="/article/occupation-to-nationalization"
+              title="From Occupation to Nationalization"
+              subtitle="Iran 1953 and Suez 1956 as twin sovereignty crises that exposed the fault lines of the post-war international order."
               category="Legal History"
             />
             <ArticleCard
