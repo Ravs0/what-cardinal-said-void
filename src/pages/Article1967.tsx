@@ -257,10 +257,10 @@ const Article1967 = () => {
           <h2>The Moment the Legal Order Changed</h2>
 
           <KeyPoint>
-            The strongest way to understand Post 3, then, is not as a military interlude between Suez and later crises. It is at this moment that the Middle East's legal order changed. The disputes of the 1950s were about intervention, access, and sovereignty under pressure. The disputes after 1967 were about occupation, territorial control, legal temporality, and the management of illegality. 1973 did not undo that shift. It made it durable.
+            The strongest way to understand this period, then, is not as a military interlude between Suez and later crises. It is the moment at which the Middle East's legal order changed. The disputes of the 1950s were about intervention, access, and sovereignty under pressure. The disputes after 1967 were about occupation, territorial control, legal temporality, and the management of illegality. 1973 did not undo that shift. It made it durable.
           </KeyPoint>
 
-          <p>From here, the story moves naturally to 1967 and 1973. Once these sovereignty crises pass, the next stage of the regional legal order is shaped less by nationalization and more by occupation, territorial control, Security Council diplomacy, and the long afterlife of unresolved war.</p>
+          <p>Once these sovereignty crises pass, the next stage of the regional legal order is shaped less by nationalization and more by occupation, territorial control, Security Council diplomacy, and the long afterlife of unresolved war.</p>
 
           <div className="my-10 surface rounded-lg p-6">
             <h4 className="font-mono text-[10px] uppercase tracking-[0.2em] text-cardinal mb-2">The shift in three lines</h4>
