@@ -347,15 +347,8 @@ const ArticleIranSuez = () => {
 
         </div>
 
-        {/* Footer nav */}
-        <footer className="mt-20 pt-8 border-t border-[hsl(var(--divider))] flex items-center justify-between text-xs font-mono uppercase tracking-[0.15em] text-[hsl(var(--text-muted))]">
-          <Link to="/" className="hover:text-[hsl(var(--text-secondary))] transition-colors">
-            &larr; Home
-          </Link>
-          <Link to="/article/refuge-to-regional-fracture" className="hover:text-[hsl(var(--text-secondary))] transition-colors">
-            Part 1 &rarr;
-          </Link>
-        </footer>
+        {/* Series Navigation */}
+        <WorldStageNav currentSlug="occupation-to-nationalization" />
       </article>
     </Layout>
   );
