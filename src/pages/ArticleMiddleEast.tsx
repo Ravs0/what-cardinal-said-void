@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import { ArrowLeft } from "lucide-react";
 import Layout from "@/components/layout/Layout";
+import WorldStageNav from "@/components/WorldStageNav";
 
 const ArticleMiddleEast = () => {
   return (
@@ -375,13 +376,8 @@ const ArticleMiddleEast = () => {
 
         </div>
 
-        {/* Footer nav */}
-        <footer className="mt-20 pt-8 border-t border-[hsl(var(--divider))] flex items-center justify-between text-xs font-mono uppercase tracking-[0.15em] text-[hsl(var(--text-muted))]">
-          <Link to="/" className="hover:text-[hsl(var(--text-secondary))] transition-colors">
-            ← Home
-          </Link>
-          <span className="text-amber-500/50">Geopolitics · 01</span>
-        </footer>
+        {/* Series Navigation */}
+        <WorldStageNav currentSlug="refuge-to-regional-fracture" />
       </article>
     </Layout>
   );

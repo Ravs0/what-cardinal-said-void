@@ -121,6 +121,12 @@ const Index = () => {
               category="Legal History"
             />
             <ArticleCard
+              to="/article/1967-1973-occupation"
+              title="1967, 1973, and the Legal Architecture of Occupation"
+              subtitle="How occupation, anti-conquest, and Security Council management became the region's governing legal form."
+              category="Legal History"
+            />
+            <ArticleCard
               to={`/article/${GEOPOLITICS_PLACEHOLDER.slug}`}
               title={GEOPOLITICS_PLACEHOLDER.title}
               subtitle={GEOPOLITICS_PLACEHOLDER.subtitle}
