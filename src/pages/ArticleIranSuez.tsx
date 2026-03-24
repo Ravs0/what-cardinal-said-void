@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import { ArrowLeft } from "lucide-react";
 import Layout from "@/components/layout/Layout";
+import WorldStageNav from "@/components/WorldStageNav";
 
 const PullQuote = ({ children }: { children: React.ReactNode }) => (
   <div className="my-12 relative pl-6 border-l-2 border-cardinal/40">
