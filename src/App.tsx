@@ -13,6 +13,7 @@ import ArticleIranUS from "./pages/ArticleIranUS";
 import ArticleMiddleEast from "./pages/ArticleMiddleEast";
 import ArticleIranSuez from "./pages/ArticleIranSuez";
 import Article1967 from "./pages/Article1967";
+import ArticleHostages from "./pages/ArticleHostages";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -35,6 +36,7 @@ const App = () => (
           <Route path="/article/refuge-to-regional-fracture" element={<ArticleMiddleEast />} />
           <Route path="/article/occupation-to-nationalization" element={<ArticleIranSuez />} />
           <Route path="/article/1967-1973-occupation" element={<Article1967 />} />
+          <Route path="/article/revolution-hostages-iran" element={<ArticleHostages />} />
 
           {/* Legacy redirects */}
           <Route path="/chapter-1" element={<Chapter1 />} />

@@ -127,11 +127,10 @@ const Index = () => {
               category="Legal History"
             />
             <ArticleCard
-              to={`/article/${GEOPOLITICS_PLACEHOLDER.slug}`}
-              title={GEOPOLITICS_PLACEHOLDER.title}
-              subtitle={GEOPOLITICS_PLACEHOLDER.subtitle}
-              category={GEOPOLITICS_PLACEHOLDER.category}
-              upcoming
+              to="/article/revolution-hostages-iran"
+              title="Revolution, Hostages, and the Breakdown of US-Iran Legal Relations"
+              subtitle="How anti-imperial revolution collided with diplomatic law, state responsibility, and a region hardening into a security crisis."
+              category="Legal History"
             />
           </div>
         </section>
