@@ -5,6 +5,7 @@ const SERIES = [
   { slug: "refuge-to-regional-fracture", title: "Part 1: From Refuge to Regional Fracture", short: "Part 1" },
   { slug: "occupation-to-nationalization", title: "Part 2: From Occupation to Nationalization", short: "Part 2" },
   { slug: "1967-1973-occupation", title: "Part 3: 1967, 1973, and Occupation", short: "Part 3" },
+  { slug: "revolution-hostages-iran", title: "Part 4: Revolution, Hostages, and US-Iran Breakdown", short: "Part 4" },
 ];
 
 interface WorldStageNavProps {
