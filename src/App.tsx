@@ -14,6 +14,7 @@ import ArticleMiddleEast from "./pages/ArticleMiddleEast";
 import ArticleIranSuez from "./pages/ArticleIranSuez";
 import Article1967 from "./pages/Article1967";
 import ArticleHostages from "./pages/ArticleHostages";
+import ArticleIranIraq from "./pages/ArticleIranIraq";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
