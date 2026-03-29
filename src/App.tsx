@@ -38,6 +38,7 @@ const App = () => (
           <Route path="/article/occupation-to-nationalization" element={<ArticleIranSuez />} />
           <Route path="/article/1967-1973-occupation" element={<Article1967 />} />
           <Route path="/article/revolution-hostages-iran" element={<ArticleHostages />} />
+          <Route path="/article/iran-iraq-war-militarization" element={<ArticleIranIraq />} />
 
           {/* Legacy redirects */}
           <Route path="/chapter-1" element={<Chapter1 />} />
