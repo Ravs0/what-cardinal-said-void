@@ -132,6 +132,12 @@ const Index = () => {
               subtitle="How anti-imperial revolution collided with diplomatic law, state responsibility, and a region hardening into a security crisis."
               category="Legal History"
             />
+            <ArticleCard
+              to="/article/iran-iraq-war-militarization"
+              title="Iran-Iraq War, Chemical Weapons, Lebanon, and the Militarization of the Region"
+              subtitle="How four distinct crises in a single decade taught Iran that legal clarity, institutional response, and timely protection did not move together."
+              category="Legal History"
+            />
           </div>
         </section>
 
