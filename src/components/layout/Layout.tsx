@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { Menu, X, Github, Rss, ChevronRight } from 'lucide-react';
+import ThemeToggle from '@/components/ThemeToggle';
 
 interface LayoutProps {
   children: React.ReactNode;
