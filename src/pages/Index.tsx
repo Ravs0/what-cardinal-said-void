@@ -175,7 +175,7 @@ const ContentRow = ({
   >
     <span className="font-mono text-xs text-cardinal shrink-0 w-6">{number}</span>
     <div className="flex-grow min-w-0">
-      <h4 className="font-serif text-lg text-[hsl(var(--text-primary))] group-hover:text-white transition-colors leading-snug truncate">
+      <h4 className="font-serif text-lg text-[hsl(var(--text-primary))] group-hover:text-foreground transition-colors leading-snug truncate">
         {title}
       </h4>
       <p className="text-xs text-[hsl(var(--text-muted))] mt-0.5 line-clamp-1 leading-relaxed">{description}</p>
