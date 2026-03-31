@@ -138,6 +138,12 @@ const Index = () => {
               subtitle="How four distinct crises in a single decade taught Iran that legal clarity, institutional response, and timely protection did not move together."
               category="Legal History"
             />
+            <ArticleCard
+              to="/article/kuwait-sanctions-enforcement"
+              title="Kuwait, Sanctions, and the Unipolar Enforcement Model"
+              subtitle="How the strongest case of collective security became a template for prolonged coercive supervision — and what Iran learned from the contrast."
+              category="Legal History"
+            />
           </div>
         </section>
 

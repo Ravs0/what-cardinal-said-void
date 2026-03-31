@@ -7,6 +7,7 @@ const SERIES = [
   { slug: "1967-1973-occupation", title: "Part 3: 1967, 1973, and Occupation", short: "Part 3" },
   { slug: "revolution-hostages-iran", title: "Part 4: Revolution, Hostages, and US-Iran Breakdown", short: "Part 4" },
   { slug: "iran-iraq-war-militarization", title: "Part 5: Iran-Iraq War, Chemical Weapons, and Militarization", short: "Part 5" },
+  { slug: "kuwait-sanctions-enforcement", title: "Part 6: Kuwait, Sanctions, and the Unipolar Enforcement Model", short: "Part 6" },
 ];
 
 interface WorldStageNavProps {
