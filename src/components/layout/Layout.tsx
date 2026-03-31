@@ -118,7 +118,7 @@ const Layout = ({ children }: LayoutProps) => {
           </nav>
 
           {/* Right actions */}
-          <div className="flex items-center gap-2">
+          <div className="flex items-center gap-1">
             <a
               href="/rss.xml"
               target="_blank"
@@ -134,6 +134,8 @@ const Layout = ({ children }: LayoutProps) => {
               className="hidden md:flex btn-ghost"
             >
               <Github className="w-4 h-4" />
+            </a>
+            <ThemeToggle />
             </a>
             {/* Mobile hamburger */}
             <button
