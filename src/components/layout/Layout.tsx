@@ -74,7 +74,7 @@ const Layout = ({ children }: LayoutProps) => {
           {/* Logo */}
           <Link to="/" className="flex items-center gap-2.5 shrink-0 group">
             <div className="w-7 h-7 rounded-full border border-cardinal/40 flex items-center justify-center overflow-hidden bg-cardinal/10 group-hover:bg-cardinal/20 transition-colors">
-              <img src="/logo-clean.png" alt="Logo" className="w-4 h-4 object-contain invert" />
+              <img src="/logo-clean.png" alt="Logo" className="w-4 h-4 object-contain dark:invert" />
             </div>
             <span className="font-serif text-base text-[hsl(var(--text-primary))] leading-none">
               What <span className="text-cardinal">Cardinal</span> Said
