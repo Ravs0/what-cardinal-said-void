@@ -65,7 +65,7 @@ const Layout = ({ children }: LayoutProps) => {
       <header
         className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
           scrolled
-            ? 'bg-[hsl(220_14%_9%/0.97)] backdrop-blur-md border-b border-[hsl(var(--divider))]'
+            ? 'bg-background/97 backdrop-blur-md border-b border-[hsl(var(--divider))]'
             : 'bg-transparent'
         }`}
       >
