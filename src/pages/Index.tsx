@@ -206,7 +206,7 @@ const ArticleCard = ({
         <ArrowRight className="w-4 h-4 text-[hsl(var(--text-muted))] group-hover:text-cardinal group-hover:translate-x-0.5 transition-all duration-200 shrink-0 mt-0.5" />
       )}
     </div>
-    <h4 className="font-serif text-xl text-[hsl(var(--text-primary))] leading-snug mb-3 group-hover:text-white transition-colors">
+    <h4 className="font-serif text-xl text-[hsl(var(--text-primary))] leading-snug mb-3 group-hover:text-foreground transition-colors">
       {title}
     </h4>
     <p className="text-sm text-[hsl(var(--text-muted))] leading-relaxed line-clamp-3">
