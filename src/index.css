@@ -3,21 +3,21 @@
 @tailwind utilities;
 
 @layer base {
-  :root {
+  :root, .dark {
     /* Matte, readable dark palette */
-    --background: 220 18% 7%;         /* #0e1219 deep charcoal */
-    --foreground: 210 30% 93%;        /* #e8edf6 cloud white */
+    --background: 220 18% 7%;
+    --foreground: 210 30% 93%;
 
-    --card: 220 16% 10%;              /* #141a23 card bg */
+    --card: 220 16% 10%;
     --card-foreground: 210 30% 93%;
 
     --popover: 220 16% 10%;
     --popover-foreground: 210 30% 93%;
 
-    --primary: 16 85% 60%;            /* #e8603a cardinal terracotta */
+    --primary: 16 85% 60%;
     --primary-foreground: 220 14% 10%;
 
-    --secondary: 220 14% 14%;         /* slightly lighter than bg */
+    --secondary: 220 14% 14%;
     --secondary-foreground: 210 25% 78%;
 
     --muted: 220 14% 14%;
@@ -35,14 +35,51 @@
 
     --radius: 0.375rem;
 
-    /* Named tokens */
     --cardinal: 16 85% 60%;
     --surface: 220 16% 10%;
     --surface-raised: 220 14% 13%;
     --divider: 220 14% 16%;
-    --text-primary: 210 30% 93%;     /* cloud white */
+    --text-primary: 210 30% 93%;
     --text-secondary: 215 16% 60%;
     --text-muted: 215 12% 40%;
+  }
+
+  .light {
+    --background: 40 30% 96%;
+    --foreground: 220 20% 14%;
+
+    --card: 40 25% 93%;
+    --card-foreground: 220 20% 14%;
+
+    --popover: 40 25% 93%;
+    --popover-foreground: 220 20% 14%;
+
+    --primary: 16 75% 48%;
+    --primary-foreground: 40 30% 96%;
+
+    --secondary: 40 18% 88%;
+    --secondary-foreground: 220 14% 30%;
+
+    --muted: 40 15% 88%;
+    --muted-foreground: 220 10% 50%;
+
+    --accent: 40 18% 85%;
+    --accent-foreground: 220 20% 14%;
+
+    --destructive: 0 72% 50%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 40 15% 84%;
+    --input: 40 15% 84%;
+    --ring: 16 75% 48%;
+
+    --cardinal: 16 75% 48%;
+    --surface: 40 25% 93%;
+    --surface-raised: 40 20% 89%;
+    --divider: 40 15% 84%;
+    --text-primary: 220 20% 14%;
+    --text-secondary: 220 12% 40%;
+    --text-muted: 220 10% 55%;
   }
 }
 
