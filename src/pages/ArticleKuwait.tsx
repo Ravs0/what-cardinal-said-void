@@ -96,7 +96,7 @@ const ResolutionTimeline = () => {
                 <span className={`font-mono text-[9px] uppercase tracking-[0.15em] px-2 py-0.5 rounded ${NATURE_COLORS[r.nature]}`}>
                   Res. {r.id}
                 </span>
-                <span className="text-sm text-[hsl(var(--text-primary))] group-hover:text-white transition-colors">{r.title}</span>
+                <span className="text-sm text-[hsl(var(--text-primary))] group-hover:text-foreground transition-colors">{r.title}</span>
               </div>
 
               {expanded === r.id && (

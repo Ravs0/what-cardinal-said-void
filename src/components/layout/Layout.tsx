@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { Menu, X, Github, Rss, ChevronRight } from 'lucide-react';
+import ThemeToggle from '@/components/ThemeToggle';
 
 interface LayoutProps {
   children: React.ReactNode;
@@ -64,7 +65,7 @@ const Layout = ({ children }: LayoutProps) => {
       <header
         className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
           scrolled
-            ? 'bg-[hsl(220_14%_9%/0.97)] backdrop-blur-md border-b border-[hsl(var(--divider))]'
+            ? 'bg-background/97 backdrop-blur-md border-b border-[hsl(var(--divider))]'
             : 'bg-transparent'
         }`}
       >
@@ -73,7 +74,7 @@ const Layout = ({ children }: LayoutProps) => {
           {/* Logo */}
           <Link to="/" className="flex items-center gap-2.5 shrink-0 group">
             <div className="w-7 h-7 rounded-full border border-cardinal/40 flex items-center justify-center overflow-hidden bg-cardinal/10 group-hover:bg-cardinal/20 transition-colors">
-              <img src="/logo-clean.png" alt="Logo" className="w-4 h-4 object-contain invert" />
+              <img src="/logo-clean.png" alt="Logo" className="w-4 h-4 object-contain dark:invert" />
             </div>
             <span className="font-serif text-base text-[hsl(var(--text-primary))] leading-none">
               What <span className="text-cardinal">Cardinal</span> Said
@@ -117,7 +118,7 @@ const Layout = ({ children }: LayoutProps) => {
           </nav>
 
           {/* Right actions */}
-          <div className="flex items-center gap-2">
+          <div className="flex items-center gap-1">
             <a
               href="/rss.xml"
               target="_blank"
@@ -134,6 +135,7 @@ const Layout = ({ children }: LayoutProps) => {
             >
               <Github className="w-4 h-4" />
             </a>
+            <ThemeToggle />
             {/* Mobile hamburger */}
             <button
               className="md:hidden p-2 rounded text-[hsl(var(--text-secondary))] hover:text-[hsl(var(--text-primary))] hover:bg-[hsl(var(--surface-raised))] transition-colors"
@@ -205,7 +207,7 @@ const Layout = ({ children }: LayoutProps) => {
           <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-8">
             <div className="space-y-2">
               <div className="flex items-center gap-2">
-                <img src="/logo-clean.png" className="w-5 h-5 invert opacity-40" alt="logo" />
+                <img src="/logo-clean.png" className="w-5 h-5 dark:invert opacity-40" alt="logo" />
                 <span className="font-mono text-[11px] tracking-[0.2em] uppercase text-[hsl(var(--text-muted))]">
                   What Cardinal Said
                 </span>

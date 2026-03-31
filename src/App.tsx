@@ -3,6 +3,7 @@ import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { ThemeProvider } from "@/components/ThemeProvider";
 import Index from "./pages/Index";
 import Prologue from "./pages/Prologue";
 import Chapter1 from "./pages/Chapter1";
@@ -21,38 +22,40 @@ import NotFound from "./pages/NotFound";
 const queryClient = new QueryClient();
 
 const App = () => (
-  <QueryClientProvider client={queryClient}>
-    <TooltipProvider>
-      <Toaster />
-      <Sonner />
-      <BrowserRouter>
-        <Routes>
-          <Route path="/" element={<Index />} />
-          <Route path="/prologue" element={<Prologue />} />
-          <Route path="/chapter/prologue" element={<Prologue />} />
-          <Route path="/chapter/that-is-law" element={<Chapter1 />} />
-          <Route path="/chapter/law-for-whom" element={<Chapter2 />} />
-          <Route path="/article/trade-based-money-laundering" element={<Article1 />} />
-          <Route path="/article/haircut-vs-time" element={<ArticleHaircut />} />
-          <Route path="/article/iran-us-conflict" element={<ArticleIranUS />} />
-          <Route path="/article/refuge-to-regional-fracture" element={<ArticleMiddleEast />} />
-          <Route path="/article/occupation-to-nationalization" element={<ArticleIranSuez />} />
-          <Route path="/article/1967-1973-occupation" element={<Article1967 />} />
-          <Route path="/article/revolution-hostages-iran" element={<ArticleHostages />} />
-          <Route path="/article/iran-iraq-war-militarization" element={<ArticleIranIraq />} />
-          <Route path="/article/kuwait-sanctions-enforcement" element={<ArticleKuwait />} />
+  <ThemeProvider>
+    <QueryClientProvider client={queryClient}>
+      <TooltipProvider>
+        <Toaster />
+        <Sonner />
+        <BrowserRouter>
+          <Routes>
+            <Route path="/" element={<Index />} />
+            <Route path="/prologue" element={<Prologue />} />
+            <Route path="/chapter/prologue" element={<Prologue />} />
+            <Route path="/chapter/that-is-law" element={<Chapter1 />} />
+            <Route path="/chapter/law-for-whom" element={<Chapter2 />} />
+            <Route path="/article/trade-based-money-laundering" element={<Article1 />} />
+            <Route path="/article/haircut-vs-time" element={<ArticleHaircut />} />
+            <Route path="/article/iran-us-conflict" element={<ArticleIranUS />} />
+            <Route path="/article/refuge-to-regional-fracture" element={<ArticleMiddleEast />} />
+            <Route path="/article/occupation-to-nationalization" element={<ArticleIranSuez />} />
+            <Route path="/article/1967-1973-occupation" element={<Article1967 />} />
+            <Route path="/article/revolution-hostages-iran" element={<ArticleHostages />} />
+            <Route path="/article/iran-iraq-war-militarization" element={<ArticleIranIraq />} />
+            <Route path="/article/kuwait-sanctions-enforcement" element={<ArticleKuwait />} />
 
-          {/* Legacy redirects */}
-          <Route path="/chapter-1" element={<Chapter1 />} />
-          <Route path="/chapter-2" element={<Chapter2 />} />
-          <Route path="/article-tbml" element={<Article1 />} />
-          <Route path="/article-haircut" element={<ArticleHaircut />} />
+            {/* Legacy redirects */}
+            <Route path="/chapter-1" element={<Chapter1 />} />
+            <Route path="/chapter-2" element={<Chapter2 />} />
+            <Route path="/article-tbml" element={<Article1 />} />
+            <Route path="/article-haircut" element={<ArticleHaircut />} />
 
-          <Route path="*" element={<NotFound />} />
-        </Routes>
-      </BrowserRouter>
-    </TooltipProvider>
-  </QueryClientProvider>
+            <Route path="*" element={<NotFound />} />
+          </Routes>
+        </BrowserRouter>
+      </TooltipProvider>
+    </QueryClientProvider>
+  </ThemeProvider>
 );
 
 export default App;
