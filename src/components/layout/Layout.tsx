@@ -207,7 +207,7 @@ const Layout = ({ children }: LayoutProps) => {
           <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-8">
             <div className="space-y-2">
               <div className="flex items-center gap-2">
-                <img src="/logo-clean.png" className="w-5 h-5 invert opacity-40" alt="logo" />
+                <img src="/logo-clean.png" className="w-5 h-5 dark:invert opacity-40" alt="logo" />
                 <span className="font-mono text-[11px] tracking-[0.2em] uppercase text-[hsl(var(--text-muted))]">
                   What Cardinal Said
                 </span>
