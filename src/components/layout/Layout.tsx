@@ -136,7 +136,6 @@ const Layout = ({ children }: LayoutProps) => {
               <Github className="w-4 h-4" />
             </a>
             <ThemeToggle />
-            </a>
             {/* Mobile hamburger */}
             <button
               className="md:hidden p-2 rounded text-[hsl(var(--text-secondary))] hover:text-[hsl(var(--text-primary))] hover:bg-[hsl(var(--surface-raised))] transition-colors"
