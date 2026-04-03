@@ -144,6 +144,12 @@ const Index = () => {
               subtitle="How the strongest case of collective security became a template for prolonged coercive supervision — and what Iran learned from the contrast."
               category="Legal History"
             />
+            <ArticleCard
+              to="/article/kosovo-illegal-but-legitimate"
+              title="Kosovo and the Birth of the 'Illegal but Legitimate' Age"
+              subtitle="How NATO's 1999 air campaign broke the Charter's monopoly on force authorization — and created an argumentative template that made every subsequent intervention easier to defend."
+              category="Legal History"
+            />
           </div>
         </section>
 
