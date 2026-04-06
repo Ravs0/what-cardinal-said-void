@@ -150,6 +150,12 @@ const Index = () => {
               subtitle="How NATO's 1999 air campaign broke the Charter's monopoly on force authorization — and created an argumentative template that made every subsequent intervention easier to defend."
               category="Legal History"
             />
+            <ArticleCard
+              to="/article/911-to-iraq-preventive-war"
+              title="Expanding Self-Defence and the Rise of Preventive War"
+              subtitle="How a legitimate expansion of self-defence after 9/11 was leveraged into a doctrine of preventive war — and why the two should never be collapsed into one narrative."
+              category="Legal History"
+            />
           </div>
         </section>
 

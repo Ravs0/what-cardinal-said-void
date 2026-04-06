@@ -9,6 +9,7 @@ const SERIES = [
   { slug: "iran-iraq-war-militarization", title: "Part 5: Iran-Iraq War, Chemical Weapons, and Militarization", short: "Part 5" },
   { slug: "kuwait-sanctions-enforcement", title: "Part 6: Kuwait, Sanctions, and the Unipolar Enforcement Model", short: "Part 6" },
   { slug: "kosovo-illegal-but-legitimate", title: "Part 7: Kosovo and the Birth of the 'Illegal but Legitimate' Age", short: "Part 7" },
+  { slug: "911-to-iraq-preventive-war", title: "Part 8: Expanding Self-Defence and the Rise of Preventive War", short: "Part 8" },
 ];
 
 interface WorldStageNavProps {
