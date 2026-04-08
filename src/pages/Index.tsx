@@ -156,6 +156,12 @@ const Index = () => {
               subtitle="How a legitimate expansion of self-defence after 9/11 was leveraged into a doctrine of preventive war — and why the two should never be collapsed into one narrative."
               category="Legal History"
             />
+            <ArticleCard
+              to="/article/arab-spring-bahrain-silence"
+              title="Popular Sovereignty, Selective Support, and Bahrain's Silence"
+              subtitle="How the first phase of the Arab uprisings sorted popular protest into different files — and why Bahrain marks the point at which selective support ceased to be an accusation and became a record."
+              category="Legal History"
+            />
           </div>
         </section>
 
