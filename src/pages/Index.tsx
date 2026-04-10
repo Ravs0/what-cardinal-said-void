@@ -162,6 +162,12 @@ const Index = () => {
               subtitle="How the first phase of the Arab uprisings sorted popular protest into different files — and why Bahrain marks the point at which selective support ceased to be an accusation and became a record."
               category="Legal History"
             />
+            <ArticleCard
+              to="/article/arab-spring-libya-syria-yemen"
+              title="Libya, Syria, Yemen, and the Collapse of Collective Security"
+              subtitle="How three distinct institutional failures — elastic authorization, normalized paralysis, and detached legality — left no major pathway through the Council system fully dependable."
+              category="Legal History"
+            />
           </div>
         </section>
 
