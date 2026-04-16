@@ -168,6 +168,12 @@ const Index = () => {
               subtitle="How three distinct institutional failures — elastic authorization, normalized paralysis, and detached legality — left no major pathway through the Council system fully dependable."
               category="Legal History"
             />
+            <ArticleCard
+              to="/article/iran-us-conflict"
+              title="Structural Incompatibility and Managed Drift"
+              subtitle="How a decade of deferred choices compressed Iran's nuclear breakout from twelve months to three weeks — and why the framework was designed to defer, not resolve."
+              category="Geopolitics"
+            />
           </div>
         </section>
 
