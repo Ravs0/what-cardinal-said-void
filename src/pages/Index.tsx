@@ -23,15 +23,6 @@ const SECTION_META = {
   },
 };
 
-const GEOPOLITICS_PLACEHOLDER = {
-  id: "iran-us-conflict",
-  title: "Iran–US Conflict",
-  subtitle: "An analysis of the escalating Iran–US tensions — legal dimensions, international law, and geopolitical consequences. Article incoming.",
-  slug: "iran-us-conflict",
-  category: "Geopolitics",
-  upcoming: true,
-};
-
 /* ─────────────────────────────── page ─── */
 
 const Index = () => {
