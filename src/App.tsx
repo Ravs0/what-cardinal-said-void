@@ -21,6 +21,7 @@ import ArticleKosovo from "./pages/ArticleKosovo";
 import ArticleIraqWar from "./pages/ArticleIraqWar";
 import ArticleArabSpring from "./pages/ArticleArabSpring";
 import ArticleArabSpringII from "./pages/ArticleArabSpringII";
+import ArticleIranIsraelUS from "./pages/ArticleIranIsraelUS";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -51,6 +52,7 @@ const App = () => (
             <Route path="/article/911-to-iraq-preventive-war" element={<ArticleIraqWar />} />
             <Route path="/article/arab-spring-bahrain-silence" element={<ArticleArabSpring />} />
             <Route path="/article/arab-spring-libya-syria-yemen" element={<ArticleArabSpringII />} />
+            <Route path="/article/between-fire-and-law" element={<ArticleIranIsraelUS />} />
 
             {/* Legacy redirects */}
             <Route path="/chapter-1" element={<Chapter1 />} />

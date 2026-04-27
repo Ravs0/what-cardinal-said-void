@@ -13,6 +13,7 @@ const SERIES = [
   { slug: "arab-spring-bahrain-silence", title: "Part 9: Popular Sovereignty, Selective Support, and Bahrain's Silence", short: "Part 9" },
   { slug: "arab-spring-libya-syria-yemen", title: "Part 10: Libya, Syria, Yemen, and the Collapse of Collective Security", short: "Part 10" },
   { slug: "iran-us-conflict", title: "Part 11: Structural Incompatibility and Managed Drift", short: "Part 11" },
+  { slug: "between-fire-and-law", title: "Part 12: Between Fire and Law", short: "Part 12" },
 ];
 
 interface WorldStageNavProps {
