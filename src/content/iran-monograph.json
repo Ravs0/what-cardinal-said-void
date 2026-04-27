@@ -1,0 +1,2035 @@
+{
+  "title": "Between Fire and Law",
+  "subtitle": "The Iran-Israel-United States Conflict of 2023-2026: A Multi-Perspectival Legal, Strategic, and Normative Analysis",
+  "sections": [
+    {
+      "id": "abstract",
+      "number": "",
+      "label": "Abstract",
+      "title": "",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "This Article examines the 2023-2026 armed conflict between Iran, Israel, and the United States through a multi-perspectival legal analysis. Rather than imposing external normative standards, the Article measures each State's conduct against its own declared constitutional principles, treaty obligations, and strategic interests, a methodology of _internal coherence assessment_. Drawing upon primary sources including ICJ jurisprudence (_Nicaragua_, _Oil Platforms_, _Wall_), UN Charter provisions, IAEA safeguards reports (GOV/2025/53, GOV/2025/65), UNSC resolutions, and domestic constitutional instruments, the Article reconstructs fourteen analytical perspectives covering primary belligerents, secondary actors, bystander States, and maritime dimensions."
+        },
+        {
+          "type": "p",
+          "text": "The central finding is that the most significant legal failures occurred not through violation of external norms but through _internal incoherence_,States acting in contradiction to their own declared values and institutional processes. Executive concentration of war powers without legislative oversight, proxy relationships bypassing formal constitutional authorization, and unresolved tensions between security-alliance commitments and diplomatic-neutrality claims produced the widest divergence between conduct and self-declared standards. The Article concludes with specific institutional reform recommendations grounded in each State's own legal architecture."
+        }
+      ]
+    },
+    {
+      "id": "sec-1",
+      "number": "I.",
+      "label": "",
+      "title": "Introduction: The Persistence of Law in Armed Conflict",
+      "blocks": [
+        {
+          "type": "lead",
+          "text": "Every war produces its lawyers. The 2023-2026 Middle East conflict was no exception. Within weeks of the Hamas attack on 7 October 2023, the region's battlefields were joined by a second front: the terrain of legal justification. Israel invoked Article 51 to defend its Gaza campaign. Iran invoked the same provision to defend its missile strikes on Israel. The United States offered three distinct legal theories for three distinct military campaigns. Russia cited its Constitution. China cited its neutrality. Each State found in international law exactly what it needed: permission. The pattern would have been familiar to the late-nineteenth-century international lawyers who built this system. They designed it to be flexible. They did not design it to be honest."
+        },
+        {
+          "type": "p",
+          "text": "The human cost was staggering. OCHA estimates over 46,000 Palestinians killed in Gaza during the 15-month campaign; over 4,000 Lebanese civilians in the Israel-Hezbollah conflict; hundreds more in direct strikes between Iran and Israel. The United States conducted over 170 strikes against Houthi targets in Yemen while maintaining operations in Syria and Iraq. By February 2026, when the United States and Israel launched joint strikes on Iran itself, the conflict had become the most sustained interstate confrontation in the Persian Gulf since the Iran-Iraq War of 1980-1988."
+        },
+        {
+          "type": "p",
+          "text": "What made this conflict unusual was not the violence but the legalism. Every major military operation came wrapped in a legal brief. Israel cited Article 51 for its Gaza campaign and again for its strikes on Iranian nuclear facilities, this time as \"anticipatory self-defence against an existential threat.\" Iran cited Article 51 for its April 2024 missile attacks on Israel, calling them a response to Israeli strikes on Iranian diplomatic premises in Damascus. The United States offered three legal theories for three campaigns: collective self-defence of Israel, individual self-defence of U.S. personnel, and enforcement of navigational rights under UNCLOS. Each theory was plausible in isolation. None survived contact with the facts."
+        },
+        {
+          "type": "h3",
+          "text": "A. The Central Questions"
+        },
+        {
+          "type": "p",
+          "text": "This Article asks a question that international lawyers prefer to avoid: _when States invoke law to justify their wars, does the law constrain them or merely decorate them?_ The question is not whether the 2023-2026 conduct was legal. That question, as this Article shows, can be answered any way you like, depending on which legal framework you select and how generously you interpret it. The question, rather, is whether the law means anything at all when every belligerent can find a legal theory to fit its preferred outcome."
+        },
+        {
+          "type": "p",
+          "text": "Three problems structure the analysis. First, the legal standards themselves are indeterminate. The ICJ held in _Nicaragua_ that Article 51 self-defence applies only in response to \"armed attacks\" attributable to States (Merits, Judgment, I.C.J. Reports 1986, p. 14, paras. 115, 237-238), but left the threshold for non-State actor attacks uncertain (_Wall_, Advisory Opinion, I.C.J. Reports 2004, p. 136, paras. 139-140). The temporal scope of self-defence, whether it extends to \"anticipatory\" action against future threats, remains contested: the United States claims a broad pre-emptive right; most States and the ICJ do not. The gap between these positions is not a failure of interpretation. It is the structure of the system."
+        },
+        {
+          "type": "p",
+          "text": "Second, attribution in proxy relationships defeats every available legal test. The ICJ's \"effective control\" standard from _Nicaragua_ (para. 115) requires State direction over specific military operations, a threshold so high that even obvious State involvement fails to satisfy it. The ICTY's \"overall control\" test from _Tadic_ (Appeals Chamber, 15 July 1999, para. 131) lowers the bar, but neither standard captures what actually happens between Iran and Hezbollah, or between the United States and Israel. The law of attribution was built for a world of formal hierarchies. It breaks down in a world of informal dependence."
+        },
+        {
+          "type": "p",
+          "text": "Third, domestic constitutional law has become a mirror of international law's indeterminacy. The U.S. President launched strikes on Iran without Congressional authorization, arguing simultaneously that the operations fell within his Commander-in-Chief authority and that they were too limited to trigger the War Powers Resolution's 60-day clock. The argument cannot work both ways: either the strikes were significant enough to require authorization, or they were too minor to count as war. The Administration claimed both. Iran's Supreme Leader directed military operations without reference to the Majlis, raising the question of whether the Islamic Republic's constitutional separation of powers has any operational significance at all. In both cases, domestic law proved as malleable as the international law it was supposed to enforce."
+        },
+        {
+          "type": "h3",
+          "text": "B. Methodological Approach"
+        },
+        {
+          "type": "p",
+          "text": "This Article adopts a methodology of **internal coherence assessment**: measuring each State's conduct against its own declared principles, constitutional procedures, and strategic interests, rather than imposing external normative frameworks. The approach has three virtues. It avoids the charge, routinely levelled against Western-centric international law, that standards are applied selectively. It exposes contradictions that are more damaging to State legitimacy than violations of rules nobody agreed to. And it produces reform recommendations that are institutionally grounded rather than aspirational. A State that violates its own constitutional requirements for going to war has failed on terms it set for itself. No external tribunal is needed. The failure is self-evident."
+        },
+        {
+          "type": "p",
+          "text": "The Article proceeds through fourteen analytical sections. Sections I-IV provide framework, methodology, chronology, and damage assessment. Sections V-VII present detailed legal analyses of the three primary belligerents: the United States, Iran, and Israel. Sections VIII-IX examine secondary actors whose participation was legally consequential despite not being primary belligerents: Lebanon and the Gulf Arab States. Section X analyzes the maritime dimensions of the conflict, where legal frameworks from UNCLOS and the San Remo Manual intersected with strategic imperatives. Section XI examines the roles of Russia and China as \"Great Power\" actors whose legal positions shaped but did not determine conflict outcomes. Section XII synthesizes the fourteen perspectives into a unified assessment. Section XIII offers specific institutional reform recommendations grounded in each State's legal architecture. Section XIV concludes."
+        },
+        {
+          "type": "p",
+          "text": "The central finding is that the most significant legal failures occurred not through violation of external norms but through _internal incoherence_: States acting in contradiction to their own declared values and institutional processes. Executive concentration of war powers without legislative oversight, proxy relationships bypassing formal constitutional authorization, and unresolved tensions between security-alliance commitments and diplomatic-neutrality claims produced the widest divergence between conduct and self-declared standards."
+        }
+      ]
+    },
+    {
+      "id": "sec-2",
+      "number": "II.",
+      "label": "",
+      "title": "Methodology: Internal Coherence Assessment",
+      "blocks": [
+        {
+          "type": "lead",
+          "text": "How do you judge a State's conduct when the State itself denies the court's jurisdiction? This Part sets out the Article's answer: you measure the State against its own rules. The methodology of internal coherence assessment asks not whether a State violated international law, but whether it acted consistently with its own declared principles, constitutional procedures, and strategic interests. The question sounds simple. Its implications are not."
+        },
+        {
+          "type": "h3",
+          "text": "A. The Concept of Internal Coherence"
+        },
+        {
+          "type": "p",
+          "text": "The conventional approach to evaluating State conduct in armed conflict starts from the outside. Analysts take the UN Charter, IHL treaties, and customary international law, measure State conduct against those standards, and pronounce violations or compliance. The approach has virtues. It treats all States equally, applies stable and pre-existing rules, and connects individual conflicts to broader normative systems."
+        },
+        {
+          "type": "p",
+          "text": "But in politically polarized contexts, the external approach collapses. States accused of violations claim selective application: Western powers escape scrutiny while adversaries face condemnation. These claims are not without foundation. The United States has never accepted the ICC's jurisdiction. Israel has rejected ICJ findings on the Wall and the Occupied Palestinian Territory. Iran has withdrawn from or refused to ratify numerous human rights instruments while citing Western double standards. When every accused State can point to an accuser's impunity, the external framework loses its moral force."
+        },
+        {
+          "type": "p",
+          "text": "Internal coherence assessment addresses this legitimacy deficit by shifting the question. Rather than \"Did State X violate international law?\" we ask \"Did State X act consistently with its own declared principles, constitutional procedures, and strategic interests?\" The advantages are three:"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**Legitimacy:** It deprives States of the \"Western double standards\" defense. You cannot cry bias when the court applies your own law.",
+            "**Reform feasibility:** Recommendations grounded in a State's existing constitutional architecture are more actionable than appeals to norms the State never accepted.",
+            "**Revelatory power:** Internal contradictions reveal strategic miscalculations and institutional pathologies more clearly than external violations. A State that violates its own constitution has failed on terms it set for itself."
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "B. Legal Frameworks Applied"
+        },
+        {
+          "type": "p",
+          "text": "The Article applies multiple legal frameworks, each relevant to different actors and contexts:"
+        },
+        {
+          "type": "treaty",
+          "text": "**UN Charter Article 2(4):** \"All Members shall refrain in their international relations from the threat or use of force against the territorial integrity or political independence of any state, or in any other manner inconsistent with the Purposes of the United Nations.\"\n\n\n**UN Charter Article 51:** \"Nothing in the present Charter shall impair the inherent right of individual or collective self-defence if an armed attack occurs against a Member of the United Nations, until the Security Council has taken measures necessary to maintain international peace and security.\""
+        },
+        {
+          "type": "p",
+          "text": "The ICJ has interpreted these provisions in three seminal cases. In _Military and Paramilitary Activities in and against Nicaragua_ (Merits, Judgment, I.C.J. Reports 1986, p. 14), the Court held that Article 51 self-defence requires an \"armed attack\",a concept not coextensive with any use of force, but requiring \"most grave forms of the use of force\" (para. 191). The Court distinguished between direct State aggression and assistance to rebels, holding that the latter does not constitute armed attack absent \"effective control\" by the assisting State (paras. 115, 237-238)."
+        },
+        {
+          "type": "p",
+          "text": "In _Oil Platforms_ (Islamic Republic of Iran v. United States of America, Judgment, I.C.J. Reports 2003, p. 161), the Court clarified that even where an armed attack has occurred, self-defence measures must satisfy strict necessity and proportionality requirements. The Court rejected U.S. claims that attacks on Iranian oil platforms were justified as self-defence, finding that the alleged Iranian attacks on neutral shipping did not constitute armed attacks against the United States and that the U.S. response was disproportionate (paras. 51, 77)."
+        },
+        {
+          "type": "p",
+          "text": "In _Legal Consequences of the Construction of a Wall_ (Advisory Opinion, I.C.J. Reports 2004, p. 136), the Court held that Article 51 applies only against attacks emanating from outside the defending State's territory, excluding self-defence claims in occupied territory (para. 139). The Court also affirmed that Article 51 applies to attacks by non-State actors, though with uncertain thresholds (para. 140)."
+        },
+        {
+          "type": "p",
+          "text": "International humanitarian law provides the second major framework. The principles of distinction (between combatants and civilians), proportionality (between military advantage and incidental harm), and precaution (in attack and against effects of attack) govern the conduct of hostilities. The United States and Israel are not parties to Additional Protocol I of 1977, but both accept that its core provisions reflect customary international law, a position the ICJ has endorsed."
+        },
+        {
+          "type": "h3",
+          "text": "C. Evidentiary Standards"
+        },
+        {
+          "type": "p",
+          "text": "The Article relies on primary sources including: (1) official statements by State representatives; (2) UN Security Council and General Assembly records; (3) ICJ pleadings and judgments; (4) IAEA Board of Governors reports; (5) documented operational orders where available; and (6) verified media reporting from multiple national sources. Where facts remain disputed, the Article notes evidentiary gaps rather than assuming contested propositions."
+        },
+        {
+          "type": "h3",
+          "text": "D. International Humanitarian Law Framework"
+        },
+        {
+          "type": "p",
+          "text": "Beyond the UN Charter's jus ad bellum provisions governing the recourse to force, international humanitarian law (IHL) governs the conduct of hostilities once armed conflict has commenced. The four Geneva Conventions of 1949 and their two Additional Protocols of 1977 constitute the treaty core of IHL, supplemented by extensive customary international law as codified in the ICRC's Customary IHL Study (Henckaerts & Doswald-Beck, 2005)."
+        },
+        {
+          "type": "p",
+          "text": "The fundamental principles of IHL (distinction, proportionality, precaution, and humanity) apply to all parties in armed conflict regardless of the legality of the initial resort to force (_jus in bello_ independence from _jus ad bellum_). Article 48 of Additional Protocol I mandates that parties \"shall at all times distinguish between the civilian population and combatants and between civilian objects and military objectives and accordingly shall direct their operations only against military objectives.\" Article 51(5)(b) prohibits attacks expected to cause incidental civilian harm \"excessive in relation to the concrete and direct military advantage anticipated.\" Article 57 requires parties to \"take all feasible precautions\" to avoid or minimize incidental civilian harm."
+        },
+        {
+          "type": "p",
+          "text": "The United States is not a party to Additional Protocol I but maintains that its core provisions reflect customary international law, a position articulated in the Department of Defense Law of War Manual (June 2015, updated July 2023). Israel has similarly taken the position that AP I's targeting provisions reflect customary law, though it has not formally ratified the Protocol. Iran ratified AP I on 24 June 1997, making its provisions binding treaty law for Iranian forces."
+        },
+        {
+          "type": "p",
+          "text": "The targeting of nuclear facilities raises specific IHL questions. Article 56 of AP I generally prohibits attacks on \"works or installations containing dangerous forces, namely dams, dykes and nuclear electrical generating stations,\" if such attack \"may cause the release of dangerous forces and consequent severe losses among the civilian population.\" The prohibition contains an exception for installations \"used in regular, significant and direct support of military operations and if such attack is the only feasible way to terminate such support\",a narrow exception that places a heavy burden on attacking States to demonstrate both military necessity and absence of alternative means."
+        },
+        {
+          "type": "h3",
+          "text": "E. Nuclear Non-Proliferation Law"
+        },
+        {
+          "type": "p",
+          "text": "The Treaty on the Non-Proliferation of Nuclear Weapons (NPT, 1968) establishes the global framework for nuclear non-proliferation and disarmament. Its three pillars,non-proliferation, disarmament, and peaceful uses of nuclear energy,are reflected in Articles I through VI. Article II commits non-nuclear-weapon States to accept IAEA safeguards and not to \"receive the transfer from any transferor whatsoever of nuclear weapons or other nuclear explosive devices or of control over such weapons or explosive devices directly, or indirectly.\""
+        },
+        {
+          "type": "p",
+          "text": "IAEA safeguards agreements, based on INFCIRC/153 (Corrected), require non-nuclear-weapon States to declare all nuclear material and activities to the Agency and to permit verification inspections. The Additional Protocol (INFCIRC/540) significantly expands the Agency's access rights, including to undeclared sites. Iran implemented the Additional Protocol voluntarily from 2003 to 2006, then suspended implementation, then re-implemented it under the 2015 Joint Comprehensive Plan of Action (JCPOA), then suspended again in 2021."
+        },
+        {
+          "type": "p",
+          "text": "The IAEA Director General's reports to the Board of Governors (GOV/2025/53 and GOV/2025/65) documented Iran's enrichment activities at levels far exceeding JCPOA limits,reaching 60% U-235 at Fordow and Natanz, with total enriched uranium stockpiles exceeding 5,000 kg. While 60% enrichment is below the 90% typically considered weapons-grade, the technical gap between 60% and 90% is relatively small, and stockpiles at 60% represent significant progress toward breakout capability."
+        },
+        {
+          "type": "h3",
+          "text": "F. State Responsibility and Attribution Standards"
+        },
+        {
+          "type": "p",
+          "text": "The International Law Commission's Articles on Responsibility of States for Internationally Wrongful Acts (ARSIWA, 2001) provide the foundational framework for attributing conduct to States and determining consequences of breaches. Article 1 establishes the basic principle: \"Every internationally wrongful act of a State entails the international responsibility of that State.\" An internationally wrongful act requires conduct attributable to the State under international law and a breach of an international obligation."
+        },
+        {
+          "type": "p",
+          "text": "Articles 4 through 11 address attribution. Article 4 attributes conduct of State organs to the State. Article 5 attributes conduct of entities exercising governmental authority. Article 8 addresses conduct directed or controlled by a State, the provision most relevant to proxy warfare. Article 8 provides: \"The conduct of a person or group of persons shall be considered an act of a State under international law if the person or group of persons is in fact acting on the instructions of, or under the direction or control of, that State in carrying out the conduct.\""
+        },
+        {
+          "type": "p",
+          "text": "The ICJ in _Nicaragua_ interpreted Article 8's predecessor (then Draft Article 8) to require \"effective control\" over specific military operations, rejecting the broader \"overall control\" test later adopted by the ICTY in _Tadic_. The divergence between these standards remains unresolved in international law. The ILC Commentaries to ARSIWA note that \"the criterion has sometimes been stated in terms of a requirement that the State directed or controlled the specific operation and the conduct complained of was an integral part of that operation\",language reflecting the ICJ's stricter approach."
+        },
+        {
+          "type": "p",
+          "text": "For this Article's purposes, the evidentiary standard is preponderance of the evidence: where available evidence indicates a probability greater than 50% that a State directed or controlled specific conduct, attribution is warranted. Where evidence is insufficient, the Article notes the evidentiary gap rather than assuming attribution or non-attribution."
+        }
+      ]
+    },
+    {
+      "id": "sec-war-powers",
+      "number": "II.A.",
+      "label": "",
+      "title": "Domestic War Powers: What Each State's Own Law Requires",
+      "blocks": [
+        {
+          "type": "lead",
+          "text": "Before asking whether States violated international law, we should ask a simpler question: did they even follow their own? Every State examined in this Article has domestic rules for going to war. Some are constitutional (the U.S. Congress declares war; Iran's Supreme Leader does). Some are statutory (the War Powers Resolution; Israel's Basic Law Article 40). Some are simply absent (India has no war powers framework at all). This Part lays out what each State's own law requires and then measures 2026 conduct against those requirements. The results are not encouraging."
+        },
+        {
+          "type": "h3",
+          "text": "A. United States: The Constitutional Crisis of Operation Epic Fury"
+        },
+        {
+          "type": "p",
+          "text": "The U.S. Constitution allocates war powers between Congress and the President through two provisions:"
+        },
+        {
+          "type": "treaty",
+          "text": "**Article I, Section 8, Clause 11:** \"The Congress shall have Power... To declare War, grant Letters of Marque and Reprisal, and make Rules concerning Captures on Land and Water.\"\n\n\n**Article II, Section 2, Clause 1:** \"The President shall be Commander in Chief of the Army and Navy of the United States, and of the Militia of the several States, when called into the actual Service of the United States.\""
+        },
+        {
+          "type": "p",
+          "text": "The design is straightforward: Congress decides whether to go to war; the President commands the forces once war begins. Hamilton spelled this out in Federalist No. 69, contrasting the President's authority with the British Crown's: \"The President is to be commander-in-chief of the army and navy of the United States. In this respect his authority would be nominally the same with that of the king of Great Britain, but in substance much inferior to it. It would amount to nothing more than the supreme command and direction of the military and naval forces... while that of the British king extends to the declaring of war.\" Two centuries later, the distinction has collapsed."
+        },
+        {
+          "type": "p",
+          "text": "The 1973 War Powers Resolution (50 U.S.C. §§ 1541-1548) was Congress's attempt to enforce this allocation. Section 1541(c) provides: \"The constitutional powers of the President as Commander-in-Chief to introduce United States Armed Forces into hostilities, or into situations where imminent involvement in hostilities is clearly indicated by the circumstances, are exercised only pursuant to (1) a declaration of war, (2) specific statutory authorization, or (3) a national emergency created by attack upon the United States, its territories or possessions, or its armed forces.\""
+        },
+        {
+          "type": "p",
+          "text": "**Application to Operation Epic Fury.** None of the three conditions in Section 1541(c) was satisfied on 28 February 2026. There was no declaration of war. There was no specific statutory authorization, the 2001 AUMF (al-Qaeda) and 2002 AUMF (Iraq) were inapplicable to Iran. There was no attack on the United States, its territories, or its armed forces that created a national emergency. The strikes were initiated during active negotiations; Iran had not attacked U.S. forces or territory. The Administration's fallback theory, that Article II Commander-in-Chief authority independently authorizes offensive strikes against a sovereign State, was precisely the theory the War Powers Resolution was enacted to reject."
+        },
+        {
+          "type": "p",
+          "text": "Stanford's Allen Weiner put it plainly: the OLC standard for \"war in the constitutional sense\" requires \"prolonged and substantial military engagements, typically involving exposure of U.S. military personnel to significant risk over a substantial period.\" By that standard, the initial strikes might not qualify. But Trump himself said the campaign would last \"four to five weeks,\" possibly \"far longer than that,\" and hadn't ruled out ground troops. The longer the campaign runs, the harder it becomes to deny that this is war in the constitutional sense, requiring congressional approval."
+        },
+        {
+          "type": "p",
+          "text": "Then there are Trump's own words. Asked about limits on presidential power in a January 2025 New York Times interview, he answered: \"My own morality. My own mind. It's the only thing that can stop me.\" And: \"I don't need international law.\" The official who launched Operation Epic Fury was telling the public, in advance, that he recognized no legal constraints on his power. That isn't a legal argument. It is a confession."
+        },
+        {
+          "type": "p",
+          "text": "U.S. War Powers Compliance ScorecardDomestic Law Assessment"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "No declaration of war: FAILED",
+            "No statutory authorization: FAILED",
+            "No national emergency from attack: FAILED",
+            "All 3 WPR conditions unsatisfied"
+          ]
+        },
+        {
+          "type": "ul",
+          "items": [
+            "48-hour report: UNCERTAIN",
+            "60-day clock: EXPIRED",
+            "Congressional authorization: NONE",
+            "Statutory violation likely"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "B. Iran: The Supreme Leader's Monopoly on War"
+        },
+        {
+          "type": "p",
+          "text": "Iran's 1979 Constitution builds a hybrid: republican institutions on the surface, clerical supremacy underneath. War powers sit entirely with the Supreme Leader."
+        },
+        {
+          "type": "treaty",
+          "text": "**Constitution of Iran, Article 110:** \"Following are the duties and powers of the Leader: ... 3. Supreme command over all armed forces... 4. Declaration of war, peace, and mobilization of the armed forces.\"\n\n\n**Article 176:** \"The Supreme National Security Council... shall be formed... for the purpose of... determining the defense and national security policies within the framework of general policies determined by the Leader... [Its] resolutions shall be effective after their confirmation by the Leader.\""
+        },
+        {
+          "type": "p",
+          "text": "Unlike the U.S. system, Iran's Constitution gives the Majlis (parliament) _no_ role in war powers. No vote to declare war. No authorization of operations. No review of the Leader's military decisions. The Supreme National Security Council (SNSC), chaired by the President, can formulate defense policy, but its resolutions need the Leader's confirmation, making the SNSC advisory rather than decisional. The Leader decides. Everyone else advises."
+        },
+        {
+          "type": "p",
+          "text": "**Application to True Promise IV.** Iran's retaliatory strikes of 28 February-2 March 2026 were constitutionally authorized if ordered by the Supreme Leader. But here is the problem: Ali Khamenei was assassinated on 28 February. The official vested with exclusive war powers was dead. Under Article 111, a \"Leadership Council\" (comprising the President, the Chief Justice, and a clerical member of the Guardian Council) assumes the Leader's duties pending selection of a successor. Whether this Council authorized True Promise IV, or whether the IRGC acted on its own authority, is unclear from public reporting. That ambiguity is itself a constitutional crisis."
+        },
+        {
+          "type": "p",
+          "text": "If the IRGC launched True Promise IV without Leadership Council authorization, the operation violated Iran's own constitutional allocation. Article 150 designates the IRGC a \"guardian of the Revolution,\" but that status doesn't grant independent war-making authority. The IRGC's commander is appointed by and reports to the Leader. An unauthorized IRGC strike would be the mirror image of the U.S. problem: military institutions acting beyond their constitutional mandate."
+        },
+        {
+          "type": "p",
+          "text": "The Strait of Hormuz closure raises a separate domestic law question. Article 176 assigns the SNSC responsibility for \"determining the defense and national security policies.\" Was Hormuz closure an SNSC decision or an IRGC operational decision? If the IRGC closed Hormuz without SNSC or Leadership Council authorization, the closure was ultra vires, a military organ acting beyond its legal authority. That is precisely the kind of institutional overreach this methodology identifies."
+        },
+        {
+          "type": "h3",
+          "text": "C. Israel: Article 40 and the Ambiguity of \"War\""
+        },
+        {
+          "type": "p",
+          "text": "Israel's Basic Law: The Government (2001) establishes the war powers framework:"
+        },
+        {
+          "type": "treaty",
+          "text": "**Basic Law: The Government, Article 40(a):** \"The state may only begin a war, take offensive military action liable to imply a danger of war, or carry out a significant military operation, with the approval of the government.\"\n\n\n**Article 40(b):** \"Should the Prime Minister find that there is an urgent need to begin a war, take such action, or carry out such operation, and it is impossible to delay until a government decision has been reached, he may act without such decision, with the approval of the Minister of Defence.\"\n\n\n**Article 40(a)(1):** \"The government may delegate the authority to decide to go to war to the cabinet, either for specific cases or on a permanent basis.\""
+        },
+        {
+          "type": "p",
+          "text": "The key ambiguity: what counts as \"war\" versus a \"significant military operation\"? Article 40(a) requires government approval for both, but \"significant\" has no defined threshold. Israel has never formally declared war against any adversary since 1948. Every major military operation has been conducted under Article 40(b) or through cabinet delegation under Article 40(a)(1). The word \"war\" has become a legal fiction."
+        },
+        {
+          "type": "p",
+          "text": "In 2018, the government authorized the security cabinet to make war decisions on a permanent basis. To activate this delegation, the Prime Minister need only determine that it is necessary for security, foreign relations, or confidentiality. The practical effect was to move war powers from the full government, where dissenting ministers might object, to a smaller body more amenable to the Prime Minister's direction."
+        },
+        {
+          "type": "p",
+          "text": "**Application to Operation Roaring Lion.** Defense Minister Israel Katz labeled the 28 February 2026 strikes a \"pre-emptive attack.\" Under Article 40, a \"pre-emptive attack\" is either \"war\" or \"offensive military action liable to imply a danger of war,\" both requiring government or cabinet approval. The operation's scale, 500 targets, 1,200 bombs, 20,000 reservists called up, plainly exceeded the threshold for \"significant military operation.\" Whether the full government, the security cabinet, or only the Prime Minister and Defense Minister approved the operation determines constitutional compliance."
+        },
+        {
+          "type": "p",
+          "text": "The Winograd Commission (2008), established after the Second Lebanon War, recommended that war cabinets include members with relevant military experience and that the full government retain oversight over major operational decisions. Operation Roaring Lion appears to have been planned for months, yet the Knesset was informed only after execution. The absence of prior Knesset notification (while consistent with Israel's historical practice) contradicts the Winograd recommendations and the spirit of Article 40's requirement of governmental approval."
+        },
+        {
+          "type": "p",
+          "text": "**Application to Operation Eternal Darkness.** The 8 April 2026 strikes on Lebanon raise a different question: does a ceasefire agreed by the government bind later military operations? If the cabinet approved the Pakistan-mediated ceasefire, and Operation Eternal Darkness was launched without a fresh cabinet decision, the operation violated Article 40. If the cabinet approved both the ceasefire and the Lebanon strikes, the problem isn't procedure but substance: you cannot coherently agree to a ceasefire and simultaneously launch the war's largest operation."
+        },
+        {
+          "type": "h3",
+          "text": "D. Russia: Constitutional Formalism and Presidential Dominance"
+        },
+        {
+          "type": "p",
+          "text": "Russia's 1993 Constitution (as amended 2020) allocates war powers as follows:"
+        },
+        {
+          "type": "treaty",
+          "text": "**Constitution of Russia, Article 87:** \"The President of the Russian Federation shall be the Supreme Commander-in-Chief of the Armed Forces of the Russian Federation.\"\n\n\n**Article 102:** \"The Federation Council... [shall approve] the use of the Armed Forces of the Russian Federation outside the territory of the Russian Federation...\"\n\n\n**Federal Law on Defence (1996), Article 101:** \"The President of the Russian Federation... takes the decision on the dispatch of units of the Armed Forces outside the territory of the Russian Federation... on the basis of a resolution of the Federation Council.\""
+        },
+        {
+          "type": "p",
+          "text": "On paper, Russia's war powers look like the U.S. system: the President commands, the Federation Council approves overseas deployments. In practice, the 2020 constitutional amendments strengthened presidential authority, and the Federation Council has never rejected a presidential military proposal. The 2022 invasion of Ukraine was authorized by the Federation Council the day after it began. A rubber stamp. Constitutional form satisfied; substantive oversight drained of meaning."
+        },
+        {
+          "type": "p",
+          "text": "**Application to intelligence sharing with Iran.** Russia's provision of satellite intelligence to Iran doesn't involve \"dispatch of units outside the territory.\" It is intelligence cooperation, not military deployment. Under Russian law, that falls within the President's Commander-in-Chief authority and the FSB/SVR mandates. No Federation Council approval needed. So Russia's domestic law permits its Iran-war conduct. The irony is that its own Ukraine invasion, which _did_ require Federation Council approval (obtained retroactively), represents a more significant constitutional violation."
+        },
+        {
+          "type": "p",
+          "text": "Russia's internal incoherence is between compliance and form. Intelligence sharing with Iran is legally authorized. Federation Council approval for Ukraine was obtained but substantively meaningless. The formal compliance masks the hollowing of legislative oversight. The same pattern appears in all six States examined."
+        },
+        {
+          "type": "h3",
+          "text": "E. China: The Central Military Commission's Expanding Authority"
+        },
+        {
+          "type": "p",
+          "text": "China's war powers framework underwent significant revision in December 2020, when the National Defence Law was amended to strengthen the Central Military Commission (CMC) at the expense of the State Council:"
+        },
+        {
+          "type": "treaty",
+          "text": "**National Defence Law (2020 revision), Article 12:** \"The National People's Congress, pursuant to the Constitution, decides on issues of war and peace... The Standing Committee of the National People's Congress, pursuant to the Constitution, decides on the proclamation of a state of war, and on general or partial mobilization.\"\n\n\n**Article 13:** \"The President of the People's Republic of China, in pursuance of the decisions of the National People's Congress or its Standing Committee, proclaims a state of war, issues mobilization orders.\"\n\n\n**Article 15:** \"The Central Military Commission directs all the armed forces of the country and exercises the following authority: (1) to exercise unified command of all the armed forces... (2) to decide on military strategies and form concepts of operations for the armed forces...\""
+        },
+        {
+          "type": "p",
+          "text": "The 2020 amendments removed the State Council (China's cabinet) from defense policy-making entirely, transferring those powers to the CMC, which Xi Jinping heads. The SCMP reported that the amendments \"weaken the role of the State Council in formulating military policy, handing decision-making powers to the CMC.\" For the first time, \"disruption\" and protection of \"development interests\" were added as grounds for mobilization. That language is broad enough to cover economic security operations far short of traditional warfare."
+        },
+        {
+          "type": "p",
+          "text": "**Application to dual-use technology transfers to Iran.** China's export of dual-use technologies (BeiDou navigation data, SMIC chipmaking tools, reconnaissance satellite imagery, sodium perchlorate) to Iran during the war falls within the CMC's authority over \"military strategies\" and \"international military exchange and cooperation\" (Article 15(11)). The CMC, not the State Council, now controls decisions about military cooperation with foreign States. Since Xi Jinping heads both the CMC and the Party, the dual-use transfers were authorized at the highest level."
+        },
+        {
+          "type": "p",
+          "text": "But China's declared neutrality contradicts its own domestic authorization of military support to a belligerent. The National Defence Law's mobilization provisions (Article 47) are triggered when China's own \"sovereignty, unity, territorial integrity, security and development interests\" are threatened, not when a third State is attacked. China's domestic law doesn't require neutrality; it permits the CMC to authorize military cooperation with any State. The incoherence isn't between domestic law and conduct. It is between what China tells the world (neutrality) and what its own law authorizes (military support to Iran)."
+        },
+        {
+          "type": "h3",
+          "text": "F. India: Emergency Powers and the Failure to Act"
+        },
+        {
+          "type": "p",
+          "text": "India's Constitution addresses war and emergency through Articles 352-360:"
+        },
+        {
+          "type": "treaty",
+          "text": "**Constitution of India, Article 352(1):** \"If the President is satisfied that a grave emergency exists whereby the security of India or of any part of the territory thereof is threatened, whether by war or external aggression or armed rebellion, he may, by Proclamation, make a declaration to that effect.\"\n\n\n**Article 352(3):** \"The President shall not issue a Proclamation... unless the decision of the Union Cabinet... is communicated to him in writing.\"\n\n\n**Article 352(4):** \"Every Proclamation... shall be laid before each House of Parliament and shall cease to operate at the expiration of one month unless before the expiration of that period it has been approved by resolution of both Houses.\""
+        },
+        {
+          "type": "p",
+          "text": "India's constitutional framework for war is emergency-centric: the President declares a national emergency on Cabinet advice, subject to parliamentary approval within one month. There is no separate \"war powers\" framework. Military action abroad falls under the executive's general foreign affairs and defense powers, not under any specific authorization process. India has no equivalent of the War Powers Resolution, Basic Law Article 40, or Federation Council approval."
+        },
+        {
+          "type": "p",
+          "text": "That absence is itself a constitutional gap. When the IRIS Dena was sunk 19 nautical miles off Sri Lanka, well within India's maritime sphere of influence, India had no domestic legal mechanism for rapid military response and no constitutional requirement to consult Parliament before responding. The gap was exposed: India could not protect even a vessel that had just participated in Indian-hosted naval exercises."
+        },
+        {
+          "type": "p",
+          "text": "**Application to the 2026 Iran war.** India's domestic law failure is one of omission. The government didn't declare a national emergency under Article 352 despite the energy crisis from Hormuz closure. It didn't invoke Article 352's \"imminent danger of war\" provision despite Iran firing on Indian ships. It didn't seek parliamentary authorization for any military response to the IRIS Dena sinking. Without a war powers framework, India's response was determined entirely by executive discretion, lacking even the formal guardrails that other States maintain on paper."
+        },
+        {
+          "type": "p",
+          "text": "India's censorship of the Hind Rajab film raised a separate question. Article 19(1)(a) guarantees freedom of speech, subject to Article 19(2) restrictions for \"the security of the State\" and \"friendly relations with foreign States.\" The government's stated reason, that the film could \"negatively impact India's relations with Israel amid the war with Iran,\" invoked the \"friendly relations\" exception. Whether that exception permits censorship to protect bilateral relations with a belligerent in an ongoing war is a novel constitutional question that Indian courts haven't addressed."
+        },
+        {
+          "type": "p",
+          "text": "Comparative Domestic War Powers ComplianceInternal Coherence Assessment"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Constitution: Congress declares war",
+            "WPR: 3 conditions, none met",
+            "Trump: \"I don't need international law\"",
+            "DOMESTIC LAW VIOLATED"
+          ]
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Constitution: Leader declares war",
+            "Leader killed; unclear succession",
+            "IRGC may have acted ultra vires",
+            "CONSTITUTIONAL CRISIS"
+          ]
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Basic Law Art. 40: Govt approves war",
+            "Cabinet delegation since 2018",
+            "Eternal Darkness vs. ceasefire",
+            "PROCEDURAL AMBIGUITY"
+          ]
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Formal: Fed. Council approves",
+            "Substantive: rubber-stamp",
+            "Intel sharing: no approval needed",
+            "FORMALLY COMPLIANT"
+          ]
+        },
+        {
+          "type": "ul",
+          "items": [
+            "NPC decides war/peace",
+            "CMC controls military cooperation",
+            "Neutrality vs. dual-use support",
+            "POSITION vs. CONDUCT GAP"
+          ]
+        },
+        {
+          "type": "ul",
+          "items": [
+            "No war powers framework",
+            "Art. 352 emergency unused",
+            "Art. 19(1)(a) vs. film censorship",
+            "CONSTITUTIONAL GAP"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "The pattern across all six States is hard to miss. Each has domestic rules that nominally constrain war powers. Each has found a way around them. The United States ignores the War Powers Resolution. Iran concentrates all authority in an unaccountable Leader. Israel delegates war powers to an ever-smaller cabinet. Russia obtains rubber-stamp legislative approval. China transfers defense decision-making from civilian to military institutions. India simply lacks a war powers framework. The common trajectory is executive dominance achieved not through constitutional amendment but through constitutional manipulation, what might be called the soft override: the rules stay on the books, but nobody follows them. Internal coherence assessment identifies this as the most significant structural failure of democratic governance in wartime."
+        }
+      ]
+    },
+    {
+      "id": "sec-3",
+      "number": "III.",
+      "label": "",
+      "title": "Conflict Chronology: Prelude in Gaza, War on Iran",
+      "blocks": [
+        {
+          "type": "lead",
+          "text": "Understanding the legal positions advanced by States requires precise reconstruction of the conflict sequence. This Part presents a comprehensive timeline in two phases: the prelude (October 2023-February 2026), during which regional tensions escalated through proxy warfare and limited direct strikes; and the main war (28 February 2026-present), when the United States and Israel launched joint strikes on Iran, triggering the most significant military confrontation in the Persian Gulf since the Iran-Iraq War."
+        }
+      ]
+    },
+    {
+      "id": "sec-4",
+      "number": "IV.",
+      "label": "",
+      "title": "Damage Assessment: Quantifying the Costs",
+      "blocks": [
+        {
+          "type": "lead",
+          "text": "The 2023-2026 conflict produced extensive human, economic, and institutional damage across multiple jurisdictions. This Part quantifies these costs, distinguishing between direct battlefield casualties and broader systemic impacts."
+        },
+        {
+          "type": "p",
+          "text": "Casualty Assessment by TheaterVerified Sources (as of March 2026)"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "46,000+ Palestinian deaths",
+            "70%+ women and children",
+            "1.9 million displaced",
+            "$15-20B infrastructure damage"
+          ]
+        },
+        {
+          "type": "ul",
+          "items": [
+            "4,000+ civilian deaths",
+            "1.2 million displaced",
+            "Hezbollah infrastructure degraded",
+            "$8.5B economic losses"
+          ]
+        },
+        {
+          "type": "ul",
+          "items": [
+            "1,200+ deaths (7 Oct)",
+            "700+ military deaths",
+            "200 civilian deaths (Iran attacks)",
+            "$12B direct defense costs"
+          ]
+        },
+        {
+          "type": "ul",
+          "items": [
+            "85+ military deaths (Syria/Iraq)",
+            "12 IRGC commanders assassinated",
+            "30 nuclear scientists killed (2010-2025)",
+            "40% enrichment capacity degraded"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "A. Economic and Infrastructure Costs"
+        },
+        {
+          "type": "p",
+          "text": "Beyond direct casualties, the conflict imposed severe economic costs. The World Bank estimates that the Gaza Strip's economy contracted by 81% during the 15-month campaign, with reconstruction costs exceeding $50 billion over a decade. Lebanon faced its worst financial crisis since the 1975-1990 civil war, with the national currency losing additional value and sovereign default appearing inevitable."
+        },
+        {
+          "type": "p",
+          "text": "The United States spent approximately $22 billion on direct military operations, including munitions replenishment for Israel, Red Sea naval operations, and the June 2025 strikes on Iran. Congressional Budget Office projections suggest an additional $15 billion in veteran care and long-term military procurement related to accelerated munitions consumption."
+        },
+        {
+          "type": "h3",
+          "text": "B. Institutional Damage"
+        },
+        {
+          "type": "p",
+          "text": "The conflict produced damage to international institutions that may outlast the physical destruction. The UN Security Council's inability to adopt binding ceasefire resolutions due to U.S. vetoes eroded confidence in the collective security system. The International Court of Justice's advisory opinion on the Occupied Palestinian Territory, while legally significant, had minimal impact on State behavior. The IAEA's inspection regime in Iran was severely compromised by the April 2025 strikes, with the Director General reporting that monitoring equipment at Natanz was destroyed and that Iran had suspended implementation of the Additional Protocol."
+        },
+        {
+          "type": "p",
+          "text": "Institutional Impact AssessmentQualitative Analysis"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "8 vetoed resolutions",
+            "Procedural deadlock",
+            "Regional states bypass UN fora",
+            "Severe legitimacy loss"
+          ]
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Wall advisory opinion cited",
+            "No binding enforcement",
+            "Israel rejects jurisdiction",
+            "Institutional irrelevance"
+          ]
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Monitoring equipment destroyed",
+            "Additional Protocol suspended",
+            "Verification gap created",
+            "Severe disruption"
+          ]
+        },
+        {
+          "type": "ul",
+          "items": [
+            "50%+ shipping rerouted",
+            "$3B+ additional costs",
+            "Insurance premiums tripled",
+            "Substantial disruption"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sec-5",
+      "number": "V.",
+      "label": "",
+      "title": "The United States: Constitutional Architecture and Strategic Coherence",
+      "blocks": [
+        {
+          "type": "lead",
+          "text": "The United States was everywhere in this conflict. Israel's indispensable ally. Iran's indirect adversary. A party to military operations spanning Syria, Iraq, Yemen, and ultimately Iran itself. This Part asks whether any of it was consistent with America's own constitutional framework, treaty commitments, and strategic interests. The answer, as we shall see, is no."
+        },
+        {
+          "type": "h3",
+          "text": "A. Constitutional War Powers: Theory and Practice"
+        },
+        {
+          "type": "p",
+          "text": "The U.S. Constitution divides war powers between Congress and the President. Congress declares war. The President commands the forces. The boundary between these authorities has generated centuries of constitutional debate, and no resolution. The founders' design was deliberate: Hamilton explained in Federalist No. 69 that the President's military authority would be \"nominally the same\" as the British Crown's \"but in substance much inferior to it,\" because the Crown could declare war while the President could not. Two and a half centuries later, that distinction has collapsed."
+        },
+        {
+          "type": "treaty",
+          "text": "**U.S. Constitution Article I, Section 8:** \"The Congress shall have Power... To declare War, grant Letters of Marque and Reprisal, and make Rules concerning Captures on Land and Water; To raise and support Armies... To provide and maintain a Navy...\"\n\n\n**U.S. Constitution Article II, Section 2:** \"The President shall be Commander in Chief of the Army and Navy of the United States...\""
+        },
+        {
+          "type": "p",
+          "text": "The Supreme Court's framework for resolving executive-legislative conflicts over war powers comes from _Youngstown Sheet & Tube Co. v. Sawyer_ (343 U.S. 579 (1952)), where Justice Jackson articulated a tripartite analysis: (1) When the President acts pursuant to congressional authorization, his authority is at its maximum; (2) When the President acts in the absence of congressional grant or denial, he operates in a \"zone of twilight\"; (3) When the President takes measures incompatible with Congress's expressed or implied will, his power is at its \"lowest ebb.\""
+        },
+        {
+          "type": "p",
+          "text": "The 1973 War Powers Resolution (50 U.S.C. §§ 1541-1548) was Congress's attempt to constrain presidential military action without declaration of war. It requires the President to report to Congress within 48 hours of introducing armed forces into hostilities, and to terminate such use within 60 days (with a 30-day withdrawal period) absent congressional authorization."
+        },
+        {
+          "type": "h3",
+          "text": "B. The 2023-2026 Operations: War Powers Analysis"
+        },
+        {
+          "type": "p",
+          "text": "U.S. military operations during the conflict can be categorized into four distinct phases:"
+        },
+        {
+          "type": "ol",
+          "items": [
+            "**Defensive operations (October 2023-March 2024):** U.S. forces in Syria and Iraq came under repeated drone and rocket attacks by Iranian-backed militias. The U.S. conducted retaliatory strikes under claimed Article II authority to protect U.S. forces, with the President notifying Congress under the War Powers Resolution.",
+            "**Red Sea operations (January-June 2025):** U.S. naval forces conducted over 170 strikes against Houthi targets following attacks on commercial shipping. The Administration characterized these as defensive operations protecting navigational rights under UNCLOS and U.S. self-defence under Article 51, bypassing congressional authorization by characterizing operations as limited and not constituting \"hostilities\" requiring War Powers Resolution clocks.",
+            "**Operation Epic Fury (28 February 2026-present):** The most consequential U.S. military operation of the conflict. On 27 February at 3:38 p.m. EST, President Trump ordered the operation while aboard Air Force One. The following morning, U.S. missiles and drones struck Iranian military and government sites in a coordinated attack with Israel. The operation assassinated Supreme Leader Ali Khamenei and other senior officials. Trump released an eight-minute video statement on Truth Social declaring that the purpose was regime change, citing Iran's \"menacing activities,\" the hostage crisis, support for proxies, and killings of protesters. The strikes occurred during active nuclear negotiations and the holy month of Ramadan.",
+            "**Naval blockade (13 April 2026-present):** Following the failure of Islamabad Talks, Trump declared a U.S. naval blockade of ships traveling to and from Iranian ports through the Strait of Hormuz. U.S. Navy destroyers entered the strait for the first time since the war began, conducting minesweeping operations. The IRGC Navy threatened \"severe response\" against any military vessel approaching the strait."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Operation Epic Fury presents the gravest constitutional crisis of the conflict. The 2001 AUMF covered al-Qaeda. Iran had no connection to 9/11. The 2002 AUMF covered Iraq. Neither applies. The Administration's fallback theory, that Article II Commander-in-Chief authority encompasses launching a regime change war against a sovereign State, rests on a reading of presidential power that most constitutional scholars reject and that the War Powers Resolution was enacted to prevent. The theory is not novel. It is the theory that every President since Truman has advanced when Congress refused to authorize what the President wanted to do. The difference is that this time, the President did it anyway."
+        },
+        {
+          "type": "p",
+          "text": "Trump's explicit declaration of regime change compounded the legal problem beyond repair. Regime change as an objective violates Article 2(4), which protects the \"territorial integrity or political independence\" of States. The ICJ in _Nicaragua_ held that \"the principle of non-intervention derives from the right of every State to sovereignty and territorial integrity.\" General Assembly Resolution 2625 (1970) provides that \"No State shall organize, assist, foment, finance, incite or tolerate subversive, terrorist or armed activities directed towards the violent overthrow of the regime of another State.\" A President who declares regime change as his objective has, by that declaration alone, transformed the legal characterization of his military operation from potential self-defence to aggression. The law does not distinguish between a belligerent who achieves regime change and one who merely announces it as his goal. The announcement is enough."
+        },
+        {
+          "type": "h3",
+          "text": "C. Strategic Coherence Assessment"
+        },
+        {
+          "type": "p",
+          "text": "Beyond constitutional law, U.S. conduct must be assessed against its own strategic interests. The Administration stated four objectives: preventing Iran from acquiring nuclear weapons; eliminating Iran's capacity to threaten Israel and Gulf allies; restoring freedom of navigation through Hormuz; and achieving regime change. How did it fare?"
+        },
+        {
+          "type": "p",
+          "text": "Tactically, Epic Fury achieved results: thousands of IRGC personnel killed, Iranian military infrastructure degraded, Iran's retaliatory capability temporarily diminished. Strategically, the outcomes were counterproductive. Iran closed Hormuz, disrupting 20% of global oil supplies and triggering an energy crisis that hurt American allies more than adversaries. Iran's retaliation struck U.S. bases in six Gulf States, proving that the American military presence in the region was a vulnerability, not a deterrent. The assassination of Khamenei eliminated a known adversary while creating a power vacuum that could produce a more radical successor. The Islamabad Talks collapsed, with Iran refusing \"to accept U.S. terms.\" The conflict settled into an open-ended blockade-ceasefire limbo with no exit strategy. The United States had achieved its tactical objectives and undermined every one of its strategic ones."
+        },
+        {
+          "type": "h3",
+          "text": "D. Detailed Constitutional Analysis: The Youngstown Framework Applied"
+        },
+        {
+          "type": "p",
+          "text": "The Supreme Court's decision in _Youngstown Sheet & Tube Co. v. Sawyer_ (1952) established the foundational framework for analyzing presidential power in contexts of potential congressional opposition. Justice Jackson's concurring opinion, now controlling law, articulated three categories of presidential action:"
+        },
+        {
+          "type": "quote",
+          "text": "\"When the President acts pursuant to an express or implied authorization of Congress, his authority is at its maximum... When the President acts in absence of either a congressional grant or denial of authority, he can only rely upon his own independent powers, but there is a zone of twilight in which he and Congress may have concurrent authority... When the President takes measures incompatible with the express or implied will of Congress, his power is at its lowest ebb.\"\n_, Justice Jackson, _Youngstown_ concurring opinion_"
+        },
+        {
+          "type": "p",
+          "text": "The 2025-2026 operations against Iran fall within Jackson's third category: action \"incompatible with the express or implied will of Congress.\" The War Powers Resolution represents Congress's will that presidential military action without authorization terminate within 60 days. The President conducted extensive strikes on Iranian territory without seeking authorization and without complying with the Resolution's termination requirements. He acted contrary to congressional intent. Under Jackson's framework, his power was at its \"lowest ebb.\""
+        },
+        {
+          "type": "p",
+          "text": "The Administration's defense relied heavily on _United States v. Curtiss-Wright Export Corp._ (1936), where Justice Sutherland articulated an expansive view of presidential power in foreign affairs. However, subsequent decisions have cabined _Curtiss-Wright_. In _Zivotofsky v. Kerry_ (2015), the Court recognized presidential authority over recognition of foreign States but emphasized that this \"does not mean that Congress is excluded from the field.\" Justice Kennedy's majority opinion noted that \"the Executive is not free from legal constraints\" in foreign affairs."
+        },
+        {
+          "type": "p",
+          "text": "The 2001 Authorization for Use of Military Force (AUMF), enacted three days after September 11, 2001, provides:"
+        },
+        {
+          "type": "treaty",
+          "text": "**2001 AUMF (Pub.L. 107-40, 115 Stat. 224):** \"That the President is authorized to use all necessary and appropriate force against those nations, organizations, or persons he determines planned, authorized, committed, or aided the terrorist attacks that occurred on September 11, 2001, or harbored such organizations or persons, in order to prevent any future acts of international terrorism against the United States by such nations, organizations or persons.\""
+        },
+        {
+          "type": "p",
+          "text": "The textual constraints on this authorization are significant. It applies only to: (1) \"nations, organizations, or persons\"; (2) that \"planned, authorized, committed, or aided\" the 9/11 attacks; (3) or that \"harbored\" such entities. Iran had no involvement in the September 11 attacks. The 9/11 Commission Report found no evidence of Iranian government involvement in al-Qaeda's 2001 operations. The Bush, Obama, Trump, and Biden Administrations all acknowledged that Iran was not responsible for 9/11."
+        },
+        {
+          "type": "p",
+          "text": "Nevertheless, successive Administrations invoked the 2001 AUMF to justify military action against ISIS, al-Qaeda in the Arabian Peninsula, al-Shabaab, and other groups with no connection to 9/11. This interpretive expansion rested on the theory that these groups were \"associated forces\" of al-Qaeda, a category nowhere appearing in the AUMF text. The June 2025 invocation against Iran represented the most expansive stretch yet: applying an authorization targeting 9/11 perpetrators to conduct preemptive strikes against a State that had not attacked the United States."
+        },
+        {
+          "type": "p",
+          "text": "The 2002 AUMF, authorizing force against Iraq, is even more plainly inapplicable to Iran. Its text authorizes the President to \"defend the national security of the United States against the continuing threat posed by Iraq.\" Iraq posed no threat in 2025; even if it had, the authorization extends only to Iraq, not Iran."
+        },
+        {
+          "type": "h3",
+          "text": "E. The DoD Law of War Manual: Targeting Standards"
+        },
+        {
+          "type": "p",
+          "text": "The Department of Defense Law of War Manual (June 2015, updated July 2023) provides the U.S. military's authoritative guidance on IHL compliance. While the Manual reflects the United States' positions rather than necessarily binding international law, it establishes internal standards against which U.S. conduct can be assessed for coherence."
+        },
+        {
+          "type": "p",
+          "text": "Chapter V of the Manual addresses the \"Conduct of Hostilities.\" Section 5.6 addresses proportionality, requiring that commanders assess whether expected incidental harm would be \"excessive in relation to the concrete and direct military advantage anticipated to be gained.\" The Manual emphasizes that this assessment must be made \"in light of the information available at the time of the attack\",a prospective rather than retrospective standard."
+        },
+        {
+          "type": "p",
+          "text": "Section 5.11 addresses precautions in attack, requiring that \"feasible precautions\" be taken to verify that objectives are military objectives, to choose means and methods of warfare that minimize incidental harm, and to cancel or suspend attacks if circumstances change. The Manual defines \"feasible\" precautions as those that are \"practicable or practically possible, taking into account all circumstances ruling at the time, including humanitarian and military considerations.\""
+        },
+        {
+          "type": "p",
+          "text": "The June 2025 strikes on Iranian missile sites appear to have complied with the Manual's targeting standards. Press reports indicate that targets were limited to military installations, that collateral damage assessments were conducted, and that warning systems were used where possible. However, the Manual's internal standards do not address the _jus ad bellum_ question of whether the strikes were lawful in the first place. A State can comply fully with IHL while violating the UN Charter's prohibition on the use of force."
+        },
+        {
+          "type": "p",
+          "text": "U.S. Coherence ScorecardInternal Assessment"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Congress not consulted pre-June 2025",
+            "AUMF authority stretched beyond text",
+            "War Powers 60-day limit ignored",
+            "Incoherent"
+          ]
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Iran nuclear program set back but not stopped",
+            "Red Sea shipping disrupted for 8 months",
+            "Israel protected but regional war risked",
+            "Partially coherent"
+          ]
+        },
+        {
+          "type": "ul",
+          "items": [
+            "UN Charter Art. 51 stretched",
+            "Collective self-defence claim disputed",
+            "Security Council bypassed",
+            "Ambiguous"
+          ]
+        },
+        {
+          "type": "ul",
+          "items": [
+            "DoD Law of War Manual followed",
+            "Targeting standards maintained",
+            "Congressional reporting deficient",
+            "Mixed"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sec-6",
+      "number": "VI.",
+      "label": "",
+      "title": "Iran: Revolutionary Constitutionalism and Strategic Deterrence",
+      "blocks": [
+        {
+          "type": "lead",
+          "text": "Iran's 1979 Constitution builds a paradox: republican institutions on the surface, clerical supremacy underneath. This Part asks whether Iran's conduct during the 2023-2026 conflict was consistent with either layer of its constitutional architecture, and whether its strategic doctrine achieved any coherence between means and ends."
+        },
+        {
+          "type": "h3",
+          "text": "A. Iran's Constitutional Architecture"
+        },
+        {
+          "type": "p",
+          "text": "The 1979 Constitution creates a hybrid. Republican institutions, a President, a Majlis, a judiciary, exist alongside clerical oversight mechanisms that constrain them at every turn. The Supreme Leader holds ultimate authority over the military, judiciary, state media, and key state bodies. The hybrid is not a compromise. It is a hierarchy."
+        },
+        {
+          "type": "treaty",
+          "text": "**Constitution of Iran (1979), Article 57:** \"The powers of government in the Islamic Republic are vested in the legislature, the judiciary, and the executive powers... functioning under the supervision of the absolute religious leader and the leadership of the Ummah.\"\n\n\n**Article 110:** \"Following are the duties and powers of the religious leader: 1. Appointment and dismissal of the religious jurists of the Council of Guardians... 2. Appointment and dismissal of the chief executives of the judicial power... 3. Supreme command over all armed forces... 4. Declaration of war, peace, and mobilization of the armed forces.\""
+        },
+        {
+          "type": "p",
+          "text": "Article 176 establishes the Supreme National Security Council (SNSC), chaired by the President but reporting to the Supreme Leader. The SNSC's duties include \"determining the defense and national security policies within the framework of general policies determined by the Leader.\" The Constitution contemplates no legislative role in war powers decisions. The Supreme Leader alone \"declares war, peace, and mobilization.\" The Majlis can debate. It cannot decide."
+        },
+        {
+          "type": "h3",
+          "text": "B. Proxy Warfare: Attribution and Control"
+        },
+        {
+          "type": "p",
+          "text": "The central legal question regarding Iranian conduct concerns its relationship with proxy forces. Lebanese Hezbollah, the Houthis in Yemen, and various militia groups in Syria and Iraq received Iranian financial support, military training, and ideological backing. The legal standard for attributing proxy conduct to a State derives from the ICJ's _Nicaragua_ judgment (para. 115), which set a threshold so high that even obvious State involvement fails to satisfy it:"
+        },
+        {
+          "type": "quote",
+          "text": "\"United States participation, even if preponderant or decisive, in the financing, organizing, training, supplying and equipping of the contra forces, the selection of military or paramilitary targets, and the planning of the whole of its operation, is still insufficient in itself... for the purpose of determining to a sufficient degree that they would have to be classified as acts of the United States.\"\n_, ICJ, _Nicaragua_, para. 115_"
+        },
+        {
+          "type": "p",
+          "text": "The ICJ articulated an \"effective control\" test requiring specific direction of particular military operations. The International Criminal Tribunal for the former Yugoslavia rejected this standard in _Prosecutor v. Tadic_ (Appeals Chamber, 15 July 1999, para. 131), proposing instead an \"overall control\" test encompassing \"not only the equipping and financing of military groups, but also... the planning and supervision of military operations.\""
+        },
+        {
+          "type": "p",
+          "text": "The evidence on Iranian control over Hezbollah during the conflict was mixed. Hezbollah's decision to join on 8 October 2023 looked responsive to Hamas's attack and Israeli counter-operations, not Iranian direction. But Iranian financial support, estimated at $100-150 million annually, and military supply of precision-guided missiles created a relationship of dependence. The October 2024 and April 2025 Iranian missile strikes against Israel were conducted directly by Iranian forces, eliminating attribution questions. The proxies provided deniability. The direct strikes did not."
+        },
+        {
+          "type": "h3",
+          "text": "C. The April 2024 and October 2024 Strikes: Self-Defence Claims"
+        },
+        {
+          "type": "p",
+          "text": "Iran's direct military operations against Israel in April 2024 and October 2024 marked the first direct Iranian attacks on Israeli territory from Iranian soil. Iran characterized both operations as exercises in individual self-defence under Article 51."
+        },
+        {
+          "type": "p",
+          "text": "The April 2024 operation (Operation True Promise) followed the Israeli strike on the Iranian consulate in Damascus. Iran cited the consulate attack as an armed attack against Iranian sovereignty triggering Article 51. The legal questions were: (1) whether an attack on a consular facility (distinct from an embassy) constitutes an armed attack against State territory; and (2) whether Iran's response (over 300 drones and missiles, most intercepted) was necessary and proportionate."
+        },
+        {
+          "type": "p",
+          "text": "The ICJ's _Oil Platforms_ judgment suggests skepticism toward expansive self-defence claims. The Court held that even if attacks on neutral shipping constituted uses of force, they did not rise to the level of \"armed attacks\" justifying full self-defence measures. The Israeli consulate strike, while unlawful under the Vienna Convention on Diplomatic Relations, was targeted at IRGC military personnel (including commander Zahedi) rather than civilians or territorial integrity. Whether it constituted an \"armed attack\" under Article 51 was debatable."
+        },
+        {
+          "type": "p",
+          "text": "Proportionality presented additional difficulties. Iran launched over 300 projectiles; nearly all were intercepted. The minimal damage suggested either that Iran intended primarily symbolic retaliation, acknowledging proportionality constraints, or that its military capabilities were insufficient for significant damage. Neither interpretation supports a claim that the response was necessary to repel an ongoing attack. Symbolism is not self-defence. Inadequacy is not proportionality."
+        },
+        {
+          "type": "h3",
+          "text": "C.2. Operation True Promise IV: The 2026 War Response"
+        },
+        {
+          "type": "p",
+          "text": "Iran's response to the 28 February 2026 U.S.-Israeli strikes, Operation True Promise IV, was qualitatively different from its 2024 operations. Rather than a symbolic demonstration, True Promise IV represented a full-spectrum military retaliation targeting Israel and six Gulf States simultaneously. Iran struck Tel Aviv and Haifa; Bahrain (Manama); Kuwait (Kuwait International Airport); UAE (Abu Dhabi); Saudi Arabia (Riyadh, Eastern Province); Iraq (Erbil Consulate, Al Udeid Air Base, Ali Al Salem, Al Dhafra, Fifth Fleet HQ Bahrain). Iran also struck radar bases for U.S. THAAD missile defense systems in Jordan, UAE, and Saudi Arabia, destroying at least one."
+        },
+        {
+          "type": "p",
+          "text": "Iran's legal justification for True Promise IV was individual self-defence under Article 51. The U.S.-Israeli strikes constituted the clearest possible \"armed attack\": a coordinated military assault on Iranian territory, government institutions, and the assassination of the Head of State. Unlike the 2024 operations, where the legal trigger was debatable, the 28 February 2026 strikes were unambiguous aggression under any interpretation of the UN Charter. Here, for once, Article 51 did what its drafters intended."
+        },
+        {
+          "type": "p",
+          "text": "But the legality of Iran's targeting choices was another matter. Iran's strikes on Gulf States, particularly civilian infrastructure like Kuwait International Airport and Manama, violated the distinction principle under IHL. U.S. military installations in Gulf States were legitimate military objectives. Civilian airports, capital cities, and commercial infrastructure were not. Iran's argument that Gulf States had compromised their neutrality by hosting U.S. forces did not justify attacks on civilian targets. Under AP I Article 51(5)(b), attacks causing excessive civilian harm relative to military advantage are prohibited. Iran's strikes on Manama and Kuwait International Airport caused civilian casualties without significant military effect. The self-defence was lawful. The targeting was not."
+        },
+        {
+          "type": "p",
+          "text": "The assassination of Supreme Leader Khamenei raised additional legal questions. The targeting of a Head of State during armed conflict is not per se prohibited under IHL if the Head of State is a combatant or directly participating in hostilities. As Commander-in-Chief under Article 110 of the Iranian Constitution, Khamenei was a legitimate military target. However, the assassination of a Head of State as part of a regime change operation implicates the prohibition on intervention in the internal affairs of sovereign States, a peremptory norm of international law from which no derogation is permitted."
+        },
+        {
+          "type": "p",
+          "text": "Iran's closure of the Strait of Hormuz following the strikes constituted a separate legal act requiring independent analysis. Under UNCLOS Article 38, all States enjoy transit passage rights through international straits. Iran's closure, enforced by IRGC naval forces and threats to \"set fire to any ship coming through,\" violated the transit passage regime. Iran argued that the closure was a proportionate counter-measure to U.S.-Israeli aggression; however, counter-measures must be proportionate to the injury suffered and must not violate peremptory norms. The closure of an international waterway affecting global commerce, disproportionately harming neutral States like India, Japan, and European nations, exceeded the scope of permissible counter-measures."
+        },
+        {
+          "type": "h3",
+          "text": "D. The Islamic Revolutionary Guard Corps: Constitutional Status"
+        },
+        {
+          "type": "p",
+          "text": "The Islamic Revolutionary Guard Corps (IRGC) occupies a distinctive position in Iranian governance that complicates attribution and state responsibility analysis. Established by Ayatollah Khomeini in May 1979 as a \"parallel military\" to the regular armed forces (Artesh), the IRGC's constitutional mandate extends beyond national defense to \"guard the Revolution and its achievements.\" Article 150 of the Constitution provides that \"the Islamic Revolution Guards Corps... shall be maintained so that it may continue in its role of guarding the Revolution and its achievements.\""
+        },
+        {
+          "type": "p",
+          "text": "The IRGC's status under international law presents unresolved questions. Under ARSIWA Article 4, the conduct of any State organ is attributable to the State. The IRGC is clearly a State organ, the Supreme Leader appoints its commander, its budget comes from State appropriations, and it operates under constitutional authority. However, the IRGC also operates through non-State intermediaries, including the Quds Force (responsible for external operations) and various militia proxies in Lebanon, Syria, Iraq, and Yemen."
+        },
+        {
+          "type": "p",
+          "text": "The IRGC's designation as a Foreign Terrorist Organization by the United States in 2019 created additional legal complexity. Under U.S. law, providing material support to designated terrorist organizations is a criminal offense. The European Union did not similarly designate the IRGC as a whole, though it designated the Quds Force. This divergence reflects uncertainty about whether the IRGC constitutes a military organization subject to IHL or a terrorist organization subject to criminal law, or both simultaneously."
+        },
+        {
+          "type": "p",
+          "text": "The April 2024 Israeli strike on the Iranian consulate in Damascus targeted IRGC personnel specifically, including Brigadier General Mohammad Reza Zahedi, a senior Quds Force commander. Iran's characterization of this strike as an attack on Iranian sovereignty was legally sound: IRGC personnel are State organs, and an attack on State organs constitutes an attack on the State. However, the presence of military personnel in a consular facility raised questions about whether the facility retained its civilian and inviolable status under the Vienna Convention."
+        },
+        {
+          "type": "h3",
+          "text": "E. NPT Compliance and IAEA Safeguards"
+        },
+        {
+          "type": "p",
+          "text": "Iran's nuclear program has been subject to IAEA verification since 1974, when Iran ratified the NPT. The Safeguards Agreement concluded under INFCIRC/153 (Corrected) requires Iran to declare all nuclear material and to permit Agency inspectors to verify that such material is not diverted to weapons purposes. The Additional Protocol, which Iran implemented voluntarily from 2003-2006 and again under the JCPOA (2015-2021), grants the IAEA expanded access rights including to sites not declared to contain nuclear material."
+        },
+        {
+          "type": "p",
+          "text": "The IAEA Director General's reports to the Board of Governors document progressive Iranian non-compliance. GOV/2025/53 (February 2025) reported that Iran had: (1) enriched uranium to 60% U-235 at both Fordow and Natanz facilities; (2) accumulated over 5,000 kg of enriched uranium in various enrichment levels; (3) suspended implementation of the Additional Protocol; and (4) denied IAEA inspectors access to certain sites. GOV/2025/65 (August 2025) reported that the April Israeli strikes had damaged centrifuge cascades at Natanz, reducing enrichment capacity by approximately 40%, but that Iran had accelerated reconstitution efforts at Fordow."
+        },
+        {
+          "type": "p",
+          "text": "The legal status of Iran's enrichment activities depends on interpretation of NPT Article IV, which guarantees the \"inalienable right\" of non-nuclear-weapon States to develop nuclear energy for peaceful purposes \"in conformity with Articles I and II.\" Iran asserted that its enrichment program was peaceful and therefore protected by Article IV. The United States and European States maintained that Iran's enrichment to 60%, far exceeding any civilian reactor requirement, and its accumulation of enriched uranium stockpiles indicated weapons purposes, violating Article II's prohibition on \"manufacture or otherwise acquisition of nuclear weapons.\""
+        },
+        {
+          "type": "p",
+          "text": "The April 2025 Israeli strikes on Iranian nuclear facilities raise questions under IHL Article 56 of Additional Protocol I. Article 56 prohibits attacks on nuclear electrical generating stations if such attacks may cause release of dangerous forces and severe civilian losses. The Natanz and Fordow facilities are enrichment sites, not generating stations, so Article 56 does not directly apply. However, the broader principle, that attacks on facilities containing dangerous forces require special justification, supports the view that Israel bore a heavy burden to demonstrate military necessity."
+        },
+        {
+          "type": "p",
+          "text": "Israel's justification for the strikes invoked anticipatory self-defence against an imminent Iranian nuclear threat. Whether Iran's nuclear program posed an imminent threat in April 2025 was disputed. U.S. intelligence assessments (as reported to Congress in January 2025) estimated Iran could produce a nuclear weapon within 6-12 months if it decided to do so. Whether this timeline constituted \"imminence\" for legal purposes depended on interpretation of the Caroline test (\"instant, overwhelming, leaving no choice of means, and no moment for deliberation\")."
+        },
+        {
+          "type": "p",
+          "text": "Iran Coherence ScorecardInternal Assessment"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Supreme Leader decided without Majlis",
+            "SNSC rubber-stamped decisions",
+            "No popular consultation",
+            "Constitutional fiction"
+          ]
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Nuclear program degraded by strikes",
+            "Proxy network intact but exposed",
+            "Regional influence maintained",
+            "Partially coherent"
+          ]
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Consulate strike = armed attack?",
+            "Response arguably disproportionate",
+            "No Security Council notification",
+            "Legally contested"
+          ]
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Financial support documented",
+            "Operational control unclear",
+            "Hezbollah independence evident",
+            "Attribution ambiguous"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sec-7",
+      "number": "VII.",
+      "label": "",
+      "title": "Israel: Basic Law Framework and Strategic Doctrine",
+      "blocks": [
+        {
+          "type": "lead",
+          "text": "Israel has never formally declared war. Not in 1948, not in 1967, not in 1973, not in 2026. This fact, more than any legal argument, reveals the character of its constitutional order. The Basic Law framework for war powers was designed to be evaded. This Part asks whether Israel's conduct during the 2023-2026 conflict was consistent with its own law, its treaty commitments, and its strategic interests. The answer varies by operation."
+        },
+        {
+          "type": "h3",
+          "text": "A. Israel's Constitutional Architecture"
+        },
+        {
+          "type": "p",
+          "text": "Israel lacks a formal written constitution, instead operating under a system of \"Basic Laws\" enacted by the Knesset since 1958. The Basic Law: The Government (2001) governs war powers:"
+        },
+        {
+          "type": "treaty",
+          "text": "**Basic Law: The Government (2001), Article 40(a):** \"The state may only begin a war, take offensive military action liable to imply a danger of war, or carry out a significant military operation, with the approval of the government.\"\n\n\n**Article 40(b):** \"Should the Prime Minister find that there is an urgent need to begin a war, take such action, or carry out such operation, and it is impossible to delay until a government decision has been reached, he may act without such decision, with the approval of the Minister of Defence.\""
+        },
+        {
+          "type": "p",
+          "text": "This framework concentrates war powers in the executive with minimal legislative oversight. The Knesset's Foreign Affairs and Defense Committee can review security matters but cannot veto government decisions. The Attorney General provides legal opinions on proposed operations but serves at the pleasure of the government. The result is a system in which the executive decides, the legislature is informed, and the judiciary is excluded. The Basic Law's requirement of \"government approval\" for war has been satisfied, since 2018, by a security cabinet that the Prime Minister selects. The constraint is circular."
+        },
+        {
+          "type": "h3",
+          "text": "B. The Gaza Campaign: Self-Defence and Proportionality"
+        },
+        {
+          "type": "p",
+          "text": "Israel's 15-month campaign in Gaza following the 7 October 2023 attack was justified primarily as individual self-defence against Hamas under Article 51. The legal questions concerned: (1) whether Hamas's attack constituted an \"armed attack\" within the meaning of Article 51; (2) whether Israel's response was necessary and proportionate; (3) whether the extended occupation and destruction of civilian infrastructure exceeded permissible self-defence measures."
+        },
+        {
+          "type": "p",
+          "text": "The ICJ's _Wall_ advisory opinion held that Article 51 applies to attacks by non-State actors (para. 139), but also held that Article 51 does not apply to threats emanating from territory under the defending State's effective control (para. 139). Israel maintained that it had withdrawn from Gaza in 2005 and did not exercise effective control, an assertion contested by human rights organizations pointing to Israel's continued control of Gaza's borders, airspace, and maritime access."
+        },
+        {
+          "type": "p",
+          "text": "Proportionality assessments require comparing military advantage against civilian harm. Israel's stated military objectives evolved from hostage recovery to \"eliminating Hamas\" to degrading Hamas's military capabilities to preventing future attacks. Each shift expanded the scope of permissible force. Operations that might be proportionate for hostage rescue became less obviously so for organizational \"elimination.\" Mission creep is not just a strategic problem. It is a legal one: each expansion of objectives requires a fresh proportionality calculation, and the wider the objective, the more civilian harm can be justified. The logic is self-reinforcing."
+        },
+        {
+          "type": "h3",
+          "text": "B.2. Operation Roaring Lion: The 28 February 2026 Strikes on Iran"
+        },
+        {
+          "type": "p",
+          "text": "Israel's contribution to the 28 February 2026 joint strikes, Operation Roaring Lion, represented the largest combat sortie in Israeli history. The Israeli Air Force struck 500 military targets in western and central Iran, using over 1,200 bombs in 24 hours. Israeli military officials said months-long planning preceded the strikes, allowing them to pinpoint targets, attain \"tactical surprise,\" and gain U.S. support. Attacking during the morning rather than at night (when most previous Israeli attacks on Iran occurred) added to the element of surprise. Israel called up 20,000 reservists in addition to the 50,000 already on duty; the Ministry of Health moved hospital operations underground."
+        },
+        {
+          "type": "p",
+          "text": "Defense Minister Israel Katz labeled the strikes a \"pre-emptive attack\" intended to \"remove threats to the State of Israel.\" This characterization invoked anticipatory self-defence, the most contested interpretation of Article 51. The legal question is whether Iran's nuclear program and support for proxies constituted an imminent threat meeting the Caroline test (\"instant, overwhelming, leaving no choice of means, and no moment for deliberation\"). Iran's enrichment to 60% U-235 and its accumulation of 5,000+ kg of enriched uranium represented significant progress toward breakout capability, but no evidence indicated Iran had decided to construct a nuclear weapon. The U.S. intelligence community assessed Iran could produce a weapon within 6-12 months if it decided to do so; whether this timeline constituted \"imminence\" was contested."
+        },
+        {
+          "type": "p",
+          "text": "Israel warned Iranian civilians residing near military industries and infrastructure to evacuate immediately, a precaution measure consistent with Article 57 of AP I. However, the scale of the attacks, 1,200 bombs in 24 hours across 500 targets, raised questions about whether Israel could have verified the civilian status of all targets and assessed proportionality for each individual strike in real time."
+        },
+        {
+          "type": "h3",
+          "text": "B.3. Operation Eternal Darkness: Ceasefire Violations in Lebanon"
+        },
+        {
+          "type": "p",
+          "text": "On 8 April 2026, one day after the Pakistan-mediated ceasefire between the U.S., Israel, and Iran took effect, Israel launched Operation Eternal Darkness, targeting Hezbollah command and control centers throughout southern Lebanon, Beirut, and the Beqaa Valley. These were the largest attacks since the start of the war, killing at least 357 people and injuring more than 1,200. In Beirut alone, at least 92 were killed and 742 injured."
+        },
+        {
+          "type": "p",
+          "text": "Israel and the United States asserted that the ceasefire did not include Lebanon, contradicting Pakistani mediators and Iran. The ceasefire was announced as applying to \"the U.S., Israel, and Iran,\" language that could be read as covering the entire conflict or limited to the U.S.-Iran bilateral dimension. If comprehensive, Israel's Operation Eternal Darkness was a material breach. If limited, Israel retained the right to continue operations against Hezbollah, but Iran's obligation to reopen Hormuz, which was part of the ceasefire package, was predicated on a comprehensive cessation. You cannot have it both ways: a ceasefire that binds Iran but not Israel is not a ceasefire. It is a demand for unilateral concession."
+        },
+        {
+          "type": "p",
+          "text": "The proportionality of Operation Eternal Darkness is also in question. The 357 deaths and 1,200+ injuries in a single day of strikes on command and control centers suggest either that Hezbollah's command infrastructure was deeply embedded in civilian areas or that Israel's targeting standards were insufficiently discriminating. Both may be true. The ICC's November 2024 arrest warrants for Netanyahu and Gallant alleged criminal responsibility for war crimes including \"intentionally directing attacks against a civilian population.\" Operation Eternal Darkness provided additional factual basis for those allegations."
+        },
+        {
+          "type": "h3",
+          "text": "C. IHL Targeting Law: Distinction, Proportionality, and Precautions"
+        },
+        {
+          "type": "p",
+          "text": "The Israel Defense Forces (IDF) conducted the Gaza campaign under the framework of IHL, specifically the principles of distinction, proportionality, and precaution codified in Additional Protocol I. Israel is not a party to AP I but maintains that its targeting rules reflect customary international law. The IDF's operational orders incorporated these principles through the Military Advocate General's Corps review process."
+        },
+        {
+          "type": "p",
+          "text": "**Distinction** (Article 48 AP I) requires parties to distinguish between combatants and civilians, and between military objectives and civilian objects. Article 52 defines military objectives as \"those objects which by their nature, location, purpose or use make an effective contribution to military action and whose total or partial destruction, capture or neutralization, in the circumstances ruling at the time, offers a definite military advantage.\" Hamas fighters, military command centers, weapons storage facilities, and tunnel networks clearly qualified as military objectives."
+        },
+        {
+          "type": "p",
+          "text": "The more difficult questions concerned dual-use infrastructure. Gaza's electricity grid, water treatment facilities, and telecommunications networks served both civilian populations and Hamas military operations. Article 52(3) creates a presumption of civilian character for objects normally dedicated to civilian purposes \"in case of doubt.\" The IDF's position, that dual-use facilities become military objectives when used for military purposes, reflects the majority view, but the burden of proving military use is substantial."
+        },
+        {
+          "type": "p",
+          "text": "**Proportionality** (Article 51(5)(b) AP I) prohibits attacks expected to cause incidental civilian harm \"excessive in relation to the concrete and direct military advantage anticipated.\" This formulation contains both subjective and objective elements: the attacker must assess (subjectively) expected harm and anticipated advantage; an objective observer must later evaluate whether that assessment was reasonable."
+        },
+        {
+          "type": "p",
+          "text": "The 46,000+ Palestinian deaths during the 15-month campaign, over 70% women and children according to Gaza Health Ministry figures, raise acute proportionality questions. Israel maintained that Hamas embedded itself in civilian infrastructure, using hospitals, schools, and residential buildings for military purposes. If true, this affects proportionality calculations: civilian deaths from attacks on military objectives in civilian areas are not automatically disproportionate. But the sheer scale of civilian harm requires explanation beyond Hamas's tactics. A proportionality analysis that can justify 46,000 civilian deaths is a proportionality analysis that can justify anything."
+        },
+        {
+          "type": "p",
+          "text": "Several factors contributed to high civilian casualties: (1) Gaza's dense urban environment where military and civilian infrastructure are physically proximate; (2) Hamas's documented use of civilian facilities for military purposes; (3) Israel's use of heavy munitions in urban areas; (4) evacuation orders that civilians could not or would not follow due to lack of safe destinations; (5) repeated strikes on areas previously designated as safe zones."
+        },
+        {
+          "type": "p",
+          "text": "**Precautions in attack** (Article 57 AP I) require that \"those who plan or decide upon an attack\" take \"all feasible precautions\" to avoid or minimize incidental civilian harm. This includes verifying that targets are military objectives, choosing means and methods of attack that minimize civilian harm, and giving effective advance warning of attacks that may affect the civilian population."
+        },
+        {
+          "type": "p",
+          "text": "The IDF's practice of issuing evacuation warnings through leaflets, SMS messages, and \"roof knocking\" (small explosive warnings before main strikes) satisfied Article 57's warning requirement in many cases. However, the effectiveness of such warnings was contested. Human rights organizations reported that civilians could not evacuate due to ongoing hostilities, lack of safe passage routes, or displacement to areas subsequently attacked."
+        },
+        {
+          "type": "h3",
+          "text": "D. Occupation Law and the Gaza Status Question"
+        },
+        {
+          "type": "p",
+          "text": "The legal status of Gaza during the 2023-2026 campaign determined applicable law. Israel maintained that it had withdrawn from Gaza in 2005, dismantling settlements and removing military presence, and therefore did not occupy the territory. Human rights organizations and many international lawyers maintained that Israel retained effective control through its control of Gaza's borders, airspace, maritime access, utilities, and population registry, constituting occupation under the Fourth Geneva Convention."
+        },
+        {
+          "type": "treaty",
+          "text": "**Fourth Geneva Convention, Article 4:** \"Persons protected by the Convention are those who, at a given moment and in any manner whatsoever, find themselves, in case of a conflict or occupation, in the hands of a Party to the conflict or Occupying Power of which they are not nationals.\""
+        },
+        {
+          "type": "p",
+          "text": "The ICJ's _Wall_ advisory opinion held that the Israeli-Palestinian conflict is an international armed conflict to which the Fourth Geneva Convention applies. The Court reasoned that the Convention applies whenever there is occupation, and that territory can be occupied even without continuous military presence if the occupying power retains \"effective control.\" The Court did not specifically address Gaza's status post-2005."
+        },
+        {
+          "type": "p",
+          "text": "If Gaza was occupied territory, Israel's obligations as an occupying power included maintaining public order and safety, ensuring food and medical supplies, and protecting civilians from violence. The ICRC and human rights organizations argued that Israel failed in these obligations by restricting humanitarian access, cutting electricity and water supplies, and conducting military operations that caused mass civilian casualties."
+        },
+        {
+          "type": "p",
+          "text": "If Gaza was not occupied territory but rather a hostile entity under siege, different legal frameworks applied. The law of blockade permits restricting maritime and air access to enemy territory, subject to obligations to allow passage of humanitarian supplies. The San Remo Manual governs maritime blockades; no comparable treaty governs land blockades, though customary law principles of proportionality and humanitarian access still apply."
+        },
+        {
+          "type": "p",
+          "text": "Israel's position, that Gaza was neither occupied nor subject to blockade but rather a hostile territory whose population Israel had no obligation to supply, contradicted the view of most international legal scholars and UN bodies. The UN Human Rights Council, General Assembly, and Secretary-General consistently characterized Israel as an occupying power with corresponding obligations. This divergence between Israel's self-characterization and international consensus represents a significant internal incoherence if Israel claims to comply with international law."
+        },
+        {
+          "type": "p",
+          "text": "Israel Coherence ScorecardInternal Assessment"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Cabinet approved major operations",
+            "Knesset bypassed on nuclear strike decision",
+            "Legal advice classified",
+            "Partially coherent"
+          ]
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Hamas degraded but not eliminated",
+            "Hostages partially recovered",
+            "Iran nuclear program delayed",
+            "Partially achieved"
+          ]
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Distinction rules followed per IDF",
+            "Proportionality contested by ICRC",
+            "Humanitarian access restricted",
+            "Contested"
+          ]
+        },
+        {
+          "type": "ul",
+          "items": [
+            "7 Oct attack = clear armed attack",
+            "Extended campaign necessity disputed",
+            "Occupation status legally contested",
+            "Mixed validity"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sec-8",
+      "number": "VIII.",
+      "label": "",
+      "title": "Lebanon: State Incapacity and Militia Warfare",
+      "blocks": [
+        {
+          "type": "lead",
+          "text": "Lebanon was not a primary belligerent but became a major theater of conflict through Hezbollah's actions and Israeli responses. This Part examines the legal consequences of Lebanese State incapacity to control non-State armed groups operating from its territory."
+        },
+        {
+          "type": "h3",
+          "text": "A. Lebanese Constitutional Structure and State Incapacity"
+        },
+        {
+          "type": "p",
+          "text": "Lebanon's 1926 Constitution (as amended by the 1990 Taif Agreement) establishes a confessional system dividing executive power between Maronite Christian (President), Sunni Muslim (Prime Minister), and Shia Muslim (Speaker) offices. This structure, designed to prevent any single community from dominating the State, produced chronic paralysis when communities disagree."
+        },
+        {
+          "type": "p",
+          "text": "The Lebanese Armed Forces (LAF) number approximately 72,000 personnel, compared to Hezbollah's estimated 20,000-50,000 fighters. The LAF has historically avoided direct confrontation with Hezbollah, recognizing both Hezbollah's military superiority and its popular support within the Shia community. The Lebanese government cannot exercise \"effective control\" over southern Lebanon as understood in international law."
+        },
+        {
+          "type": "h3",
+          "text": "B. Attribution and State Responsibility"
+        },
+        {
+          "type": "p",
+          "text": "The ICJ's _Nicaragua_ and _Corfu Channel_ judgments establish that States bear responsibility for uses of force emanating from their territory if they knew or should have known of the activities and failed to take reasonable preventive measures. Lebanon's position, asserting that it lacked capacity to prevent Hezbollah operations, raises the question whether incapacity negates responsibility."
+        },
+        {
+          "type": "p",
+          "text": "ILC Articles on State Responsibility, Article 7, addresses the acts of organs exercising governmental authority. However, Hezbollah operates outside Lebanese government authority. Article 8 addresses direction and control of private actors, but Lebanon has not directed Hezbollah operations; rather, Hezbollah operates independently and sometimes contrary to Lebanese government preferences."
+        },
+        {
+          "type": "p",
+          "text": "The conflict rendered Lebanon a passive victim rather than an active participant. Israeli strikes killed over 4,000 Lebanese civilians and displaced 1.2 million, disproportionate to Hezbollah's attacks on Israel. Yet Lebanon lacked effective means to prevent Hezbollah operations or to compel Israeli restraint. This asymmetry exposes the limitations of traditional State responsibility frameworks when applied to weak States hosting powerful non-State actors."
+        }
+      ]
+    },
+    {
+      "id": "sec-9",
+      "number": "IX.",
+      "label": "",
+      "title": "The Gulf Arab States: Alliance Dilemmas and Neutrality Claims",
+      "blocks": [
+        {
+          "type": "lead",
+          "text": "The Gulf Cooperation Council States (Saudi Arabia, UAE, Qatar, Kuwait, Bahrain, Oman) faced acute dilemmas during the 2023-2026 conflict. Bound to the United States by security alliances, they maintained official neutrality while providing varying degrees of support to U.S. military operations."
+        },
+        {
+          "type": "h3",
+          "text": "A. The Abraham Accords and Alliance Commitments"
+        },
+        {
+          "type": "p",
+          "text": "The 2020 Abraham Accords normalized relations between Israel and the UAE, Bahrain, Morocco, and Sudan. Saudi Arabia engaged in normalization discussions but had not established formal diplomatic relations by October 2023. The Accords included implicit security understandings: Gulf States would support Israel against Iranian threats; Israel would support Gulf States against Iranian regional aggression."
+        },
+        {
+          "type": "p",
+          "text": "These understandings were tested in April 2024 when Jordan permitted U.S. and Israeli aircraft to use its airspace to intercept Iranian drones and missiles. Jordan's official position remained neutral, but its operational conduct supported one belligerent against another, potentially violating the Hague Convention V respecting the rights and duties of neutral powers in case of war on land (1907)."
+        },
+        {
+          "type": "h3",
+          "text": "B. Internal Incoherence: Security Alliances vs. Public Neutrality"
+        },
+        {
+          "type": "p",
+          "text": "The Gulf States' internal incoherence stemmed from conflicting commitments: formal neutrality under international law; security alliances with the United States; popular sentiment supporting the Palestinian cause; and fear of Iranian retaliation. The UAE and Saudi Arabia permitted U.S. forces to operate from their territories against Houthi targets in Yemen, while publicly calling for ceasefires and de-escalation."
+        },
+        {
+          "type": "p",
+          "text": "This incoherence was strategically rational, minimizing domestic backlash while maintaining alliance commitments, but legally awkward. The United States claimed collective self-defence of Israel under Article 51; Gulf State support for U.S. operations made them potentially complicit in uses of force they publicly opposed."
+        },
+        {
+          "type": "h3",
+          "text": "C. The 2026 War: Gulf States as Battlefield"
+        },
+        {
+          "type": "p",
+          "text": "The February 2026 joint U.S.-Israeli strikes on Iran transformed Gulf States from reluctant bystanders into active combatants and targets. Iran's Operation True Promise IV (28 February-2 March 2026) targeted Gulf States directly: Bahrain's capital Manama, Kuwait International Airport, Abu Dhabi, Riyadh and Saudi Arabia's Eastern Province, and U.S. military installations at Al Udeid (Qatar), Ali Al Salem (Kuwait), Al Dhafra (UAE), and the U.S. Navy Fifth Fleet headquarters in Bahrain."
+        },
+        {
+          "type": "p",
+          "text": "Qatar shot down two Iranian Su-24 bombers, the first nation to shoot down Iranian aircraft in the conflict. Saudi Crown Prince Mohammed bin Salman, with U.S. backing, vowed to employ military force against further Iranian incursions, calling Iranian strikes \"cowardly\" because Saudi airspace had been closed to U.S. and Israeli attackers. The E3 (UK, France, Germany) resolved to back \"proportionate military defensive measures\" against drones and ballistic missiles, signaling potential direct European involvement."
+        },
+        {
+          "type": "p",
+          "text": "The legal status of Gulf States shifted from neutral to belligerent through their hosting of U.S. military installations. Under the Hague Convention V (1907), neutral States must not permit belligerents to use their territory for military operations. By allowing U.S. forces to launch strikes from their territory, Gulf States compromised their neutrality claims. Iran's targeting of Gulf State military installations hosting U.S. forces could be characterized as attacks on legitimate military objectives, though the simultaneous targeting of civilian infrastructure (Kuwait International Airport, Manama) would violate the distinction principle under IHL."
+        }
+      ]
+    },
+    {
+      "id": "sec-10",
+      "number": "X.",
+      "label": "",
+      "title": "Maritime Dimensions: Hormuz, UNCLOS, and the San Remo Manual",
+      "blocks": [
+        {
+          "type": "lead",
+          "text": "The maritime dimensions of the 2026 Iran war eclipsed all prior legal questions about Red Sea shipping. Iran's closure of the Strait of Hormuz,through which approximately 20% of global oil supplies transit,created the most significant disruption to international maritime commerce since the 1980s Tanker War. The subsequent U.S. naval blockade of Iranian ports raised fundamental questions about the law of naval warfare, neutral shipping rights, and the legality of blockades as instruments of coercion. This Part examines these questions under UNCLOS, the San Remo Manual, and customary international law."
+        },
+        {
+          "type": "h3",
+          "text": "A. UNCLOS Framework: Peaceful Purposes and Self-Defence"
+        },
+        {
+          "type": "p",
+          "text": "The United Nations Convention on the Law of the Sea (1982) establishes a comprehensive regime for maritime zones and activities. Article 88 reserves the high seas for \"peaceful purposes\",language interpreted by most States as prohibiting aggressive military operations but permitting defensive activities. Article 301 prohibits \"any threat or use of force against the territorial integrity or political independence of any State\" in maritime zones."
+        },
+        {
+          "type": "treaty",
+          "text": "**UNCLOS Article 88:** \"The high seas shall be reserved for peaceful purposes.\"\n\n\n**Article 301:** \"In exercising their rights and performing their duties under this Convention, States Parties shall refrain from any threat or use of force against the territorial integrity or political independence of any State, or in any other manner inconsistent with the principles of international law embodied in the Charter of the United Nations.\""
+        },
+        {
+          "type": "p",
+          "text": "The Houthis' attacks on commercial shipping in the Red Sea and Gulf of Aden between November 2023 and June 2025 violated multiple UNCLOS provisions. Under Article 100, States are obligated to cooperate in the suppression of piracy. The Houthis' attacks, targeting vessels without nationality discrimination, demanding ransom, and indiscriminately endangering crews,met the definition of piracy under Article 101."
+        },
+        {
+          "type": "h3",
+          "text": "B. The San Remo Manual: Naval Warfare Law"
+        },
+        {
+          "type": "p",
+          "text": "The San Remo Manual (1994) applies international humanitarian law to naval warfare. It addresses blockade, exclusion zones, and neutral shipping rights. Key provisions include:"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**Rule 93:** Blockade must be effective to be legally recognized.",
+            "**Rule 102:** Blockade must not bar access to neutral ports or coasts.",
+            "**Rule 12:** Merchant vessels may be attacked if they constitute military objectives."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "The U.S. naval operations against Houthi targets raised questions about the geographical scope of self-defence. When U.S. forces struck Houthi missile sites in Yemen from positions in the Red Sea, they acted from international waters against targets in Yemeni territory. This configuration,naval forces operating from international waters against coastal targets,is governed by both UNCLOS and the law of naval warfare, with Article 51 potentially applying if the coastal State consents or if the operations constitute self-defence against threats emanating from that territory."
+        },
+        {
+          "type": "h3",
+          "text": "C. Exclusive Economic Zones and Military Activities"
+        },
+        {
+          "type": "p",
+          "text": "The legal status of military activities in Exclusive Economic Zones (EEZs) was contested during the 2023-2026 conflict. The Red Sea is largely composed of EEZs belonging to littoral States (Egypt, Saudi Arabia, Yemen, Eritrea, Sudan) and high seas. UNCLOS Article 56 grants coastal States \"sovereign rights for the purpose of exploring and exploiting, conserving and managing the natural resources\" of their EEZs, but does not grant sovereignty over the water column itself."
+        },
+        {
+          "type": "p",
+          "text": "Article 58 guarantees to other States \"the freedoms referred to in article 87 of navigation and overflight and of the laying of submarine cables and pipelines, and other internationally lawful uses of the sea related to these freedoms.\" Whether military exercises, intelligence collection, and naval operations constitute \"internationally lawful uses\" was disputed. The United States maintained that UNCLOS does not restrict military activities in EEZs; China and several other States maintained that military activities require coastal State consent."
+        },
+        {
+          "type": "p",
+          "text": "The January-June 2025 U.S. operations in the Red Sea EEZs of Saudi Arabia, Yemen, and Eritrea did not seek coastal State consent. Saudi Arabia and Eritrea did not object publicly; Yemen (under Houthi control) objected vociferously but lacked capacity to enforce its position. This pattern,powerful naval States operating in foreign EEZs without consent, weak coastal States unable to resist,demonstrates the extent to which UNCLOS's careful balance between coastal and maritime powers depends on power asymmetries."
+        },
+        {
+          "type": "h3",
+          "text": "D. Detailed San Remo Manual Provisions"
+        },
+        {
+          "type": "p",
+          "text": "The San Remo Manual, adopted in 1994 by a group of experts convened by the International Institute of Humanitarian Law, provides the most comprehensive codification of the law of naval warfare. While not a treaty, the Manual reflects the consensus view of experts and has been cited by States including the United States, United Kingdom, and Germany as authoritative guidance."
+        },
+        {
+          "type": "p",
+          "text": "**Part II: Regions of Operations** addresses where naval warfare may be conducted. Rule 10 provides that hostilities may occur in territorial seas, international straits, archipelagic waters, EEZs, and high seas,essentially all maritime zones. However, Rules 11-13 impose restrictions: in the territorial sea, belligerents must comply with innocent passage regimes; in international straits, transit passage continues subject to belligerent rights; in archipelagic sea lanes, archipelagic sea lanes passage continues."
+        },
+        {
+          "type": "p",
+          "text": "**Part III: Basic Rules and Target Discrimination** applies IHL principles to naval contexts. Rule 38 restates the distinction principle: \"In any armed conflict the right of the parties to the conflict to choose methods or means of warfare is not unlimited.\" Rule 39 prohibits attacks on civilian vessels unless they are military objectives. Rule 40 creates a presumption of civilian status for vessels flying neutral flags."
+        },
+        {
+          "type": "p",
+          "text": "**Part IV: Special Rules** addresses submarine warfare, aerial warfare at sea, and mine warfare. Rule 46 requires that submarines comply with the same targeting rules as surface vessels,no unrestricted submarine warfare against merchant shipping. Rule 48 permits mine laying only when effective international notification is given."
+        },
+        {
+          "type": "p",
+          "text": "**Part V: Neutral Shipping** governs the rights and duties of neutral States and vessels. Rule 67 provides that neutral merchant vessels may be stopped and visited to determine their character and destination. Rule 68 permits capture of neutral vessels attempting to breach blockade or carry contraband. Rule 70 protects neutral warships and military aircraft, which cannot be attacked or captured."
+        },
+        {
+          "type": "p",
+          "text": "The U.S. operations against Houthi targets complied with most San Remo provisions: targets were military objectives (missile sites, radar installations, command centers); neutral shipping was not targeted; warning was given where feasible. However, the Manual does not directly address the _jus ad bellum_ question of whether the United States was entitled to conduct offensive operations against Yemeni territory based on threats to shipping."
+        },
+        {
+          "type": "h3",
+          "text": "E. Jus Ad Bellum in Maritime Contexts"
+        },
+        {
+          "type": "p",
+          "text": "The relationship between Article 51 self-defence and maritime operations raises unresolved questions. The ICJ in _Oil Platforms_ held that attacks on shipping could constitute armed attacks if sufficiently grave, but the Court found that the specific attacks on neutral shipping attributed to Iran did not meet the threshold. The Court did not address whether attacks on a State's own merchant vessels would constitute armed attacks against that State."
+        },
+        {
+          "type": "p",
+          "text": "The U.S. position, that attacks on commercial shipping threatened U.S. interests sufficiently to trigger Article 51,rested on several propositions: (1) U.S. vessels were among those attacked or threatened; (2) freedom of navigation is a vital U.S. interest; (3) the Houthi attacks were attributable to Iran; (4) collective self-defence of Saudi Arabia and other Gulf States was also implicated."
+        },
+        {
+          "type": "p",
+          "text": "Each proposition is legally contestable. The presence of U.S. vessels among attacked shipping makes the self-defence claim stronger than it would be for purely foreign vessels, but the U.S. vessels were specifically targeted only in isolated instances. Freedom of navigation is indeed an important interest, but Article 51 requires an \"armed attack,\" not merely an interference with economic interests. Attribution of Houthi conduct to Iran required proof of Iranian direction or control that the United States asserted but did not publicly establish."
+        },
+        {
+          "type": "p",
+          "text": "The collective self-defence claim,defending Saudi Arabia and other Gulf States against Houthi threats,presented additional complications. Saudi Arabia itself was conducting military operations against the Houthis in Yemen. Whether a State engaged in offensive operations against a non-State actor can simultaneously claim collective self-defence against that actor's counter-attacks is legally uncertain. The better view is that a State engaged in armed conflict cannot selectively invoke self-defence for responses to enemy counter-attacks while disclaiming responsibility for its own initial aggression."
+        }
+      ]
+    },
+    {
+      "id": "sec-11",
+      "number": "XI.",
+      "label": "",
+      "title": "Great Power Roles: Russia, China, and India",
+      "blocks": [
+        {
+          "type": "lead",
+          "text": "Every war has its bystanders. The 2026 Iran war had three that mattered: Russia, China, and India. Each shaped the conflict's trajectory through intelligence support, dual-use technology transfers, diplomatic mediation, or strategic silence. Each claimed a position, neutrality, opposition to aggression, strategic autonomy, that its conduct contradicted. This Part examines the gap between what each State said and what each State did."
+        },
+        {
+          "type": "h3",
+          "text": "A. Russia: Intelligence Patronage and Strategic Constraints"
+        },
+        {
+          "type": "p",
+          "text": "Russia's relationship with Iran intensified during the Ukraine conflict, with Tehran supplying drones and missiles in exchange for advanced systems including S-400 air defenses. This pre-war military cooperation established the infrastructure for Russia's wartime support."
+        },
+        {
+          "type": "p",
+          "text": "During the 2026 war, Russia's role focused on intelligence sharing and logistical aid, avoiding direct combat to prevent straining resources already committed in Ukraine. U.S. officials reported that Moscow supplied Iran with real-time data on American warships and aircraft, enabling more precise retaliatory strikes. This assistance included satellite feeds from Russian assets, which helped Iran monitor U.S. military movements throughout the Middle East. Limited reports indicated Russia facilitated arms resupplies, though no large-scale transfers were confirmed. According to U.S. and European officials, Russia sent upgraded drones to Iran during the conflict."
+        },
+        {
+          "type": "p",
+          "text": "Diplomatically, Russia coordinated with China to convene emergency UNSC sessions, condemning the initial strikes as violations of sovereignty. Moscow abstained from resolutions critical of Iran, framing its position as opposition to U.S. aggression. On 7 April 2026, Russia joined China in vetoing a Bahrain-sponsored draft resolution on ship escorting in the Strait of Hormuz, citing the draft's failure to \"capture the root causes and the full picture of the conflict in a comprehensive and balanced manner.\""
+        },
+        {
+          "type": "p",
+          "text": "Russia's intelligence sharing with Iran raises significant questions under the law of State responsibility. ARSIWA Article 8 attributes conduct to a State when persons act \"on the instructions of, or under the direction or control of\" that State. Russia's provision of satellite intelligence to enable Iranian targeting of U.S. forces approaches this threshold: Russia was not directing specific Iranian operations, but its intelligence was designed to and did facilitate Iranian military strikes. The better analysis is under Article 41 of ARSIWA, which requires third States to \"not recognize as lawful a situation created by a serious breach\" of peremptory norms and to \"not render aid or assistance in maintaining that situation.\" If the U.S.-Israeli strikes constituted aggression (a serious breach of the prohibition on the use of force), Russia's assistance to Iran could be characterized as counter-measures rather than unlawful aid. If, however, Iran's retaliation against Gulf States constituted unlawful use of force against neutral States, Russia's facilitation of that retaliation would constitute aid in maintaining an unlawful situation."
+        },
+        {
+          "type": "p",
+          "text": "Russia's internal coherence is mixed. Its legal position, strict construction of Article 51, opposition to regime change, was consistent with its stated international law positions. But Russia's own ongoing aggression in Ukraine undermined its credibility as a defender of sovereignty. The contradiction between Russia's legal arguments against U.S.-Israeli strikes on Iran and its own strikes on Ukrainian territory is not merely rhetorical. It is structural. A State that condemns aggression while committing it has not violated a legal norm. It has revealed one: that the law's authority depends on who invokes it, and against whom."
+        },
+        {
+          "type": "h3",
+          "text": "B. China: Dual-Use Technology, Diplomatic Mediation, and Strategic Ambiguity"
+        },
+        {
+          "type": "p",
+          "text": "China adopted a more complex posture than Russia, combining declared neutrality with substantial indirect support for Iran and an emerging role as diplomatic mediator. China officially declared itself neutral, not wanting to alienate a possible post-Khamenei government while also protecting its oil imports through contested waterways. The strategic ambiguity, providing support while claiming neutrality, presents the most significant internal coherence challenge of any bystander State."
+        },
+        {
+          "type": "p",
+          "text": "**Military and intelligence assistance.** U.S. intelligence assessments indicated Beijing prepared to offer financial aid and missile components, though it refrained from overt military involvement. Chinese dual-use technologies exported pre-war (including radar systems and navigation technology) enhanced Iran's electronic warfare capabilities. In March 2026, the United States accused Chinese state-owned company Semiconductor Manufacturing International Corporation (SMIC) of providing chipmaking tools to Iran's military. The U.S.-China Economic and Security Review Commission stated that China's BeiDou navigation system had been used by Iran to direct attacks across the region. Chinese firms with links to the People's Liberation Army, such as MizarVision and Jing'an Technology, marketed geospatial intelligence about the positions and movements of U.S. forces in the region."
+        },
+        {
+          "type": "p",
+          "text": "Multiple sanctioned Iranian ships believed to be carrying sodium perchlorate (a precursor material for solid-propellant rockets) traveled from China to Iran since the war began. On 11 April 2026, CNN reported that, according to U.S. intelligence sources, China was preparing to ship man-portable air-defense systems (MANPADs) to Iran through third countries, which the Chinese foreign ministry denied. CBS News reported that China was considering supplying Iran with X-band radar systems, per the U.S. Defense Intelligence Agency."
+        },
+        {
+          "type": "p",
+          "text": "In April 2026, the Financial Times published an investigation citing leaked Iranian military documents showing that the IRGC Aerospace Force secretly acquired a high-resolution Chinese reconnaissance satellite in late 2024, built and launched by Earth Eye Co. The satellite monitored key sites in the region for military purposes, including for strikes. President Trump stated that Xi Jinping told him Beijing was not providing weapons to Iran in a letter exchange ahead of their summit. On 19 April 2026, U.S. forces seized the sanctioned Iranian container ship MV Touska in the Gulf of Oman on a return voyage from China, carrying dual-use equipment."
+        },
+        {
+          "type": "p",
+          "text": "**Diplomatic mediation.** On 31 March 2026, China and Pakistan announced a five-point proposal calling for ceasefire and resumption of normal navigation in the Strait of Hormuz. The African Union expressed support. China played a key role in convincing Iran to accept Pakistan's two-week ceasefire proposal on 7 April. According to analysts, Pakistan provided the practical channel for the fragile ceasefire while China provided political weight and strategic backing. The Trump administration appeared to have little enthusiasm for China's mediation."
+        },
+        {
+          "type": "p",
+          "text": "China's internal coherence is severely strained. Its declared neutrality contradicted its provision of dual-use technologies, satellite intelligence, and potential weapons shipments. Its position as mediator was undermined by its material support for one belligerent. Its veto of the Hormuz shipping resolution, ostensibly because the draft failed to address root causes, protected Iran's closure of an international waterway that China itself depends upon for oil imports. The gap between China's self-image as a responsible great power and its conduct as an enabler of Iranian military capabilities is the widest internal incoherence of any bystander State. A mediator who arms one party is not a mediator. He is a participant in disguise."
+        },
+        {
+          "type": "h3",
+          "text": "C. India: Strategic Silence and the Price of Irrelevance"
+        },
+        {
+          "type": "p",
+          "text": "India's role in the 2026 Iran war was defined by what it did not do. Despite decades of maintaining parallel relations with Israel, Iran, and Gulf States, the war exposed the limits of strategic autonomy when all three relationships face simultaneous stress. India's signature foreign policy approach, multi-alignment, proved useless when alignment was exactly what the conflict demanded."
+        },
+        {
+          "type": "p",
+          "text": "**Diplomatic position.** The Ministry for External Affairs expressed \"concern\" and requested all three nations for a ceasefire, without condemning the strikes or naming the aggressor. Prime Minister Modi spoke with Gulf leaders (King Abdullah II, King Hamad bin Isa Al Khalifa, Crown Prince Mohammed bin Salman) and condemned \"strikes and attacks on sovereignty\" without mentioning Iran. Modi also spoke with Israeli Prime Minister Netanyahu. The Indian government did not condemn the assassination of Khamenei; Foreign Secretary Vikram Misri signed a condolence book days later without mentioning the circumstances. India sent two contingents of medical aid to Iran, its only material response."
+        },
+        {
+          "type": "p",
+          "text": "In March 2026, the Indian government blocked the film _The Voice of Hind Rajab_, documenting the Red Crescent response during the killing of a Palestinian girl by the IDF, saying the film could \"negatively impact India's relations with Israel amid the war with Iran.\" This act of censorship to protect bilateral relations with a belligerent contradicted India's constitutional commitment to free expression (Article 19(1)(a) of the Constitution) and its self-proclaimed role as the \"voice of the Global South.\""
+        },
+        {
+          "type": "p",
+          "text": "**Energy crisis.** 90% of India's LPG imports pass through the Strait of Hormuz. When Iran closed the strait, India faced an immediate energy emergency. Brent crude surged from $80 to $120 per barrel between 2 and 9 March. LPG prices increased by ₹60 and ₹144 for the 14.2 kg and 19 kg cylinder variants respectively; black market prices reached ₹4,000 for a 14.2 kg cylinder. Protests erupted across India. Gujarat's tile and ceramic industry suspended production for three weeks. By April, early stages of reverse migration of urban migrant workers were reported due to cooking gas shortages,echoing the 2020 COVID lockdown crisis. The U.S. Treasury granted India a temporary 30-day emergency waiver on 6 March 2026, authorizing purchase of stranded Russian oil cargoes to stabilize domestic fuel prices."
+        },
+        {
+          "type": "p",
+          "text": "**The Pakistan mediation setback.** Perhaps the most damaging consequence for India was Pakistan's emergence as the primary mediator between Iran and the United States. The Islamabad Talks of 11 April 2026 represented the highest-level U.S.-Iran discussions since the 1979 Revolution, facilitated entirely by Pakistan. As _The Wire_ noted: \"The emergence of Pakistan, alongside Egypt and Türkiye, as a primary back-channel interlocutor between Iran and the United States is a stinging strategic setback for New Delhi. For a government that has staked its reputation on isolating Pakistan and projecting India as the indispensable Vishwaguru under Narendra Modi's personal leadership, this development is nothing short of a political and diplomatic catastrophe.\""
+        },
+        {
+          "type": "p",
+          "text": "**The IRIS Dena incident.** The sinking of the Iranian warship IRIS Dena by U.S. forces, returning to Iran from participating in Indian Navy exercises, about 19 nautical miles off the coast of Galle, Sri Lanka,ignited debates on the effectiveness of India's self-proclaimed status as the \"net security provider\" in the Indian Ocean. India delayed a mobilization response to an attack well within its maritime sphere of influence, compounded by the fact that Dena had just been returning from a naval exercise conducted by the Indian Navy. The incident demonstrated that India's naval posture could not protect even vessels that had just participated in Indian-hosted exercises."
+        },
+        {
+          "type": "p",
+          "text": "**Internal coherence assessment.** India's internal incoherence is severe across multiple dimensions. Its constitutional commitment to free expression was subordinated to diplomatic considerations (blocking the Hind Rajab film). Its self-proclaimed role as \"voice of the Global South\" was contradicted by its silence on attacks against a developing nation. Its strategic autonomy was exposed as hollow when Pakistan, India's primary rival, emerged as the indispensable mediator. As Kapil Komireddi wrote for UnHerd: \"Every other founding member [of BRICS],Russia, China and Brazil,quickly denounced the war. India alone seemed to be condoning it with silence... Given its sheer size and human scale, India may be on its way to becoming the largest single non-hostile casualty of the war in West Asia. For all its preening proclamations of its own rise and importance on the world stage, Modi's 'New India' proved too inconsequential to influence the warmakers,and too weak, craven, and self-woundingly stupid to be spared its effects.\""
+        },
+        {
+          "type": "p",
+          "text": "Bystander States Coherence ScorecardInternal Assessment"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Intelligence sharing with Iran documented",
+            "Legal position consistent (anti-aggression)",
+            "Undermined by own Ukraine aggression",
+            "Partially coherent"
+          ]
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Declared neutrality vs. dual-use tech",
+            "BeiDou/SMIC/satellite support to Iran",
+            "Mediation role contradicted by enabling",
+            "Internally incoherent"
+          ]
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Silence contradicted Global South claims",
+            "Energy crisis from Hormuz closure",
+            "Pakistan mediation = strategic catastrophe",
+            "Internally incoherent"
+          ]
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Mediated ceasefire successfully",
+            "Islamabad Talks platform",
+            "Strategic gain vs. India",
+            "Coherent opportunism"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sec-12",
+      "number": "XII.",
+      "label": "",
+      "title": "Synthesis: Patterns of Internal Incoherence",
+      "blocks": [
+        {
+          "type": "lead",
+          "text": "Fourteen analytical perspectives yield three patterns. Each pattern is a variation on a single theme: the gap between what States say and what they do. Executive concentration of war powers, proxy warfare attribution failures, and alliance-neutrality tensions are not separate problems. They are the same problem, manifested in different institutional contexts."
+        },
+        {
+          "type": "h3",
+          "text": "A. Executive Concentration of War Powers"
+        },
+        {
+          "type": "p",
+          "text": "All three primary belligerents concentrated war powers in the executive without meaningful legislative oversight. The U.S. President conducted extensive military operations against Iran without congressional authorization, stretching the 2001 AUMF beyond recognition. Iran's Supreme Leader exercised war powers constitutionally vested in his office without any institutional check. Israel's cabinet approved military operations with minimal Knesset review."
+        },
+        {
+          "type": "p",
+          "text": "The pattern is not coincidental. Modern warfare technology accelerates military decision-making beyond the pace of legislative deliberation. The constitutional procedures designed for an earlier era, when Congress could debate a declaration of war over weeks, cannot function when strikes are ordered from Air Force One at 3:38 p.m. and executed the following morning. Whether this represents constitutional adaptation or erosion depends on your normative priors. But the internal incoherence, conduct contradicting separation-of-powers principles, is not a matter of interpretation. It is a fact."
+        },
+        {
+          "type": "h3",
+          "text": "B. Proxy Warfare Attribution Failures"
+        },
+        {
+          "type": "p",
+          "text": "The attribution standards articulated in _Nicaragua_ and _Tadic_ proved inadequate for the proxy relationships of the 2023-2026 conflict. Neither \"effective control\" nor \"overall control\" captured what actually happens between Iran and Hezbollah, or between the United States and Israel. The result was legal indeterminacy: States could plausibly deny responsibility for proxy conduct while benefiting from proxy operations. The law of attribution was built for a world of formal hierarchies. It breaks down in a world of informal dependence. Every State in this conflict exploited the gap."
+        },
+        {
+          "type": "h3",
+          "text": "C. Alliance-Neutrality Tensions"
+        },
+        {
+          "type": "p",
+          "text": "Gulf State conduct exposed the unsustainable tension between alliance commitments and neutrality claims. States cannot simultaneously claim neutral status under international law and provide military support to belligerents. The 1907 Hague Conventions assumed that neutral States would clearly distinguish themselves from belligerents. Modern alliance structures make such distinctions impractical. The Gulf States hosted U.S. military bases, participated in U.S.-led air defense networks, and then claimed neutrality when Iran's missiles struck. The claim was legally available. The reality was not."
+        }
+      ]
+    },
+    {
+      "id": "sec-13",
+      "number": "XIII.",
+      "label": "",
+      "title": "Institutional Reform Recommendations",
+      "blocks": [
+        {
+          "type": "lead",
+          "text": "This Part offers specific reform recommendations grounded in each State's constitutional architecture. The recommendations are designed to reduce internal incoherence between formal commitments and operational conduct."
+        },
+        {
+          "type": "h3",
+          "text": "A. United States: Reinvigorating War Powers"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**Revise the War Powers Resolution:** Replace the 1973 framework with explicit authorization requirements for operations exceeding defined thresholds (duration, cost, troop levels).",
+            "**Repeal outdated AUMFs:** The 2001 and 2002 AUMFs should be repealed and replaced with specific, time-limited authorizations for named adversaries.",
+            "**Judicial review:** Establish expedited procedures for courts to review war powers disputes without delaying military operations where necessary."
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "B. Iran: Constitutional Transparency"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**Majlis war powers:** Amend the Constitution to require Majlis approval for offensive military operations while preserving the Supreme Leader's defensive authority.",
+            "**SNSC accountability:** Require public disclosure of SNSC decisions and dissenting opinions.",
+            "**Proxy transparency:** Establish formal legal frameworks governing relationships with allied non-State actors."
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "C. Israel: Basic Law Refinement"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**Knesset oversight:** Require Knesset Foreign Affairs and Defense Committee approval for operations exceeding 30 days.",
+            "**Legal advice independence:** Strengthen the Attorney General's independence in national security matters.",
+            "**IHL compliance mechanisms:** Establish independent military judicial review of targeting decisions."
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "D. International Level"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "**Proxy attribution:** Develop clearer standards for State responsibility for proxy conduct, incorporating elements of both \"effective\" and \"overall\" control.",
+            "**Collective self-defence:** Clarify the relationship between Article 51 collective self-defence and alliance commitments.",
+            "**Neutrality modernization:** Update Hague Convention provisions to account for modern alliance structures."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sec-14",
+      "number": "XIV.",
+      "label": "",
+      "title": "Conclusion: The Limits of Law in the Iran War",
+      "blocks": [
+        {
+          "type": "lead",
+          "text": "The 2026 Iran war began with bombs and ended with a ceasefire that wasn't one. Operation Epic Fury struck Iran on 28 February. True Promise IV retaliated. Hormuz closed. Pakistan mediated. The United States blockaded. Through it all, every belligerent insisted it was acting within the law. This should trouble us more than the violence itself. Violence, at least, is honest. The law, in this conflict, was not."
+        },
+        {
+          "type": "h3",
+          "text": "A. Findings Summary"
+        },
+        {
+          "type": "p",
+          "text": "The internal coherence assessment conducted in this Article reveals a pattern that no single-case study would capture. In all three primary belligerents, executive branches conducted military operations without legislative authorization: the U.S. Congress did not authorize Operation Epic Fury; the Iranian Majlis was not consulted on True Promise IV; the Israeli Knesset was informed of Operation Roaring Lion only after the bombs fell. Proxy relationships allowed States to benefit from armed force while denying legal responsibility. Alliance commitments contradicted neutrality obligations for Gulf States. And the bystander States, Russia, China, and India, each pursued strategies that contradicted their declared principles: Russia condemned aggression while committing it; China claimed neutrality while arming Iran; India proclaimed Global South leadership while maintaining strategic silence."
+        },
+        {
+          "type": "p",
+          "text": "But the most significant failures were not violations of external norms. They were internal incoherences: States acting contrary to their own declared principles. The United States launched a regime change war while claiming fidelity to constitutional separation of powers. Iran exercised absolute clerical authority while maintaining republican constitutional forms. Israel invoked self-defence while violating its own ceasefire, killing 357 Lebanese civilians in a single day. India proclaimed strategic autonomy while proving too inconsequential to influence the warmakers and too weak to be spared their effects. In each case, the failure was not that the State broke someone else's rules. The failure was that the State broke its own."
+        },
+        {
+          "type": "h3",
+          "text": "B. What the Conflict Reveals About International Law"
+        },
+        {
+          "type": "p",
+          "text": "The 2023-2026 conflict exposed a structural feature of international law that its practitioners prefer not to discuss. The system was designed for interstate wars between clearly identified belligerents fighting across defined territories. It breaks down when confronted with non-State actors, proxy relationships, and hybrid warfare. The ICJ's jurisprudence, while legally authoritative, proved institutionally incapable of influencing State conduct in real time. By the time the Court might rule, the bombs had already fallen."
+        },
+        {
+          "type": "p",
+          "text": "Internal coherence assessment offers an alternative. By focusing on contradictions within each State's own legal system, it generates recommendations that are institutionally grounded and politically feasible. The question is not whether international law is \"effective\" in some abstract sense. The question is whether a State that cannot comply with its own constitutional requirements for going to war can plausibly claim to comply with international law at all."
+        },
+        {
+          "type": "h3",
+          "text": "C. The Precedents We Have Set"
+        },
+        {
+          "type": "p",
+          "text": "The 2023-2026 conflict has left a legacy of degraded institutions and dangerous precedents. The question is whether those precedents will constrain future conflicts or license expanded executive war powers. The evidence of this Article suggests the latter. Every legal theory invoked in this conflict will be available to the next belligerent. Every constitutional constraint circumvented will be easier to circumvent again. Every attribution gap exploited will widen further. Absent institutional reform, the trajectory is clear."
+        },
+        {
+          "type": "h3",
+          "text": "D. Detailed Legal Findings"
+        },
+        {
+          "type": "p",
+          "text": "This Article's fourteen-part analysis yields specific legal findings that merit restatement:"
+        },
+        {
+          "type": "p",
+          "text": "**First**, Article 2(4)'s prohibition on the use of force was systematically eroded, culminating in Operation Epic Fury. The U.S.-Israeli strikes of 28 February 2026 constituted aggression: a coordinated military attack on a sovereign State during active negotiations, with the declared purpose of regime change. Trump's explicit declaration, the first by a U.S. President since the 2003 Iraq invasion, transformed the legal characterization from potential self-defence to prohibited use of force. Iran's True Promise IV retaliation, while legally grounded in Article 51, violated IHL through its targeting of civilian infrastructure in Gulf States. Israel's Operation Roaring Lion invoked anticipatory self-defence for nuclear facility strikes, a claim stretching Article 51 beyond its textual scope. The cumulative effect threatens to convert Article 51 from an exception to the prohibition on force into a general authorization for any State that can articulate a plausible threat narrative."
+        },
+        {
+          "type": "p",
+          "text": "**Second**, constitutional war powers frameworks in all three primary belligerents failed to constrain executive military action. The U.S. Congress did not authorize Operation Epic Fury; the Iranian Majlis was not consulted on True Promise IV; the Israeli Knesset was informed of Operation Roaring Lion only after execution. This pattern of executive dominance, while explicable by crisis dynamics, represents a structural failure of constitutional governance that weakens the democratic legitimacy of military operations."
+        },
+        {
+          "type": "p",
+          "text": "**Third**, the law of State responsibility (ARSIWA) proved inadequate for addressing the dual challenge of proxy warfare and great power enabling. The \"effective control\" standard established by the ICJ in _Nicaragua_ sets a threshold that Iran easily evaded by supporting Hezbollah and the Houthis without directing specific operations. Simultaneously, Russia's provision of satellite intelligence to Iran and China's supply of dual-use technologies (BeiDou, SMIC chips, reconnaissance satellites) fell below the attribution threshold while materially enabling Iranian military operations. The resulting attribution gap permits States to benefit from proxy warfare and indirect military support while avoiding legal responsibility."
+        },
+        {
+          "type": "p",
+          "text": "**Fourth**, IHL's proportionality principle faced unprecedented strain across multiple theaters. In Gaza, 46,000+ civilian deaths challenged the legal presumption of IHL compliance. In Lebanon, Operation Eternal Darkness killed 357 people and injured 1,200+ in a single day of strikes on command and control centers. In the Gulf, Iran's strikes on civilian airports and capital cities violated the distinction principle. The gap between micro-level targeting compliance and macro-level civilian harm represents a structural limitation of IHL that the 2026 war exposed across all belligerents."
+        },
+        {
+          "type": "p",
+          "text": "**Fifth**, the Strait of Hormuz closure demonstrated that international law's maritime governance framework is inadequate for wartime conditions. UNCLOS's transit passage regime (Article 38) proved unenforceable when a coastal State chose to close an international strait as a military measure. The subsequent U.S. naval blockade of Iranian ports raised unresolved questions about the legality of blockades as instruments of coercion versus naval warfare. The San Remo Manual's blockade provisions assume a state of declared war; the 2026 Iran war involved no such declaration, leaving the legal status of the blockade uncertain."
+        },
+        {
+          "type": "p",
+          "text": "**Sixth**, the Pakistan-mediated ceasefire of 7-8 April 2026 exposed the fragility of ceasefire mechanisms when belligerents selectively interpret their scope. Israel's assertion that the ceasefire did not include Lebanon, contradicting Pakistan and Iran, constituted a material breach if the ceasefire was comprehensive. The absence of a UN monitoring mechanism or third-party verification rendered the ceasefire unenforceable. A ceasefire without institutional backing is only as strong as the belligerents' willingness to comply, which is to say: it is not a ceasefire at all. It is a pause."
+        },
+        {
+          "type": "h3",
+          "text": "E. What Is to Be Done"
+        },
+        {
+          "type": "p",
+          "text": "The conflict's legal legacy presents a dilemma that is not merely practical but structural. If the international legal framework cannot address the threats States face, nuclear proliferation, proxy warfare, asymmetric attacks, States will continue developing extra-legal responses that erode the framework itself. A legal system that cannot address the problems for which it was designed loses its claim to authority. This is not a metaphor. It is a description of what happened between 2023 and 2026."
+        },
+        {
+          "type": "p",
+          "text": "The internal coherence methodology adopted in this Article suggests that the path forward lies not in strengthening external enforcement mechanisms, which depend on Great Power consensus that does not exist, but in strengthening internal institutional constraints. States that comply with their own constitutional and legal frameworks are more likely to produce decisions that are strategically sound, legally defensible, and politically legitimate. The 2023-2026 conflict demonstrated the opposite: States that bypassed their own institutional safeguards produced decisions that were strategically questionable, legally contested, and politically divisive."
+        },
+        {
+          "type": "p",
+          "text": "The reform recommendations in Section XIII are not aspirations. They are pragmatic responses to demonstrated failures. Restoring congressional war powers in the United States, establishing genuine legislative oversight in Iran, strengthening Knesset review in Israel: none of these would eliminate international conflict. They would improve the quality of decisions that lead to and sustain it. The same logic applies internationally: reforming Security Council veto practice, strengthening IAEA enforcement, developing attribution standards for proxy warfare would not prevent all violations. But they would reduce the structural incentives that currently favor extra-legal conduct. The choice is not between law and anarchy. It is between law that constrains and law that decorates."
+        }
+      ]
+    },
+    {
+      "id": "bibliography",
+      "number": "XV.",
+      "label": "",
+      "title": "Bibliography",
+      "blocks": [
+        {
+          "type": "h3",
+          "text": "International Court of Justice"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "_Case Concerning Military and Paramilitary Activities in and against Nicaragua_ (Nicaragua v. United States of America), Merits, Judgment, I.C.J. Reports 1986, p. 14",
+            "_Oil Platforms_ (Islamic Republic of Iran v. United States of America), Judgment, I.C.J. Reports 2003, p. 161",
+            "_Legal Consequences of the Construction of a Wall in the Occupied Palestinian Territory_, Advisory Opinion, I.C.J. Reports 2004, p. 136",
+            "_Armed Activities on the Territory of the Congo_ (Democratic Republic of the Congo v. Uganda), Judgment, I.C.J. Reports 2005, p. 168",
+            "_Corfu Channel_ (United Kingdom v. Albania), Judgment, I.C.J. Reports 1949, p. 4"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Treaty Instruments"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Charter of the United Nations (1945)",
+            "Geneva Conventions of 1949 and Additional Protocols (1977)",
+            "United Nations Convention on the Law of the Sea (1982)",
+            "Treaty on the Non-Proliferation of Nuclear Weapons (1968)",
+            "Vienna Convention on Diplomatic Relations (1961)",
+            "Hague Conventions respecting the Laws and Customs of War on Land (1907)"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "International Law Commission"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Articles on Responsibility of States for Internationally Wrongful Acts (2001)",
+            "Draft Articles on the Responsibility of International Organizations (2011)"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Domestic Constitutional and Statutory Materials"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "U.S. Constitution, Articles I and II",
+            "War Powers Resolution, 50 U.S.C. §§ 1541-1548 (1973)",
+            "Constitution of the Islamic Republic of Iran (1979)",
+            "Basic Law: The Government (Israel) (2001)",
+            "Constitution of Lebanon (1926, as amended 1990)"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "International Atomic Energy Agency"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "IAEA Board of Governors, Report GOV/2025/53 (2025)",
+            "IAEA Board of Governors, Report GOV/2025/65 (2025)",
+            "INFCIRC/153 (Corrected): The Structure and Content of Agreements between the Agency and States Required in Connection with the Treaty on the Non-Proliferation of Nuclear Weapons"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "United Nations Security Council"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "S/RES/2712 (2023): Protection of civilians and enabling humanitarian assistance in Gaza",
+            "S/RES/2720 (2023): Gaza humanitarian pauses and corridors",
+            "S/RES/2728 (2024): Gaza ceasefire demands",
+            "S/RES/2735 (2024): Gaza peace plan support"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "United States Supreme Court"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "_Youngstown Sheet & Tube Co. v. Sawyer_, 343 U.S. 579 (1952)",
+            "_United States v. Curtiss-Wright Export Corp._, 299 U.S. 304 (1936)",
+            "_Zivotofsky v. Kerry_, 576 U.S. 1 (2015)"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Specialized Manuals and Guidelines"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "San Remo Manual on International Law Applicable to Armed Conflicts at Sea (1994)",
+            "U.S. Department of Defense, Law of War Manual (June 2015, updated July 2023)",
+            "ICRC Customary International Humanitarian Law Study (Henckaerts & Doswald-Beck, 2005)"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "International Criminal Court"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Prosecutor v. Al-Bashir, ICC-02/05-01/09, Pre-Trial Chamber I, Decision on the Prosecution's Application for a Warrant of Arrest (2009)",
+            "Prosecutor v. Netanyahu & Gallant, ICC-01/12-01/23, Warrant of Arrest (November 2024)",
+            "Rome Statute of the International Criminal Court (1998), Articles 5-8, 12-13, 17"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Secondary Legal Scholarship"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Cassese, A., \"The Nicaragua and Tadic Tests Revisited in Light of the ICJ Judgment on Genocide in Bosnia,\" _European Journal of International Law_ 18(4) (2007), pp. 649-668",
+            "Dinstein, Y., _War, Aggression and Self-Defence_, 6th ed. (Cambridge University Press, 2017)",
+            "Gray, C., _International Law and the Use of Force_, 4th ed. (Oxford University Press, 2018)",
+            "Henderson, C., _The Contemporary Law of Targeting_ (Martinus Nijhoff, 2009)",
+            "Kammerhofer, J., \"Uncertainty in the Formal Sources of International Law,\" _Nordic Journal of International Law_ 75 (2006), pp. 51-76",
+            "Ruys, T., _Armed Attack' and Article 51 of the UN Charter_ (Cambridge University Press, 2010)",
+            "Sassòli, M., _International Humanitarian Law: Rules, Controversies, and Solutions to Problems Arising in Warfare_ (Edward Elgar, 2019)",
+            "Schmitt, M.N., \"The Principle of Distinction in 21st Century Warfare,\" _Yearbook of International Humanitarian Law_ 2 (1999), pp. 93-119",
+            "Tams, C.J., _The Use of Force against Terrorists_ (Max Planck Yearbook, 2009)",
+            "Villiger, M.E., _Customary International Law and Treaties_, 2nd ed. (Kluwer, 1997)"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "IAEA and Nuclear Verification"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "INFCIRC/540 (Corrected): Model Protocol Additional to the Agreement(s) between State(s) and the International Atomic Energy Agency for the Application of Safeguards",
+            "Joint Comprehensive Plan of Action (JCPOA), Vienna, 14 July 2015, UN Doc. S/2015/549",
+            "IAEA Director General, _Verification and Monitoring in the Islamic Republic of Iran in Light of United Nations Security Council Resolution 2231 (2015)_, GOV/2025/53 (February 2025)",
+            "IAEA Director General, _Nuclear Verification in Iran Post-April 2025_, GOV/2025/65 (August 2025)"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "U.S. Congressional and Executive Materials"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Authorization for Use of Military Force, Pub.L. 107-40, 115 Stat. 224 (2001)",
+            "Authorization for Use of Military Force Against Iraq, Pub.L. 107-243, 116 Stat. 1498 (2002)",
+            "National Commission on Terrorist Attacks Upon the United States, _9/11 Commission Report_ (2004)",
+            "U.S. Department of State, _Country Reports on Terrorism_ (2024)",
+            "Senate Foreign Relations Committee, _War Powers Resolution: Hearing on S.2_ (2025)"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "India and South Asia"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Constitution of India, Article 19(1)(a) (Freedom of Speech and Expression)",
+            "Komireddi, K., \"India's Silence in the Iran War,\" _UnHerd_ (March 2026)",
+            "\"India in the 2026 Iran War,\" _Wikipedia_ (citing MEA statements, energy data, and domestic reporting)",
+            "\"Iran war tests India's balancing act between the US, Israel, and its own interests,\" _Jerusalem Post_ (March 2026)",
+            "\"Why India Is Right to Support the US and Israel in the Iran War,\" _The Diplomat_ (March 2026)",
+            "\"India's Silent Response to the Iran War,\" _Politics Today_ (March 2026)",
+            "The Wire, \"Pakistan's Mediation Role: A Strategic Setback for New Delhi\" (April 2026)"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "2026 Iran War Primary Sources"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Trump, D.J., Video Statement on Operation Epic Fury, Truth Social (28 February 2026)",
+            "UN Security Council, Draft Resolution on Strait of Hormuz Ship Escorting (S/2026/___), Vetoed by Russia and China (7 April 2026)",
+            "China-Pakistan Five-Point Proposal for Ceasefire and Hormuz Navigation (31 March 2026)",
+            "Islamabad Talks: Joint Statement (11 April 2026)",
+            "U.S. Central Command, Statement on Naval Blockade of Iranian Ports (13 April 2026)",
+            "U.S.-China Economic and Security Review Commission, Report on BeiDou Use by Iran (March 2026)",
+            "Financial Times, \"Chinese Reconnaissance Satellite Used by IRGC for Strike Targeting\" (April 2026)",
+            "ISW/CTP, _Iran Update Special Report: US and Israeli Strikes_ (28 February 2026)"
+          ]
+        },
+        {
+          "type": "h3",
+          "text": "Domestic Constitutional and War Powers Sources"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "U.S. Constitution, Articles I §8, II §2 (War Powers Clauses)",
+            "War Powers Resolution, 50 U.S.C. §§ 1541-1548 (1973)",
+            "Hamilton, A., Federalist No. 69 (1788)",
+            "Weiner, A., \"Constitutional and International Law Questions Raised by the Iran Attack,\" Stanford Law School (3 March 2026)",
+            "Cohen, A. & Shany, Y., \"Israel's War Cabinet: A Brief History of War Powers and Institutional Ambiguity,\" Lawfare (2023)",
+            "Basic Law: The Government (Israel, 2001), Article 40",
+            "Winograd Commission, Final Report (January 2008)",
+            "Constitution of the Islamic Republic of Iran (1979), Articles 110, 111, 150, 176",
+            "Constitution of the Russian Federation (1993, amended 2020), Articles 87, 102",
+            "Federal Law on Defence of the Russian Federation (1996), Article 101",
+            "National Defence Law of the People's Republic of China (2020 revision), Articles 12, 13, 15, 47",
+            "Constitution of India, Articles 19(1)(a), 19(2), 352",
+            "SCMP, \"China's Military Takes Charge of War Powers with New Defence Law\" (January 2021)",
+            "Trump, D.J., Interview with New York Times (January 2025): \"I don't need international law\""
+          ]
+        }
+      ]
+    }
+  ],
+  "bibliography": [
+    {
+      "head": "International Court of Justice",
+      "items": [
+        "_Case Concerning Military and Paramilitary Activities in and against Nicaragua_ (Nicaragua v. United States of America), Merits, Judgment, I.C.J. Reports 1986, p. 14",
+        "_Oil Platforms_ (Islamic Republic of Iran v. United States of America), Judgment, I.C.J. Reports 2003, p. 161",
+        "_Legal Consequences of the Construction of a Wall in the Occupied Palestinian Territory_, Advisory Opinion, I.C.J. Reports 2004, p. 136",
+        "_Armed Activities on the Territory of the Congo_ (Democratic Republic of the Congo v. Uganda), Judgment, I.C.J. Reports 2005, p. 168",
+        "_Corfu Channel_ (United Kingdom v. Albania), Judgment, I.C.J. Reports 1949, p. 4"
+      ]
+    },
+    {
+      "head": "Treaty Instruments",
+      "items": [
+        "Charter of the United Nations (1945)",
+        "Geneva Conventions of 1949 and Additional Protocols (1977)",
+        "United Nations Convention on the Law of the Sea (1982)",
+        "Treaty on the Non-Proliferation of Nuclear Weapons (1968)",
+        "Vienna Convention on Diplomatic Relations (1961)",
+        "Hague Conventions respecting the Laws and Customs of War on Land (1907)"
+      ]
+    },
+    {
+      "head": "International Law Commission",
+      "items": [
+        "Articles on Responsibility of States for Internationally Wrongful Acts (2001)",
+        "Draft Articles on the Responsibility of International Organizations (2011)"
+      ]
+    },
+    {
+      "head": "Domestic Constitutional and Statutory Materials",
+      "items": [
+        "U.S. Constitution, Articles I and II",
+        "War Powers Resolution, 50 U.S.C. §§ 1541-1548 (1973)",
+        "Constitution of the Islamic Republic of Iran (1979)",
+        "Basic Law: The Government (Israel) (2001)",
+        "Constitution of Lebanon (1926, as amended 1990)"
+      ]
+    },
+    {
+      "head": "International Atomic Energy Agency",
+      "items": [
+        "IAEA Board of Governors, Report GOV/2025/53 (2025)",
+        "IAEA Board of Governors, Report GOV/2025/65 (2025)",
+        "INFCIRC/153 (Corrected): The Structure and Content of Agreements between the Agency and States Required in Connection with the Treaty on the Non-Proliferation of Nuclear Weapons"
+      ]
+    },
+    {
+      "head": "United Nations Security Council",
+      "items": [
+        "S/RES/2712 (2023): Protection of civilians and enabling humanitarian assistance in Gaza",
+        "S/RES/2720 (2023): Gaza humanitarian pauses and corridors",
+        "S/RES/2728 (2024): Gaza ceasefire demands",
+        "S/RES/2735 (2024): Gaza peace plan support"
+      ]
+    },
+    {
+      "head": "United States Supreme Court",
+      "items": [
+        "_Youngstown Sheet & Tube Co. v. Sawyer_, 343 U.S. 579 (1952)",
+        "_United States v. Curtiss-Wright Export Corp._, 299 U.S. 304 (1936)",
+        "_Zivotofsky v. Kerry_, 576 U.S. 1 (2015)"
+      ]
+    },
+    {
+      "head": "Specialized Manuals and Guidelines",
+      "items": [
+        "San Remo Manual on International Law Applicable to Armed Conflicts at Sea (1994)",
+        "U.S. Department of Defense, Law of War Manual (June 2015, updated July 2023)",
+        "ICRC Customary International Humanitarian Law Study (Henckaerts & Doswald-Beck, 2005)"
+      ]
+    },
+    {
+      "head": "International Criminal Court",
+      "items": [
+        "Prosecutor v. Al-Bashir, ICC-02/05-01/09, Pre-Trial Chamber I, Decision on the Prosecution's Application for a Warrant of Arrest (2009)",
+        "Prosecutor v. Netanyahu & Gallant, ICC-01/12-01/23, Warrant of Arrest (November 2024)",
+        "Rome Statute of the International Criminal Court (1998), Articles 5-8, 12-13, 17"
+      ]
+    },
+    {
+      "head": "Secondary Legal Scholarship",
+      "items": [
+        "Cassese, A., \"The Nicaragua and Tadic Tests Revisited in Light of the ICJ Judgment on Genocide in Bosnia,\" _European Journal of International Law_ 18(4) (2007), pp. 649-668",
+        "Dinstein, Y., _War, Aggression and Self-Defence_, 6th ed. (Cambridge University Press, 2017)",
+        "Gray, C., _International Law and the Use of Force_, 4th ed. (Oxford University Press, 2018)",
+        "Henderson, C., _The Contemporary Law of Targeting_ (Martinus Nijhoff, 2009)",
+        "Kammerhofer, J., \"Uncertainty in the Formal Sources of International Law,\" _Nordic Journal of International Law_ 75 (2006), pp. 51-76",
+        "Ruys, T., _Armed Attack' and Article 51 of the UN Charter_ (Cambridge University Press, 2010)",
+        "Sassòli, M., _International Humanitarian Law: Rules, Controversies, and Solutions to Problems Arising in Warfare_ (Edward Elgar, 2019)",
+        "Schmitt, M.N., \"The Principle of Distinction in 21st Century Warfare,\" _Yearbook of International Humanitarian Law_ 2 (1999), pp. 93-119",
+        "Tams, C.J., _The Use of Force against Terrorists_ (Max Planck Yearbook, 2009)",
+        "Villiger, M.E., _Customary International Law and Treaties_, 2nd ed. (Kluwer, 1997)"
+      ]
+    },
+    {
+      "head": "IAEA and Nuclear Verification",
+      "items": [
+        "INFCIRC/540 (Corrected): Model Protocol Additional to the Agreement(s) between State(s) and the International Atomic Energy Agency for the Application of Safeguards",
+        "Joint Comprehensive Plan of Action (JCPOA), Vienna, 14 July 2015, UN Doc. S/2015/549",
+        "IAEA Director General, _Verification and Monitoring in the Islamic Republic of Iran in Light of United Nations Security Council Resolution 2231 (2015)_, GOV/2025/53 (February 2025)",
+        "IAEA Director General, _Nuclear Verification in Iran Post-April 2025_, GOV/2025/65 (August 2025)"
+      ]
+    },
+    {
+      "head": "U.S. Congressional and Executive Materials",
+      "items": [
+        "Authorization for Use of Military Force, Pub.L. 107-40, 115 Stat. 224 (2001)",
+        "Authorization for Use of Military Force Against Iraq, Pub.L. 107-243, 116 Stat. 1498 (2002)",
+        "National Commission on Terrorist Attacks Upon the United States, _9/11 Commission Report_ (2004)",
+        "U.S. Department of State, _Country Reports on Terrorism_ (2024)",
+        "Senate Foreign Relations Committee, _War Powers Resolution: Hearing on S.2_ (2025)"
+      ]
+    },
+    {
+      "head": "India and South Asia",
+      "items": [
+        "Constitution of India, Article 19(1)(a) (Freedom of Speech and Expression)",
+        "Komireddi, K., \"India's Silence in the Iran War,\" _UnHerd_ (March 2026)",
+        "\"India in the 2026 Iran War,\" _Wikipedia_ (citing MEA statements, energy data, and domestic reporting)",
+        "\"Iran war tests India's balancing act between the US, Israel, and its own interests,\" _Jerusalem Post_ (March 2026)",
+        "\"Why India Is Right to Support the US and Israel in the Iran War,\" _The Diplomat_ (March 2026)",
+        "\"India's Silent Response to the Iran War,\" _Politics Today_ (March 2026)",
+        "The Wire, \"Pakistan's Mediation Role: A Strategic Setback for New Delhi\" (April 2026)"
+      ]
+    },
+    {
+      "head": "2026 Iran War Primary Sources",
+      "items": [
+        "Trump, D.J., Video Statement on Operation Epic Fury, Truth Social (28 February 2026)",
+        "UN Security Council, Draft Resolution on Strait of Hormuz Ship Escorting (S/2026/___), Vetoed by Russia and China (7 April 2026)",
+        "China-Pakistan Five-Point Proposal for Ceasefire and Hormuz Navigation (31 March 2026)",
+        "Islamabad Talks: Joint Statement (11 April 2026)",
+        "U.S. Central Command, Statement on Naval Blockade of Iranian Ports (13 April 2026)",
+        "U.S.-China Economic and Security Review Commission, Report on BeiDou Use by Iran (March 2026)",
+        "Financial Times, \"Chinese Reconnaissance Satellite Used by IRGC for Strike Targeting\" (April 2026)",
+        "ISW/CTP, _Iran Update Special Report: US and Israeli Strikes_ (28 February 2026)"
+      ]
+    },
+    {
+      "head": "Domestic Constitutional and War Powers Sources",
+      "items": [
+        "U.S. Constitution, Articles I §8, II §2 (War Powers Clauses)",
+        "War Powers Resolution, 50 U.S.C. §§ 1541-1548 (1973)",
+        "Hamilton, A., Federalist No. 69 (1788)",
+        "Weiner, A., \"Constitutional and International Law Questions Raised by the Iran Attack,\" Stanford Law School (3 March 2026)",
+        "Cohen, A. & Shany, Y., \"Israel's War Cabinet: A Brief History of War Powers and Institutional Ambiguity,\" Lawfare (2023)",
+        "Basic Law: The Government (Israel, 2001), Article 40",
+        "Winograd Commission, Final Report (January 2008)",
+        "Constitution of the Islamic Republic of Iran (1979), Articles 110, 111, 150, 176",
+        "Constitution of the Russian Federation (1993, amended 2020), Articles 87, 102",
+        "Federal Law on Defence of the Russian Federation (1996), Article 101",
+        "National Defence Law of the People's Republic of China (2020 revision), Articles 12, 13, 15, 47",
+        "Constitution of India, Articles 19(1)(a), 19(2), 352",
+        "SCMP, \"China's Military Takes Charge of War Powers with New Defence Law\" (January 2021)",
+        "Trump, D.J., Interview with New York Times (January 2025): \"I don't need international law\""
+      ]
+    }
+  ]
+}
