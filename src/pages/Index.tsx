@@ -165,6 +165,12 @@ const Index = () => {
               subtitle="How a decade of deferred choices compressed Iran's nuclear breakout from twelve months to three weeks — and why the framework was designed to defer, not resolve."
               category="Geopolitics"
             />
+            <ArticleCard
+              to="/article/between-fire-and-law"
+              title="Between Fire and Law"
+              subtitle="A multi-perspectival legal monograph on the Iran, Israel, and United States conflict of 2023 to 2026. Eighteen sections, twenty-two thousand words, read in any order."
+              category="Monograph"
+            />
           </div>
         </section>
 
